@@ -1,0 +1,3 @@
+USI	GNPSLibraryAccession	Cosine	Matching Peaks	CompoundName	Adduct	Charge
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009964502	CCMSLIB00009964502	0.8	6	Suspect related to Met-Asp (predicted molecular formula: C13H16N2O6) with delta m/z 32.026 (putative explanation: unspecified; atomic difference: 1C,4H,1O)	[M-H]-	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009979355	CCMSLIB00009979355	0.8	6	Suspect related to Phe-Asp (predicted molecular formula: C13H16N2O6) with delta m/z 15.995 (putative explanation: Ala->Ser substitution|Oxidation or Hydroxylation|Phe->Tyr substitution; atomic difference: 1O|1O|1O)	[M-H]-	1

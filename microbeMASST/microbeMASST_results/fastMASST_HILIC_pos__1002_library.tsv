@@ -1,0 +1,4 @@
+USI	GNPSLibraryAccession	Cosine	Matching Peaks	CompoundName	Adduct	Charge
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003134614	CCMSLIB00003134614	0.83	4	Spectral Match to Hexaethylene glycol from NIST14	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00005489414	CCMSLIB00005489414	0.82	4	Spectral Match to Hexaethylene glycol from NIST14 [IIN-based: Match]	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009998916	CCMSLIB00009998916	0.79	4	Suspect related to Spectral Match to Tetraethylene glycol from NIST14 (predicted molecular formula: C12H26O7) with delta m/z 88.052 (putative explanation: PEG repeat unit x2; atomic difference: 4C,8H,2O)	[M+H]+	1

@@ -1,0 +1,4 @@
+USI	GNPSLibraryAccession	Cosine	Matching Peaks	CompoundName	Adduct	Charge
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009977320	CCMSLIB00009977320	0.96	7	Suspect related to OMEGA-HYDROXYDODECANOATE (predicted molecular formula: C13H27NO4) with delta m/z 45.021 (putative explanation: unspecified; atomic difference: 1C,3H,1N,1O)	[M-H2O+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00010004019	CCMSLIB00010004019	0.94	7	Suspect related to cis-12-Octadecenoic acid methyl ester (predicted molecular formula: unknown) with delta m/z -3.048 (putative explanation: unspecified; atomic difference: unspecified)	[M-CH6O2+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009962385	CCMSLIB00009962385	0.8	7	Suspect related to Massbank:RP014702 D-sphingosine|sphingosine|(E,2S,3R)-2-aminooctadec-4-ene-1,3-diol (predicted molecular formula: C13H25NO3) with delta m/z -56.099 (putative explanation: unspecified; atomic difference: unspecified)	[M+H]+	1

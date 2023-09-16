@@ -1,0 +1,4 @@
+USI	GNPSLibraryAccession	Cosine	Matching Peaks	CompoundName	Adduct	Charge
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009966729	CCMSLIB00009966729	0.91	4	Suspect related to N-Palmitoyl-D-sphingosine (predicted molecular formula: C34H69NO4) with delta m/z 18.01 (putative explanation: Proline oxidation to 5-hydroxy-2-aminovaleric acid|water; atomic difference: 2H,1O|2H,1O)	[M-H2O+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009943545	CCMSLIB00009943545	0.88	4	Suspect related to C16 Lactosyl Ceramide (d18:1/16:0) (predicted molecular formula: C34H67NO3) with delta m/z -324.106 (putative explanation: Lactosylation (reverse); atomic difference: -12C,-20H,-10O)	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009996493	CCMSLIB00009996493	0.87	4	Suspect related to Spectral Match to N-Oleoyl-4-sphingenine from NIST14 (predicted molecular formula: unknown) with delta m/z -25.979 (putative explanation: unspecified; atomic difference: unspecified)	[M+H]+	1

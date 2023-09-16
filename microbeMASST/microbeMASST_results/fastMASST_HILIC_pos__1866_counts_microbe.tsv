@@ -1,0 +1,3 @@
+file_usi	Delta Mass	USI	Charge	Cosine	Matching Peaks	Dataset	Status	Filepath	Filename	MassIVE	Taxaname_file	Taxaname_alternative	Taxa_NCBI	Taxa_Assigment	ReDU_Availability	Blank	QC
+mzspec:MSV000087135:B3	0.05	mzspec:MSV000087135:B3:scan:4888	1	0.71	6	MSV000087135	NoID	MSV000087135/ccms_peak/RiPPs_DSM40736_raw/B3.mzML	MSV000087135/B3.mzML	MSV000087135	Streptomyces viridochromogenes		1938	automatic	No	No	No
+mzspec:MSV000085261:So13.3-YES-SNP	0.0	mzspec:MSV000085261:So13.3-YES-SNP:scan:4294967295	1	0.7	6	MSV000085261	NoID	MSV000085261/ccms_peak/GNPS-Completed/So13.3/So13.3-YES-SNP.mzML	MSV000085261/So13.3-YES-SNP.mzML	MSV000085261	Bacteria		2	automatic	No	No	No

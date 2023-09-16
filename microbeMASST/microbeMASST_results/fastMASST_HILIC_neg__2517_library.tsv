@@ -1,0 +1,3 @@
+USI	GNPSLibraryAccession	Cosine	Matching Peaks	CompoundName	Adduct	Charge
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009941629	CCMSLIB00009941629	0.93	5	Suspect related to Ala-Trp (predicted molecular formula: C16H17N3O4) with delta m/z 39.994 (putative explanation: extra OH sodium adduct|Glyoxal-derived hydroimiadazolone|S-carbamoylmethylcysteine cyclization (N-terminus)|unspecified; atomic difference: 1H,1O|2C,1O|2C,1O|2C,1O)	[M-H]-	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00010003184	CCMSLIB00010003184	0.93	5	Suspect related to Val-Trp (predicted molecular formula: C16H17N3O4) with delta m/z 11.964 (putative explanation: unspecified; atomic difference: unspecified)	[M-H]-	1

@@ -1,0 +1,17 @@
+USI	Cosine	Matching Peaks	Status
+mzspec:MSV000086293:cest33 neg exo ms2 2:scan:2341	0.93	5	NoID
+mzspec:MSV000086293:cest33 neg exo ms2 1:scan:2336	0.9	5	NoID
+mzspec:MSV000086293:neg n2 exo ms2 top5:scan:833	0.84	4	NoID
+mzspec:MSV000084314:MSV000087646:scan:9358	0.83	4	NoID
+mzspec:MSV000086293:neg glo1 exo ms2 top5:scan:857	0.83	4	NoID
+mzspec:MSV000084314:MSV000086293:scan:1981	0.82	5	NoID
+mzspec:MSV000087885:PooledSample_exo_neg_II_MSMS:scan:2000	0.82	4	NoID
+mzspec:MSV000087885:PooledSample_exo_neg_I_MSMS:scan:1909	0.81	4	NoID
+mzspec:MSV000087646:JA_Feb152021_RMmetabolomics_ddMS2IE2neg_LC_POOL_VaginalFluid:scan:3689	0.81	4	NoID
+mzspec:MSV000084314:MSV000087885:scan:967	0.8	4	NoID
+mzspec:MSV000087646:JA_Feb152021_RMmetabolomics_ddMS2IE0neg_LC_POOL_SmokersUrine:scan:4013	0.79	4	NoID
+mzspec:MSV000087646:JA_Feb152021_RMmetabolomics_ddMS2IE0neg_LC_POOL_VaginalFluid:scan:3951	0.79	4	NoID
+mzspec:MSV000086293:neg glo1 endo ms2 top5:scan:736	0.77	4	NoID
+mzspec:MSV000082681:HSP_F9_ms2_neg:scan:2268	0.76	4	NoID
+mzspec:MSV000084884:w20_15366n:scan:991	0.76	4	NoID
+mzspec:MSV000084314:MSV000088673:scan:1194	0.7	4	NoID

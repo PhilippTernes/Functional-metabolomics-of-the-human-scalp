@@ -1,0 +1,68 @@
+USI	GNPSLibraryAccession	Cosine	Matching Peaks	CompoundName	Adduct	Charge
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00005742328	CCMSLIB00005742328	0.95	6	Massbank:PR100704 Dulcitol|Galactitol|Galactit|Dulcite|Dulcin|Melampyrite|Dulcose|1,2,3,4,5,6-Hexanehexol|Melampyrum|Melampyrin|Euonymit	M-H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00000222189	CCMSLIB00000222189	0.95	6	ReSpect:PT205440 Dulcitol|Galactitol|Galactit|Dulcite|Dulcin|Melampyrite|Dulcose|1,2,3,4,5,6-Hexanehexol|Melampyrum|Melampyrite|Dulcose|Melampyrin|Euonymit|(2R,3S,4R,5S)-hexane-1,2,3,4,5,6-hexol	[M+H]	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00005756882	CCMSLIB00005756882	0.95	6	Massbank:PT205440 Galactitol|Melampyrin|1,2,3,4,5,6-Hexanehexol|Melampyrum|Dulcitol|Melampyrite|Dulcite|Dulcin|Galactit|Dulcose|(2R,3S,4R,5S)-hexane-1,2,3,4,5,6-hexol|Euonymit	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00010003378	CCMSLIB00010003378	0.95	5	Suspect related to Volemitol (predicted molecular formula: C6H14O6) with delta m/z -30.01 (putative explanation: Decarboxylation|Demethoxylation|Proline oxidation to pyrrolidinone|Ser->Gly substitution|Thr->Ala substitution; atomic difference: -1C,-2H,-1O|-1C,-2H,-1O|-1C,-2H,-1O|-1C,-2H,-1O|-1C,-2H,-1O)	[M-H]-	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009981028	CCMSLIB00009981028	0.95	5	Suspect related to ReSpect:PT200730 D(+)-Galacturonic acid monohydrate|D-galacturonate|(2S,3R,4S,5R)-3,4,5,6-tetrahydroxyoxane-2-carboxylic acid (predicted molecular formula: C6H14O6) with delta m/z -11.964 (putative explanation: unspecified; atomic difference: unspecified)	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00010126426	CCMSLIB00010126426	0.93	5	D-Sorbitol CollisionEnergy:102040	M-H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00010102811	CCMSLIB00010102811	0.93	5	D-Sorbitol CollisionEnergy:102040	M-H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00000222187	CCMSLIB00000222187	0.93	5	ReSpect:PT205430 D-Sorbitol|D-Sorbit|D-Glucitol|D-1,2,3,4,5,6-Hexanehexol|D-Sorbol|Cystosol|Glucarine|Diakarmon|Esasorb|Sorbol|(2R,3R,4R,5S)-hexane-1,2,3,4,5,6-hexol	[M+H]	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00005758388	CCMSLIB00005758388	0.92	5	Massbank:PT205430 (2R,3R,4R,5S)-hexane-1,2,3,4,5,6-hexol|Cystosol|D-Sorbit|D-1,2,3,4,5,6-Hexanehexol|Diakarmon|Sorbol|Esasorb|D-Glucitol|D-Sorbitol|D-Sorbol|Glucarine	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00005747713	CCMSLIB00005747713	0.92	5	Massbank:PR100703 D-Sorbitol|D-Sorbit|D-Glucitol|D-1,2,3,4,5,6-Hexanehexol|D-Sorbol|Cystosol|Glucarine|Diakarmon|Esasorb|Sorbol	M-H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00005745566	CCMSLIB00005745566	0.92	5	Massbank:PR100904 D-(-)-Mannitol|Mannite|Cordycepic acid|Manita|Manicol|Mannidex|Osmosal|Diosmol|Isotol|Mannigen|Mannitolum|Resectisol|Manna sugar|1,2,3,4,5,6-Hexanehexol|Osmitrol	M-H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00005755342	CCMSLIB00005755342	0.92	5	Massbank:PT211960 Manna sugar|Cordycepic acid|Manicol|Resectisol|1,2,3,4,5,6-Hexanehexol|Diosmol|Mannidex|(2R,3R,4R,5R)-hexane-1,2,3,4,5,6-hexol|Mannigen|Mannitolum|Osmitrol|Mannite|Isotol|Osmosal|Manita|D-(-)-Mannitol	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00000222684	CCMSLIB00000222684	0.92	5	ReSpect:PT211960 D-(-)-Mannitol|Mannite|Cordycepic acid|Manita|Manicol|Mannidex|Osmosal|Diosmol|Isotol|Mannigen|Mannitolum|Resectisol|Manna sugar|1,2,3,4,5,6-Hexanehexol|Osmitrol|(2R,3R,4R,5R)-hexane-1,2,3,4,5,6-hexol	[M+H]	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00000578376	CCMSLIB00000578376	0.91	6	MANNITOL	M-H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00005755388	CCMSLIB00005755388	0.9	4	Massbank:PT200120 (2S,3R,4R,5S)-hexane-1,2,3,4,5,6-hexol|L-Iditol	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00000221737	CCMSLIB00000221737	0.9	4	ReSpect:PT200120 L-Iditol|(2S,3R,4R,5S)-hexane-1,2,3,4,5,6-hexol|(2S,3R,4R,5S)-hexane-1,2,3,4,5,6-hexol	[M+H]	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00005744516	CCMSLIB00005744516	0.9	4	Massbank:PR100483 L-Iditol|(2S,3R,4R,5S)-hexane-1,2,3,4,5,6-hexol	M-H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00010126422	CCMSLIB00010126422	0.89	5	D-mannitol CollisionEnergy:102040	M-H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00010102807	CCMSLIB00010102807	0.89	5	D-mannitol CollisionEnergy:102040	M-H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00010005903	CCMSLIB00010005903	0.89	5	Suspect related to myo-Inositol (predicted molecular formula: C6H14O6) with delta m/z 2.016 (putative explanation: Pro->Val substitution|reduction; atomic difference: 2H|2H)	[M-H]-	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00000578174	CCMSLIB00000578174	0.88	5	GALACTITOL	M-H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00010126425	CCMSLIB00010126425	0.88	5	galactitol CollisionEnergy:102040	M-H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00010102810	CCMSLIB00010102810	0.88	5	galactitol CollisionEnergy:102040	M-H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00005739960	CCMSLIB00005739960	0.87	5	Massbank:PR100862 Dulcitol|Galactitol|Galactit|Dulcite|Dulcin|Melampyrite|Dulcose|1,2,3,4,5,6-Hexanehexol|Melampyrum|Melampyrin|Euonymit	M-H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00000222555	CCMSLIB00000222555	0.87	5	ReSpect:PT210130 Dulcitol|Galactitol|Galactit|Dulcite|Dulcin|Melampyrite|Dulcose|1,2,3,4,5,6-Hexanehexol|Melampyrum|Melampyrite|Dulcose|Melampyrin|Euonymit|(2R,3S,4R,5S)-hexane-1,2,3,4,5,6-hexol	[M+H]	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003135922	CCMSLIB00003135922	0.87	6	Spectral Match to Dulcitol from NIST14	M-H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00005758317	CCMSLIB00005758317	0.87	5	Massbank:PT210130 Galactitol|Melampyrin|1,2,3,4,5,6-Hexanehexol|Melampyrum|Dulcitol|Melampyrite|Dulcite|Dulcin|Galactit|Dulcose|(2R,3S,4R,5S)-hexane-1,2,3,4,5,6-hexol|Euonymit	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00005719624	CCMSLIB00005719624	0.87	5	D-Mannitol	[M-H]	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006679029	CCMSLIB00006679029	0.86	5	MANNITOL	M-H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00005738829	CCMSLIB00005738829	0.86	4	Massbank:RP022911 D-Sorbitol|Sorbo|(3S,4S,5R)-hexane-1,2,3,4,5,6-hexol	M-H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006123166	CCMSLIB00006123166	0.86	6	D-(-)-Mannitol - 40.0 eV	M-H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00005719016	CCMSLIB00005719016	0.86	5	D-Mannitol	[M-H]	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006679351	CCMSLIB00006679351	0.86	5	GALACTITOL	M-H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00004702110	CCMSLIB00004702110	0.85	5	Sorbitol	[M-H]-	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006112636	CCMSLIB00006112636	0.85	6	Sorbitol - 40.0 eV	M-H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00004694329	CCMSLIB00004694329	0.84	5	Mannitol	[M-H]-	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006112639	CCMSLIB00006112639	0.84	6	Sorbitol - 40.0 eV	M-H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00004702111	CCMSLIB00004702111	0.84	5	Sorbitol	[M-H]-	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00004694328	CCMSLIB00004694328	0.84	5	Mannitol	[M-H]-	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006683449	CCMSLIB00006683449	0.83	4	GALACTITOL	M-H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00005738300	CCMSLIB00005738300	0.8	5	Massbank:RP022912 D-Sorbitol|Sorbo|(3S,4S,5R)-hexane-1,2,3,4,5,6-hexol	M-H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006112640	CCMSLIB00006112640	0.8	5	Sorbitol - 40.0 eV	M-H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006112637	CCMSLIB00006112637	0.8	5	Sorbitol - 40.0 eV	M-H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006112638	CCMSLIB00006112638	0.8	5	Sorbitol - 40.0 eV	M-H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006123164	CCMSLIB00006123164	0.79	5	D-(-)-Mannitol - 40.0 eV	M-H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006123161	CCMSLIB00006123161	0.79	5	D-(-)-Mannitol - 40.0 eV	M-H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006112641	CCMSLIB00006112641	0.78	4	Sorbitol - 30.0 eV	M-H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006123168	CCMSLIB00006123168	0.78	5	D-(-)-Mannitol - 40.0 eV	M-H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006112648	CCMSLIB00006112648	0.78	4	Sorbitol - 40.0 eV	M-H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006112644	CCMSLIB00006112644	0.78	4	Sorbitol - 30.0 eV	M-H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006112645	CCMSLIB00006112645	0.78	4	Sorbitol - 30.0 eV	M-H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006112643	CCMSLIB00006112643	0.78	4	Sorbitol - 30.0 eV	M-H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006112652	CCMSLIB00006112652	0.77	4	Sorbitol - 30.0 eV	M-H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003139527	CCMSLIB00003139527	0.77	5	Spectral Match to Dulcitol from NIST14	M-H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006112650	CCMSLIB00006112650	0.77	4	Sorbitol - 40.0 eV	M-H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006112642	CCMSLIB00006112642	0.77	4	Sorbitol - 30.0 eV	M-H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006112647	CCMSLIB00006112647	0.77	4	Sorbitol - 40.0 eV	M-H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006112649	CCMSLIB00006112649	0.76	4	Sorbitol - 40.0 eV	M-H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00004702112	CCMSLIB00004702112	0.76	5	Sorbitol	[M-H]-	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006112646	CCMSLIB00006112646	0.76	4	Sorbitol - 40.0 eV	M-H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006123171	CCMSLIB00006123171	0.76	5	D-(-)-Mannitol - 40.0 eV	M-H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006112651	CCMSLIB00006112651	0.76	4	Sorbitol - 30.0 eV	M-H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006113178	CCMSLIB00006113178	0.75	4	D-Galactitol - 40.0 eV	M-H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006113170	CCMSLIB00006113170	0.75	4	D-Galactitol - 40.0 eV	M-H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006113174	CCMSLIB00006113174	0.75	4	D-Galactitol - 40.0 eV	M-H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006113187	CCMSLIB00006113187	0.75	4	D-Galactitol - 30.0 eV	M-H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006113183	CCMSLIB00006113183	0.74	4	D-Galactitol - 40.0 eV	M-H	1

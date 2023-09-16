@@ -1,0 +1,9 @@
+USI	GNPSLibraryAccession	Cosine	Matching Peaks	CompoundName	Adduct	Charge
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009997721	CCMSLIB00009997721	0.95	5	Suspect related to Spectral Match to Phe-Phe from NIST14 (predicted molecular formula: unknown) with delta m/z 18.01 (putative explanation: Proline oxidation to 5-hydroxy-2-aminovaleric acid|water; atomic difference: 2H,1O|2H,1O)	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003137311	CCMSLIB00003137311	0.92	5	Spectral Match to DL-Phenylalanine from NIST14	2M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003139581	CCMSLIB00003139581	0.91	5	Spectral Match to DL-Phenylalanine from NIST14	2M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009962422	CCMSLIB00009962422	0.89	4	Suspect related to Massbank:RP016502 Ala-Phe|(2S)-2-[[(2S)-2-azaniumylpropanoyl]amino]-3-phenylpropanoate (predicted molecular formula: C12H22N6O5) with delta m/z 94.042 (putative explanation: Acrolein addition +94; atomic difference: 6C,6H,1O)	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009998317	CCMSLIB00009998317	0.89	5	Suspect related to Spectral Match to PyroGlu-Phe from NIST14 (predicted molecular formula: C18H22N2O4) with delta m/z 54.047 (putative explanation: unspecified; atomic difference: 4C,6H)	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003136440	CCMSLIB00003136440	0.85	5	Spectral Match to DL-Phenylalanine from NIST14	2M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003136229	CCMSLIB00003136229	0.84	4	Spectral Match to DL-Phenylalanine from NIST14	2M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009998515	CCMSLIB00009998515	0.84	4	Suspect related to Spectral Match to Ser-Phe from NIST14 (predicted molecular formula: C14H18N8O2) with delta m/z 78.046 (putative explanation: 2,5-dimethypyrrole|unspecified; atomic difference: 6C,6H|6C,6H)	[M+H]+	1

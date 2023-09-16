@@ -1,0 +1,36 @@
+USI	GNPSLibraryAccession	Cosine	Matching Peaks	CompoundName	Adduct	Charge
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009966205	CCMSLIB00009966205	1.0	6	Suspect related to N-Acetyl-D-glucosamine (predicted molecular formula: C6H15N4O6) with delta m/z 18.01 (putative explanation: Proline oxidation to 5-hydroxy-2-aminovaleric acid|water; atomic difference: 2H,1O|2H,1O)	[M-2H2O+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003138825	CCMSLIB00003138825	1.0	6	Spectral Match to N-Acetyl-D-glucosamine from NIST14	M+H-H2O	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003138051	CCMSLIB00003138051	0.99	6	Spectral Match to N-Acetyl-D-glucosamine from NIST14	M+H-H2O	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006113128	CCMSLIB00006113128	0.98	6	N-acetyl-beta-D-galactosamine - 40.0 eV	Unknown	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003138028	CCMSLIB00003138028	0.98	6	Spectral Match to N-Acetyl-D-glucosamine from NIST14	M+H-H2O	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00010126727	CCMSLIB00010126727	0.97	6	N-Acetyl-D-Mannosamine CollisionEnergy:102040	M+H-H2O	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006113129	CCMSLIB00006113129	0.97	6	N-acetyl-beta-D-galactosamine - 40.0 eV	Unknown	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00010103112	CCMSLIB00010103112	0.97	6	N-Acetyl-D-Mannosamine CollisionEnergy:102040	M+H-H2O	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00010126522	CCMSLIB00010126522	0.96	6	N-Acetyl-D-Glucosamine CollisionEnergy:102040	M+H-H2O	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006113131	CCMSLIB00006113131	0.96	6	N-acetyl-beta-D-galactosamine - 40.0 eV	Unknown	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003139889	CCMSLIB00003139889	0.96	6	Spectral Match to N-Acetyl-D-glucosamine from NIST14	M+H-H2O	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00010102907	CCMSLIB00010102907	0.96	6	N-Acetyl-D-Glucosamine CollisionEnergy:102040	M+H-H2O	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003137584	CCMSLIB00003137584	0.95	6	Spectral Match to N-Acetyl-D-glucosamine from NIST14	M+H-H2O	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006113132	CCMSLIB00006113132	0.94	6	N-acetyl-beta-D-galactosamine - 40.0 eV	Unknown	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009966196	CCMSLIB00009966196	0.92	6	Suspect related to N-Acetyl-D-glucosamine (predicted molecular formula: C8H13NO5) with delta m/z -18.011 (putative explanation: Dehydration|Pyro-glu from E|carbodiimide crosslinker; atomic difference: -2H,-1O|-2H,-1O|-2H,-1O)	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003138633	CCMSLIB00003138633	0.92	5	Spectral Match to N-Acetyl-D-glucosamine from NIST14	M+H-H2O	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006113133	CCMSLIB00006113133	0.91	6	N-acetyl-beta-D-galactosamine - 40.0 eV	Unknown	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003135692	CCMSLIB00003135692	0.9	5	Spectral Match to N-Acetyl-D-glucosamine from NIST14	M+H-H2O	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003139910	CCMSLIB00003139910	0.88	5	Spectral Match to N-Acetyl-D-glucosamine from NIST14	M+H-H2O	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003134975	CCMSLIB00003134975	0.88	5	Spectral Match to N-Acetyl-D-glucosamine from NIST14	M+H-H2O	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00010126730	CCMSLIB00010126730	0.87	5	alpha-GalNAc CollisionEnergy:102040	M+H-H2O	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003136822	CCMSLIB00003136822	0.87	5	Spectral Match to N-Acetyl-D-glucosamine from NIST14	M+H-H2O	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009996292	CCMSLIB00009996292	0.87	5	Suspect related to Spectral Match to N-Acetyl-D-glucosamine from NIST14 (predicted molecular formula: C8H13NO5) with delta m/z -18.011 (putative explanation: Dehydration|Pyro-glu from E|carbodiimide crosslinker; atomic difference: -2H,-1O|-2H,-1O|-2H,-1O)	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00010103115	CCMSLIB00010103115	0.87	5	alpha-GalNAc CollisionEnergy:102040	M+H-H2O	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009950870	CCMSLIB00009950870	0.86	5	Suspect related to Lewis A trisaccharide (predicted molecular formula: unknown) with delta m/z -162.052 (putative explanation: Glucuronidation (reverse)|Hexose (reverse); atomic difference: -6C,-10H,-5O|-6C,-10H,-5O)	[M-C6H12O5+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003134791	CCMSLIB00003134791	0.84	5	Spectral Match to N-Acetyl-D-glucosamine from NIST14	M+H-H2O	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006112991	CCMSLIB00006112991	0.83	4	N-acetyl-alpha-D-glucosamine - 30.0 eV	Unknown	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006112994	CCMSLIB00006112994	0.83	4	N-acetyl-alpha-D-glucosamine - 30.0 eV	Unknown	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006112992	CCMSLIB00006112992	0.81	4	N-acetyl-alpha-D-glucosamine - 30.0 eV	Unknown	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003134781	CCMSLIB00003134781	0.81	4	Spectral Match to N-Acetyl-D-mannosamine from NIST14	M+H-H2O	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003137877	CCMSLIB00003137877	0.77	4	Spectral Match to N-Acetyl-D-glucosamine from NIST14	M+H-H2O	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006113135	CCMSLIB00006113135	0.77	4	N-acetyl-beta-D-galactosamine - 30.0 eV	Unknown	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006113137	CCMSLIB00006113137	0.76	4	N-acetyl-beta-D-galactosamine - 30.0 eV	Unknown	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003134871	CCMSLIB00003134871	0.76	4	Spectral Match to N-Acetyl-D-glucosamine from NIST14	M+H-H2O	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009966175	CCMSLIB00009966175	0.72	4	Suspect related to N-Acetyl-.beta.-D-mannosamine (predicted molecular formula: C6H15N4O6) with delta m/z 18.01 (putative explanation: Proline oxidation to 5-hydroxy-2-aminovaleric acid|water; atomic difference: 2H,1O|2H,1O)	[M-2H2O+H]+	1

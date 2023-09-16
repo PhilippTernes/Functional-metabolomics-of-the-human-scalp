@@ -1,0 +1,4 @@
+USI	GNPSLibraryAccession	Cosine	Matching Peaks	CompoundName	Adduct	Charge
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009950884	CCMSLIB00009950884	0.88	5	Suspect related to Likely similar to laureth sulfate A +28 Da compared sodium laureth sulfate (predicted molecular formula: C19H30O6) with delta m/z -28.031 (putative explanation: Desethylation, didemethylation, dealkylation|Met->Cys substitution|Val->Ala substitution; atomic difference: -2C,-4H|-2C,-4H|-2C,-4H)	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009950883	CCMSLIB00009950883	0.84	4	Suspect related to Likely similar to laureth sulfate A +28 Da compared sodium laureth sulfate (predicted molecular formula: C13H30N4O5S) with delta m/z -28.043 (putative explanation: Arg->Gln substitution; atomic difference: -1C,-4H,-2N,1O)	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00000077209	CCMSLIB00000077209	0.7	5	Sodium_Laureth_Sulfate	M+H	1

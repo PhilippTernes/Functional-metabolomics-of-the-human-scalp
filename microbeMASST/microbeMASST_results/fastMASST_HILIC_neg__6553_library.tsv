@@ -1,0 +1,12 @@
+USI	GNPSLibraryAccession	Cosine	Matching Peaks	CompoundName	Adduct	Charge
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00010059586	CCMSLIB00010059586	1.0	4	PE(16:0/0:0); [M-H]- C21H43N1O7P1	M-H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00010077665	CCMSLIB00010077665	1.0	4	PE(16:0/0:0); [M-H]- C21H43N1O7P1	M-H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00010063565	CCMSLIB00010063565	1.0	4	PE(16:0/0:0); [M-H]- C21H43N1O7P1	M-H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00010059121	CCMSLIB00010059121	1.0	4	PE(16:0/0:0); [M-H]- C21H43N1O7P1	M-H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00010068187	CCMSLIB00010068187	0.99	4	PE(16:0/0:0); [M-H]- C21H43N1O7P1	M-H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00010082593	CCMSLIB00010082593	0.99	4	PE(16:0/0:0); [M-H]- C21H43N1O7P1	M-H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00010059200	CCMSLIB00010059200	0.99	4	PE(16:0/0:0); [M-H]- C21H43N1O7P1	M-H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009958762	CCMSLIB00009958762	0.99	4	Suspect related to Massbank:LQB00558 PE 32:0 (predicted molecular formula: C23H39N3O6) with delta m/z -238.23 (putative explanation: Palmitoylation (reverse); atomic difference: -16C,-30H,-1O)	[M-H]-	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009987584	CCMSLIB00009987584	0.98	4	Suspect related to Spectral Match to 1-Stearoyl-2-hydroxy-sn-glycero-3-phosphoethanolamine from NIST14 (predicted molecular formula: C21H44NO7P) with delta m/z -28.031 (putative explanation: Desethylation, didemethylation, dealkylation|Met->Cys substitution|Val->Ala substitution; atomic difference: -2C,-4H|-2C,-4H|-2C,-4H)	[M-H]-	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009985306	CCMSLIB00009985306	0.95	4	Suspect related to Spectral Match to 1-Hexadecanoyl-sn-glycero-3-phospho-(1'-sn-glycerol) from NIST14 (predicted molecular formula: unknown) with delta m/z -30.994 (putative explanation: unspecified; atomic difference: unspecified)	[M-H]-	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00005744915	CCMSLIB00005744915	0.87	4	Massbank:PR309148 LPE 16:0	M-H	1

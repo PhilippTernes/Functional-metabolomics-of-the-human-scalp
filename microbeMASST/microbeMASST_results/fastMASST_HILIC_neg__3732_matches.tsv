@@ -1,0 +1,13 @@
+USI	Cosine	Matching Peaks	Status
+mzspec:MSV000084314:MSV000087728:scan:40828	0.97	5	NoID
+mzspec:MSV000080540:KO_lowA_neg_frag:scan:283	0.94	5	NoID
+mzspec:MSV000080540:media_lowB_neg_frag:scan:281	0.94	5	NoID
+mzspec:MSV000080540:GMI_lowB_neg_frag:scan:285	0.93	5	NoID
+mzspec:MSV000080540:KO_lowB_neg_frag:scan:272	0.93	5	NoID
+mzspec:MSV000080540:media_lowA_neg_frag:scan:278	0.91	5	NoID
+mzspec:MSV000087728:VGF150_F03_neg:scan:168	0.83	5	NoID
+mzspec:MSV000082331:B12_Apple_Apple2:scan:537	0.77	4	NoID
+mzspec:MSV000082331:B10_Apple_Apple1:scan:390	0.76	4	NoID
+mzspec:MSV000080540:KO_highA_neg_frag:scan:260	0.73	4	NoID
+mzspec:MSV000080540:GMI_highA_neg_frag:scan:283	0.73	4	NoID
+mzspec:MSV000080540:media_highA_neg_frag:scan:264	0.72	4	NoID

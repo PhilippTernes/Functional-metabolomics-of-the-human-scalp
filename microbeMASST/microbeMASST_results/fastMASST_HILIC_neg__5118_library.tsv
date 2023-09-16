@@ -1,0 +1,5 @@
+USI	GNPSLibraryAccession	Cosine	Matching Peaks	CompoundName	Adduct	Charge
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009946732	CCMSLIB00009946732	0.89	5	Suspect related to Dulcitol (predicted molecular formula: unknown) with delta m/z 27.995 (putative explanation: Formylation|Ser->Asp substitution|Thr->Glu substitution; atomic difference: 1C,1O|1C,1O|1C,1O)	[M-H]-	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006126037	CCMSLIB00006126037	0.89	4	alpha-L-rhamnopyranose - 40.0 eV	Unknown	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006126036	CCMSLIB00006126036	0.88	4	alpha-L-rhamnopyranose - 40.0 eV	Unknown	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006126034	CCMSLIB00006126034	0.88	4	alpha-L-rhamnopyranose - 40.0 eV	Unknown	1

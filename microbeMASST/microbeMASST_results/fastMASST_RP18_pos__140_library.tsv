@@ -1,0 +1,3 @@
+USI	GNPSLibraryAccession	Cosine	Matching Peaks	CompoundName	Adduct	Charge
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009930444	CCMSLIB00009930444	0.97	4	Suspect related to 1-Stearoyl-rac-glycerol (predicted molecular formula: C19H40N2O4) with delta m/z 1.999 (putative explanation: S isotope|Cl isotope|Br isotope|Glu->Met substitution; atomic difference: (34)S|(37)Cl|(81)Br|2H,-2O,1S)	[M-H2O+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009952711	CCMSLIB00009952711	0.72	4	Suspect related to Massbank: Myristamidopropyl betaine|carboxymethyl-dimethyl-[3-(tetradecanoylamino)propyl]azanium (predicted molecular formula: unknown) with delta m/z -28.015 (putative explanation: unspecified; atomic difference: unspecified)	unknown	1

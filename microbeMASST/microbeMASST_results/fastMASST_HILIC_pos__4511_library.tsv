@@ -1,0 +1,4 @@
+USI	GNPSLibraryAccession	Cosine	Matching Peaks	CompoundName	Adduct	Charge
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009961835	CCMSLIB00009961835	1.0	7	Suspect related to Massbank:PR311057 Glutamyltyrosine (predicted molecular formula: C18H22N2O6) with delta m/z 52.032 (putative explanation: unspecified; atomic difference: 4C,4H)	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009942577	CCMSLIB00009942577	0.97	6	Suspect related to Asp-Tyr (predicted molecular formula: C18H22N2O6) with delta m/z 66.047 (putative explanation: unspecified; atomic difference: unspecified)	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009926187	CCMSLIB00009926187	0.96	7	Suspect related to .alpha.-L-Glu-L-Tyr (predicted molecular formula: C18H22N2O6) with delta m/z 52.032 (putative explanation: unspecified; atomic difference: 4C,4H)	[M+H]+	1

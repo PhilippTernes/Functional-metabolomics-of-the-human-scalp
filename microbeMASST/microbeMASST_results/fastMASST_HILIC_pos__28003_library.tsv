@@ -1,0 +1,9 @@
+USI	GNPSLibraryAccession	Cosine	Matching Peaks	CompoundName	Adduct	Charge
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009992049	CCMSLIB00009992049	0.93	5	Suspect related to Spectral Match to D-Mannitol from NIST14 (predicted molecular formula: C9H10NO2) with delta m/z -18.011 (putative explanation: Dehydration|Pyro-glu from E|carbodiimide crosslinker; atomic difference: -2H,-1O|-2H,-1O|-2H,-1O)	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009945399	CCMSLIB00009945399	0.9	5	Suspect related to D-Sorbitol (predicted molecular formula: C6H12O5) with delta m/z -18.011 (putative explanation: Dehydration|Pyro-glu from E|carbodiimide crosslinker; atomic difference: -2H,-1O|-2H,-1O|-2H,-1O)	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009945372	CCMSLIB00009945372	0.9	5	Suspect related to D-Mannitol (predicted molecular formula: C6H12O5) with delta m/z -18.011 (putative explanation: Dehydration|Pyro-glu from E|carbodiimide crosslinker; atomic difference: -2H,-1O|-2H,-1O|-2H,-1O)	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009945241	CCMSLIB00009945241	0.89	5	Suspect related to D-(+)-Arabitol (predicted molecular formula: C6H12O5) with delta m/z 12.0 (putative explanation: formaldehyde adduct|methylation and reduction|unspecified; atomic difference: 1C|1C|1C)	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00005883985	CCMSLIB00005883985	0.78	4	2-DEOXY-D-GLUCOSE - 60.0 eV	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00005883986	CCMSLIB00005883986	0.78	4	2-DEOXY-D-GLUCOSE - 70.0 eV	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00005883984	CCMSLIB00005883984	0.77	4	2-DEOXY-D-GLUCOSE - 50.0 eV	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00005883983	CCMSLIB00005883983	0.72	4	2-DEOXY-D-GLUCOSE - 40.0 eV	M+H	1

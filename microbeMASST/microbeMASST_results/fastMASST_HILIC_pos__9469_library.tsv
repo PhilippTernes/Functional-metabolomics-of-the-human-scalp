@@ -1,0 +1,29 @@
+USI	GNPSLibraryAccession	Cosine	Matching Peaks	CompoundName	Adduct	Charge
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006685009	CCMSLIB00006685009	0.96	7	RAFFINOSE	M+NH4	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006684992	CCMSLIB00006684992	0.95	7	RAFFINOSE	M+NH4	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009935718	CCMSLIB00009935718	0.89	6	Suspect related to 2.alpha.-Mannobiose (predicted molecular formula: C19H28N4O12) with delta m/z 179.079 (putative explanation: unspecified; atomic difference: unspecified)	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009949743	CCMSLIB00009949743	0.89	6	Suspect related to Isomaltose (predicted molecular formula: unknown) with delta m/z 162.053 (putative explanation: Glucuronidation|Hexose; atomic difference: 6C,10H,5O|6C,10H,5O)	[M+NH4]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00010103162	CCMSLIB00010103162	0.87	6	RAFFINOSE CollisionEnergy:102040	M+NH4	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00010126777	CCMSLIB00010126777	0.87	6	RAFFINOSE CollisionEnergy:102040	M+NH4	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006124317	CCMSLIB00006124317	0.82	5	Raffinose - 30.0 eV	M+NH4	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006124316	CCMSLIB00006124316	0.82	5	Raffinose - 30.0 eV	M+NH4	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006124319	CCMSLIB00006124319	0.81	5	Raffinose - 30.0 eV	M+NH4	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006124321	CCMSLIB00006124321	0.8	5	Raffinose - 30.0 eV	M+NH4	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006124369	CCMSLIB00006124369	0.8	5	Maltotriose - 30.0 eV	M+NH4	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006124376	CCMSLIB00006124376	0.79	5	Maltotriose - 30.0 eV	M+NH4	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006124374	CCMSLIB00006124374	0.79	5	Maltotriose - 30.0 eV	M+NH4	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006124371	CCMSLIB00006124371	0.79	5	Maltotriose - 30.0 eV	M+NH4	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006685195	CCMSLIB00006685195	0.79	5	RAFFINOSE	M+NH4	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006124373	CCMSLIB00006124373	0.78	5	Maltotriose - 30.0 eV	M+NH4	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009945262	CCMSLIB00009945262	0.76	5	Suspect related to D-(+)-Mannose (predicted molecular formula: unknown) with delta m/z 324.106 (putative explanation: Lactosylation; atomic difference: 12C,20H,10O)	[M+NH4]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006685268	CCMSLIB00006685268	0.76	5	RAFFINOSE	M+NH4	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006680120	CCMSLIB00006680120	0.74	5	RAFFINOSE	M+NH4	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009995375	CCMSLIB00009995375	0.74	5	Suspect related to Spectral Match to Maltotetraose from NIST14 (predicted molecular formula: C18H37NO17) with delta m/z -127.016 (putative explanation: unspecified; atomic difference: unspecified)	[M-H2O+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009992042	CCMSLIB00009992042	0.73	5	Suspect related to Spectral Match to D-(+)-Trehalose from NIST14 (predicted molecular formula: C18H37NO17) with delta m/z 197.09 (putative explanation: unspecified; atomic difference: unspecified)	[M-H2O+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006680076	CCMSLIB00006680076	0.73	5	RAFFINOSE	M+NH4	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009945307	CCMSLIB00009945307	0.73	5	Suspect related to D-(+)-Trehalose (predicted molecular formula: unknown) with delta m/z 162.053 (putative explanation: Glucuronidation|Hexose; atomic difference: 6C,10H,5O|6C,10H,5O)	[M+NH4]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009995397	CCMSLIB00009995397	0.71	5	Suspect related to Spectral Match to Maltotriose from NIST14 (predicted molecular formula: C18H37NO17) with delta m/z 35.037 (putative explanation: unspecified; atomic difference: unspecified)	[M-H2O+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009995365	CCMSLIB00009995365	0.71	5	Suspect related to Spectral Match to Maltotetraose from NIST14 (predicted molecular formula: C18H35NO16) with delta m/z -145.027 (putative explanation: unspecified; atomic difference: unspecified)	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009950550	CCMSLIB00009950550	0.71	5	Suspect related to Lactulose (predicted molecular formula: C18H35NO16) with delta m/z 197.09 (putative explanation: unspecified; atomic difference: unspecified)	[M-H2O+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009950495	CCMSLIB00009950495	0.71	5	Suspect related to Lactose (predicted molecular formula: C18H35NO16) with delta m/z 179.079 (putative explanation: unspecified; atomic difference: unspecified)	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009952337	CCMSLIB00009952337	0.71	5	Suspect related to Maltopentaose (predicted molecular formula: C18H37NO17) with delta m/z -307.079 (putative explanation: unspecified; atomic difference: unspecified)	[M+H]+	1

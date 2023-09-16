@@ -1,0 +1,7 @@
+USI	Cosine	Matching Peaks	Status
+mzspec:MSV000085582:ExtratoThearlorama Cacao_2_POS_1-3_01_5773:scan:314	0.75	9	NoID
+mzspec:MSV000085582:ExtratoThearlorama Cacao_1_POS_1-2_01_5772:scan:311	0.75	8	NoID
+mzspec:MSV000084391:ExtratoThearlorama Cacao_1_POS_1-2_01_5772:scan:311	0.75	8	NoID
+mzspec:MSV000084314:MSV000085582:scan:11244	0.75	8	NoID
+mzspec:MSV000084314:MSV000084391:scan:4483	0.73	8	NoID
+mzspec:MSV000084391:ExtratoThearlorama Cacao_2_POS_1-3_01_5773:scan:314	0.71	8	NoID

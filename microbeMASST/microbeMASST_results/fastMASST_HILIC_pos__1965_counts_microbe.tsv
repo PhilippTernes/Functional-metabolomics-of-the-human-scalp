@@ -1,0 +1,2 @@
+file_usi	Delta Mass	USI	Charge	Cosine	Matching Peaks	Dataset	Status	Filepath	Filename	MassIVE	Taxaname_file	Taxaname_alternative	Taxa_NCBI	Taxa_Assigment	ReDU_Availability	Blank	QC
+mzspec:MSV000081289:E_coli_B2_MG1655_6PooledS_fragPOS	0.02	mzspec:MSV000081289:E_coli_B2_MG1655_6PooledS_fragPOS:scan:2555	1	0.97	4	MSV000081289	NoID	MSV000081289/ccms_peak/Ecoli_Study3/Fragmentation/PositiveMode/E_coli_B2_MG1655_6PooledS_fragPOS.mzML	MSV000081289/E_coli_B2_MG1655_6PooledS_fragPOS.mzML	MSV000081289	Escherichia coli		562	automatic	No	No	No

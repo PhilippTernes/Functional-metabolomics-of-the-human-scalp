@@ -1,0 +1,4 @@
+USI	GNPSLibraryAccession	Cosine	Matching Peaks	CompoundName	Adduct	Charge
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003134601	CCMSLIB00003134601	0.97	6	Spectral Match to L-.gamma.-Glutamyl-L-glutamic Acid from NIST14	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009948341	CCMSLIB00009948341	0.9	5	Suspect related to Glu-Thr (predicted molecular formula: C10H16N2O7) with delta m/z 27.995 (putative explanation: Formylation|Ser->Asp substitution|Thr->Glu substitution; atomic difference: 1C,1O|1C,1O|1C,1O)	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009993323	CCMSLIB00009993323	0.89	5	Suspect related to Spectral Match to Glu Phe from METLIN (predicted molecular formula: C10H16N2O7) with delta m/z -18.026 (putative explanation: Loss of ammonia (15N)|Phe->Glu substitution; atomic difference: -3H,-1N[15]|-4C,-2H,2O)	[M+H]+	1

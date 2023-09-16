@@ -1,0 +1,17 @@
+USI	GNPSLibraryAccession	Cosine	Matching Peaks	CompoundName	Adduct	Charge
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006114207	CCMSLIB00006114207	1.0	4	4687 - 40.0 eV	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006114209	CCMSLIB00006114209	1.0	4	4687 - 40.0 eV	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006114213	CCMSLIB00006114213	1.0	4	4687 - 40.0 eV	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00005720607	CCMSLIB00005720607	0.99	4	INOSINE	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006114211	CCMSLIB00006114211	0.99	4	4687 - 40.0 eV	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006114206	CCMSLIB00006114206	0.99	4	4687 - 40.0 eV	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00000220997	CCMSLIB00000220997	0.97	4	ReSpect:PT102563 Inosine|INO|(?)-Inosine|beta-Inosine|Hypoxanthine 9-beta-D-ribofuranoside|9-beta-D-ribofuranosylhypoxanthine|Hypoxanthine ribonucleoside|Oxiamin|Ribonosine|Trophicardyl|9-[(2R,3R,4S,5R)-3,4-dihydroxy-	[M+H]	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00005757476	CCMSLIB00005757476	0.97	4	Massbank:PT102563 9-beta-D-ribofuranosylhypoxanthine|9-[(2R,3R,4S,5R)-3,4-dihydroxy-5-(hydroxymethyl)oxolan-2-yl]-3H-purin-6-one|INO|(?)-Inosine|Oxiamin|Trophicardyl|Ribonosine|Inosine|Hypoxanthine 9-beta-D-ribofuranos	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00000222981	CCMSLIB00000222981	0.97	4	Massbank:PR100151 Inosine|INO|(?)-Inosine|beta-Inosine|Hypoxanthine 9-beta-D-ribofuranoside|9-beta-D-ribofuranosylhypoxanthine|Hypoxanthine ribonucleoside|Oxiamin|Ribonosine|Trophicardyl	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00005883669	CCMSLIB00005883669	0.97	4	INOSINE - 70.0 eV	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00005883668	CCMSLIB00005883668	0.97	4	INOSINE - 60.0 eV	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006684575	CCMSLIB00006684575	0.91	4	INOSINE	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00005738526	CCMSLIB00005738526	0.91	4	Massbank:RP011003 Inosine|9-[(2R,3R,4S,5R)-3,4-dihydroxy-5-(hydroxymethyl)oxolan-2-yl]-3H-purin-6-one	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00004752927	CCMSLIB00004752927	0.9	4	purine riboside 1	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00000426566	CCMSLIB00000426566	0.9	4	HMDB:HMDB00195-318 Inosine	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006684544	CCMSLIB00006684544	0.83	4	INOSINE	M+H	1

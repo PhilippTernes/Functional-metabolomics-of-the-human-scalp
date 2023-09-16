@@ -1,0 +1,4 @@
+file_usi	Delta Mass	USI	Charge	Cosine	Matching Peaks	Dataset	Status	Filepath	Filename	MassIVE	Taxaname_file	Taxaname_alternative	Taxa_NCBI	Taxa_Assigment	ReDU_Availability	Blank	QC
+mzspec:MSV000087882:mushroom	-0.0	mzspec:MSV000087882:mushroom:scan:659	1	0.83	5	MSV000087882	NoID	MSV000087882/ccms_peak/2019.Yuan.Mushroom/mushroom.mzML	MSV000087882/mushroom.mzML	MSV000087882	Agaricus bisporus		5341	automatic	No	No	No
+mzspec:MSV000083660:7_1_3mMFe	-0.0	mzspec:MSV000083660:7_1_3mMFe:scan:126	1	0.82	4	MSV000083660	NoID	MSV000083660/peak/mzXML/12min_samples/7_1_3mMFe.mzXML	MSV000083660/7_1_3mMFe.mzXML	MSV000083660	Pseudomonas psychrophila		122355	automatic	No	No	No
+mzspec:MSV000088332:190225_AR_BS_17_Pos	-0.0	mzspec:MSV000088332:190225_AR_BS_17_Pos:scan:408	1	0.77	4	MSV000088332	NoID	MSV000088332/peak/Converted/Converted neg/190225_AR_BS_17_Pos.mzXML	MSV000088332/190225_AR_BS_17_Pos.mzXML	MSV000088332	Cortinarius trivialis		86074	automatic	No	No	No

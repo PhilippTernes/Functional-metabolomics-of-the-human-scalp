@@ -1,0 +1,5 @@
+USI	GNPSLibraryAccession	Cosine	Matching Peaks	CompoundName	Adduct	Charge
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00000572505	CCMSLIB00000572505	0.99	4	MoNA:649434 Meclozine	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00000572992	CCMSLIB00000572992	0.99	4	MoNA:649434 meclizine	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00005734016	CCMSLIB00005734016	0.99	4	Massbank:EQ308402 Meclozine|Meclizine|1-[(4-chlorophenyl)-phenyl-methyl]-4-(3-methylbenzyl)piperazine	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00000077086	CCMSLIB00000077086	0.83	4	Meclizine hydrochloride	[M+H]	1

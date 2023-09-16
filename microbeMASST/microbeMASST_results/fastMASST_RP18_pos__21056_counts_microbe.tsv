@@ -1,0 +1,3 @@
+file_usi	Delta Mass	USI	Charge	Cosine	Matching Peaks	Dataset	Status	Filepath	Filename	MassIVE	Taxaname_file	Taxaname_alternative	Taxa_NCBI	Taxa_Assigment	ReDU_Availability	Blank	QC
+mzspec:MSV000089834:Pig_24	0.04	mzspec:MSV000089834:Pig_24:scan:5731	1	0.84	8	MSV000089834	NoID	MSV000089834/peak/microbeMASST/2020/Pig_24.mzML	MSV000089834/Pig_24.mzML	MSV000089834	Pseudoalteromonas denitrificans wadden sea isolate	Pseudoalteromonas denitrificans	43656	manual	No	No	No
+mzspec:MSV000089834:Pig_33	0.04	mzspec:MSV000089834:Pig_33:scan:5310	1	0.75	6	MSV000089834	NoID	MSV000089834/peak/microbeMASST/2020/Pig_33.mzML	MSV000089834/Pig_33.mzML	MSV000089834	Lentibacter algarum wadden sea isolate	Lentibacter algarum	576131	manual	No	No	No

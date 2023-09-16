@@ -1,0 +1,2 @@
+file_usi	Delta Mass	USI	Charge	Cosine	Matching Peaks	Dataset	Status	Filepath	Filename	MassIVE	Taxaname_file	Taxaname_alternative	Taxa_NCBI	Taxa_Assigment	ReDU_Availability	Blank	QC
+mzspec:MSV000090027:011_Sa_ATCC29213_Intracellular_MBL	-0.0	mzspec:MSV000090027:011_Sa_ATCC29213_Intracellular_MBL:scan:4294967295	1	0.7	4	MSV000090027	NoID	MSV000090027/peak/011_Sa_ATCC29213_Intracellular_MBL.mzML	MSV000090027/011_Sa_ATCC29213_Intracellular_MBL.mzML	MSV000090027	Staphylococcus aureus ATCC 29213	Staphylococcus aureus	1280	manual	No	No	No

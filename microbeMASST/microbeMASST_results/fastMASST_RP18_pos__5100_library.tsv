@@ -1,0 +1,4 @@
+USI	GNPSLibraryAccession	Cosine	Matching Peaks	CompoundName	Adduct	Charge
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009981853	CCMSLIB00009981853	0.71	5	Suspect related to Sclareolide (predicted molecular formula: C17H26O3) with delta m/z 27.995 (putative explanation: Formylation|Ser->Asp substitution|Thr->Glu substitution; atomic difference: 1C,1O|1C,1O|1C,1O)	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00010000111	CCMSLIB00010000111	0.71	5	Suspect related to Spectral Match to cis-9-Hexadecenoic acid from NIST14 (predicted molecular formula: C17H26O3) with delta m/z 23.962 (putative explanation: unspecified; atomic difference: unspecified)	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00010004562	CCMSLIB00010004562	0.71	5	Suspect related to cis-9-Hexadecenoic acid (predicted molecular formula: C17H26O3) with delta m/z 23.962 (putative explanation: unspecified; atomic difference: unspecified)	[M+H]+	1

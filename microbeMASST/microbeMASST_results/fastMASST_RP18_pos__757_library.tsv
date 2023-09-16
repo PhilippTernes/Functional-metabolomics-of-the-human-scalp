@@ -1,0 +1,16 @@
+USI	GNPSLibraryAccession	Cosine	Matching Peaks	CompoundName	Adduct	Charge
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00005489362	CCMSLIB00005489362	0.94	4	MoNA:586455 [(2R)-2-ethylhexyl] 2-cyano-3,3-diphenylprop-2-enoate [IIN-based: Match]	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00000579921	CCMSLIB00000579921	0.93	6	"""2-Ethylhexyl 2-cyano-3,3-diphenylacrylate"""	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00000841551	CCMSLIB00000841551	0.93	6	MassbankEU:SM814103 Octocrylene|2-Ethylhexyl 2-cyano-3,3-diphenylprop-2-enoate|2-Ethylhexyl 2-cyano-3,3-diphenylacrylate	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00000568347	CCMSLIB00000568347	0.92	4	MoNA:586455 [(2R)-2-ethylhexyl] 2-cyano-3,3-diphenylprop-2-enoate	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00000572801	CCMSLIB00000572801	0.92	4	MoNA:586455 [(2R)-2-ethylhexyl] 2-cyano-3,3-diphenylprop-2-enoate	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00005734697	CCMSLIB00005734697	0.92	4	Massbank:EQ022902 Octocrylene|[(2R)-2-ethylhexyl] 2-cyano-3,3-diphenylprop-2-enoate	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009953374	CCMSLIB00009953374	0.92	5	Suspect related to Massbank:AU250204 Octyl-methoxycinnamate|Octinoxate|2-ethylhexyl (E)-3-(4-methoxyphenyl)prop-2-enoate (predicted molecular formula: C24H27NO2) with delta m/z 71.016 (putative explanation: unspecified; atomic difference: unspecified)	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00000566191	CCMSLIB00000566191	0.88	5	MoNA:594132 Octocrylene	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00005734462	CCMSLIB00005734462	0.88	5	Massbank:EQ022903 Octocrylene|[(2R)-2-ethylhexyl] 2-cyano-3,3-diphenylprop-2-enoate	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00000572752	CCMSLIB00000572752	0.88	5	MoNA:594132 [(2R)-2-ethylhexyl] 2-cyano-3,3-diphenylprop-2-enoate	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009953369	CCMSLIB00009953369	0.87	5	Suspect related to Massbank:AU250201 Octyl-methoxycinnamate|Octinoxate|2-ethylhexyl (E)-3-(4-methoxyphenyl)prop-2-enoate (predicted molecular formula: C19H27N3O4) with delta m/z 71.016 (putative explanation: unspecified; atomic difference: unspecified)	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009959504	CCMSLIB00009959504	0.87	6	Suspect related to Massbank:LU073203 Ethyl 2-cyano-3,3-diphenylacrylate|ethyl 2-cyano-3,3-diphenylprop-2-enoate (predicted molecular formula: C10H29N6O8) with delta m/z 84.094 (putative explanation: unspecified; atomic difference: unspecified)	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009953371	CCMSLIB00009953371	0.84	6	Suspect related to Massbank:AU250202 Octyl-methoxycinnamate|Octinoxate|2-ethylhexyl (E)-3-(4-methoxyphenyl)prop-2-enoate (predicted molecular formula: C16H31N3O4S) with delta m/z 71.016 (putative explanation: unspecified; atomic difference: unspecified)	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00000077208	CCMSLIB00000077208	0.84	5	Octocrylene	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00005774938	CCMSLIB00005774938	0.82	4	Massbank:AU250104 Octocrylene|2-ethylhexyl 2-cyano-3,3-diphenylprop-2-enoate	M+H	1

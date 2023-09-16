@@ -1,0 +1,70 @@
+USI	GNPSLibraryAccession	Cosine	Matching Peaks	CompoundName	Adduct	Charge
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003137370	CCMSLIB00003137370	1.0	6	Spectral Match to Piperine from NIST14	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00000205370	CCMSLIB00000205370	1.0	7	Massbank:BML01660 Piperine	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003140174	CCMSLIB00003140174	0.99	7	Spectral Match to Piperine from NIST14	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006116562	CCMSLIB00006116562	0.98	7	Piperine - 40.0 eV	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006435177	CCMSLIB00006435177	0.98	7	Piperine	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006116560	CCMSLIB00006116560	0.98	7	Piperine - 40.0 eV	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006116565	CCMSLIB00006116565	0.98	7	Piperine - 40.0 eV	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006116566	CCMSLIB00006116566	0.97	7	Piperine - 40.0 eV	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00005744333	CCMSLIB00005744333	0.97	7	Massbank:PR301801 Piperine	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00005767848	CCMSLIB00005767848	0.97	7	Massbank: Piperine|(2E,4E)-5-(1,3-benzodioxol-5-yl)-1-piperidin-1-ylpenta-2,4-dien-1-one	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00005770970	CCMSLIB00005770970	0.97	7	Massbank: Piperine|(2E,4E)-5-(1,3-benzodioxol-5-yl)-1-piperidin-1-ylpenta-2,4-dien-1-one	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00005775880	CCMSLIB00005775880	0.97	6	Massbank:AU252303 Piperine|(2E,4E)-5-(1,3-benzodioxol-5-yl)-1-piperidin-1-ylpenta-2,4-dien-1-one	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00005761602	CCMSLIB00005761602	0.97	7	Massbank:LU109603 Piperine|(2E,4E)-5-(1,3-benzodioxol-5-yl)-1-piperidin-1-ylpenta-2,4-dien-1-one	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00010007741	CCMSLIB00010007741	0.97	6	piperine	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00000205361	CCMSLIB00000205361	0.96	6	Massbank:BML01649 Piperine	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00004719939	CCMSLIB00004719939	0.96	7	PIPERINE	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009979946	CCMSLIB00009979946	0.96	6	Suspect related to Piperyline (predicted molecular formula: C7H19N5O7) with delta m/z 14.016 (putative explanation: Asn->Gln substitution|Asp->Glu substitution|Gly->Ala substitution|Methylation|Ser->Thr substitution|Val->Leu/Ile substitution|chain elongation; atomic difference: 1C,2H|1C,2H|1C,2H|1C,2H|1C,2H|1C,2H|1C,2H)	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00005745115	CCMSLIB00005745115	0.96	6	Massbank:PR310562 Piperine	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00010116022	CCMSLIB00010116022	0.96	7	piperine CollisionEnergy:205060	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00000081712	CCMSLIB00000081712	0.96	6	Piperin	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00004719938	CCMSLIB00004719938	0.96	7	PIPERINE	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00010116021	CCMSLIB00010116021	0.96	7	piperine CollisionEnergy:205060	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00005746247	CCMSLIB00005746247	0.95	6	Massbank:PR301779 Piperine	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00004691702	CCMSLIB00004691702	0.95	7	PIPERINE	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009979940	CCMSLIB00009979940	0.95	6	Suspect related to Piperlonguminine (predicted molecular formula: C12H19N3O5) with delta m/z 12.0 (putative explanation: formaldehyde adduct|methylation and reduction|unspecified; atomic difference: 1C|1C|1C)	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006116574	CCMSLIB00006116574	0.95	7	Piperine - 40.0 eV	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006116573	CCMSLIB00006116573	0.95	7	Piperine - 40.0 eV	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003136220	CCMSLIB00003136220	0.95	6	Spectral Match to Piperine from NIST14	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00004721603	CCMSLIB00004721603	0.94	7	PIPERINE	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006116564	CCMSLIB00006116564	0.94	6	Piperine - 40.0 eV	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00005489354	CCMSLIB00005489354	0.94	7	PIPERINE [IIN-based: Match]	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00005740185	CCMSLIB00005740185	0.93	5	Massbank:PR301790 Piperine	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003138261	CCMSLIB00003138261	0.93	5	Spectral Match to Piperine from NIST14	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00010104686	CCMSLIB00010104686	0.92	6	piperine CollisionEnergy:102040	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00010104687	CCMSLIB00010104687	0.92	6	piperine CollisionEnergy:102040	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006116575	CCMSLIB00006116575	0.92	7	Piperine - 40.0 eV	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003135774	CCMSLIB00003135774	0.92	6	Spectral Match to Piperine from NIST14	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00000850601	CCMSLIB00000850601	0.92	6	NCGC00094872-09_C17H19NO3_(2E,4E)-5-(1,3-Benzodioxol-5-yl)-1-(1-piperidinyl)-2,4-pentadien-1-one	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006116576	CCMSLIB00006116576	0.92	7	Piperine - 40.0 eV	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00005747059	CCMSLIB00005747059	0.91	6	Massbank:PR301795 Piperine	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00005741449	CCMSLIB00005741449	0.91	6	Massbank:PR301784 Piperine	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006116572	CCMSLIB00006116572	0.91	7	Piperine - 40.0 eV	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00005774937	CCMSLIB00005774937	0.91	6	Massbank:AU252306 Piperine|(2E,4E)-5-(1,3-benzodioxol-5-yl)-1-piperidin-1-ylpenta-2,4-dien-1-one	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00005775783	CCMSLIB00005775783	0.9	6	Massbank:AU252302 Piperine|(2E,4E)-5-(1,3-benzodioxol-5-yl)-1-piperidin-1-ylpenta-2,4-dien-1-one	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00005489726	CCMSLIB00005489726	0.89	6	PIPERINE [IIN-based: Match]	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00005773929	CCMSLIB00005773929	0.88	6	Massbank:AU252304 Piperine|(2E,4E)-5-(1,3-benzodioxol-5-yl)-1-piperidin-1-ylpenta-2,4-dien-1-one	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00005768913	CCMSLIB00005768913	0.87	6	Massbank: Piperine|(2E,4E)-5-(1,3-benzodioxol-5-yl)-1-piperidin-1-ylpenta-2,4-dien-1-one	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00005768424	CCMSLIB00005768424	0.87	4	Massbank: Piperine|(2E,4E)-5-(1,3-benzodioxol-5-yl)-1-piperidin-1-ylpenta-2,4-dien-1-one	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009952230	CCMSLIB00009952230	0.86	5	Suspect related to MLS002473214-01!(2E,4E)-5-(1,3-benzodioxol-5-yl)-N-(2-methylpropyl)penta-2,4-dienamide (predicted molecular formula: C9H23N3O5S) with delta m/z 12.0 (putative explanation: formaldehyde adduct|methylation and reduction|unspecified; atomic difference: 1C|1C|1C)	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00000079567	CCMSLIB00000079567	0.86	5	MLS002153830-01!	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003136918	CCMSLIB00003136918	0.86	4	Spectral Match to Piperine from NIST14	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00005765771	CCMSLIB00005765771	0.86	6	Massbank:LU109604 Piperine|(2E,4E)-5-(1,3-benzodioxol-5-yl)-1-piperidin-1-ylpenta-2,4-dien-1-one	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00005767870	CCMSLIB00005767870	0.86	4	Massbank: Piperine|(2E,4E)-5-(1,3-benzodioxol-5-yl)-1-piperidin-1-ylpenta-2,4-dien-1-one	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00005767310	CCMSLIB00005767310	0.86	4	Massbank: Piperine|(2E,4E)-5-(1,3-benzodioxol-5-yl)-1-piperidin-1-ylpenta-2,4-dien-1-one	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00004721602	CCMSLIB00004721602	0.85	5	PIPERINE	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00005741205	CCMSLIB00005741205	0.85	5	Massbank:PR301807 Piperine	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00005764618	CCMSLIB00005764618	0.84	4	Massbank:LU109602 Piperine|(2E,4E)-5-(1,3-benzodioxol-5-yl)-1-piperidin-1-ylpenta-2,4-dien-1-one	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006435104	CCMSLIB00006435104	0.84	4	Piperine	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00004691701	CCMSLIB00004691701	0.84	5	PIPERINE	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00005770161	CCMSLIB00005770161	0.83	4	Massbank: Piperine|(2E,4E)-5-(1,3-benzodioxol-5-yl)-1-piperidin-1-ylpenta-2,4-dien-1-one	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00005767969	CCMSLIB00005767969	0.83	4	Massbank: Piperine|(2E,4E)-5-(1,3-benzodioxol-5-yl)-1-piperidin-1-ylpenta-2,4-dien-1-one	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00005760350	CCMSLIB00005760350	0.83	4	Massbank:LU109601 Piperine|(2E,4E)-5-(1,3-benzodioxol-5-yl)-1-piperidin-1-ylpenta-2,4-dien-1-one	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003135773	CCMSLIB00003135773	0.82	4	Spectral Match to Piperine from NIST14	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00005767690	CCMSLIB00005767690	0.79	6	Massbank: Piperine|(2E,4E)-5-(1,3-benzodioxol-5-yl)-1-piperidin-1-ylpenta-2,4-dien-1-one	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00004691700	CCMSLIB00004691700	0.79	4	PIPERINE	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00004721604	CCMSLIB00004721604	0.79	5	PIPERINE	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006435254	CCMSLIB00006435254	0.75	5	Piperine	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003138840	CCMSLIB00003138840	0.74	5	Spectral Match to Piperine from NIST14	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00005773143	CCMSLIB00005773143	0.72	5	Massbank:AU252305 Piperine|(2E,4E)-5-(1,3-benzodioxol-5-yl)-1-piperidin-1-ylpenta-2,4-dien-1-one	M+H	1

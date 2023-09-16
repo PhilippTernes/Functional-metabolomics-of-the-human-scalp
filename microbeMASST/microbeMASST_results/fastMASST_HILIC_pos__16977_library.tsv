@@ -1,0 +1,4 @@
+USI	GNPSLibraryAccession	Cosine	Matching Peaks	CompoundName	Adduct	Charge
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009943948	CCMSLIB00009943948	0.78	5	Suspect related to Ceramide (18:1/16:0) (predicted molecular formula: C32H67N4O3) with delta m/z 18.01 (putative explanation: Proline oxidation to 5-hydroxy-2-aminovaleric acid|water; atomic difference: 2H,1O|2H,1O)	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009966667	CCMSLIB00009966667	0.74	5	Suspect related to N-Palmitoyl-D-sphingosine (predicted molecular formula: C32H67N4O3) with delta m/z 18.01 (putative explanation: Proline oxidation to 5-hydroxy-2-aminovaleric acid|water; atomic difference: 2H,1O|2H,1O)	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009932912	CCMSLIB00009932912	0.71	4	Suspect related to 18:1(2S-OH) Ceramide (predicted molecular formula: C30H67N8O) with delta m/z 16.01 (putative explanation: Asp->Met substitution; atomic difference: 1C,4H,-2O,1S)	[M+H]+	1

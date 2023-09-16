@@ -1,0 +1,16 @@
+USI	GNPSLibraryAccession	Cosine	Matching Peaks	CompoundName	Adduct	Charge
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00000579572	CCMSLIB00000579572	0.96	4	Dodecylbenzenesulfonic acid	M-H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00000842018	CCMSLIB00000842018	0.96	4	MassbankEU:SM876251 Dodecylbenzenesulfonic acid	[M-H]-	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009964314	CCMSLIB00009964314	0.95	6	Suspect related to MassbankEU:ETS00014 C11-LAS (STANDARD MIX)|C11-linear alkylbenzyl sulfonate|4-(undecan-5-yl)benzenesulfonic acid (predicted molecular formula: C14H26N6OS) with delta m/z 14.016 (putative explanation: Asn->Gln substitution|Asp->Glu substitution|Gly->Ala substitution|Methylation|Ser->Thr substitution|Val->Leu/Ile substitution|chain elongation; atomic difference: 1C,2H|1C,2H|1C,2H|1C,2H|1C,2H|1C,2H|1C,2H)	[M-H]-	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009953274	CCMSLIB00009953274	0.93	4	Suspect related to Massbank:AU239460 Canrenone|(9S,14S)-10,13-dimethylspiro[2,8,9,11,12,14,15,16-octahydro-1H-cyclopenta[a]phenanthrene-17,5`-oxolane]-2`,3-dione (predicted molecular formula: C13H32N3O4S) with delta m/z -13.981 (putative explanation: Asp->Thr substitution; atomic difference: 2H,-1O)	[M-H]-	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009932171	CCMSLIB00009932171	0.93	5	Suspect related to 15-Ketoiloprost (predicted molecular formula: unknown) with delta m/z -14.016 (putative explanation: Ala->Gly substitution|Gln->Asn substitution|Glu->Asp substitution|Leu/Ile->Val substitution|Thr->Ser substitution; atomic difference: -1C,-2H|-1C,-2H|-1C,-2H|-1C,-2H|-1C,-2H)	[M-H-H2O]-	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00004694138	CCMSLIB00004694138	0.92	5	HYDROQUINIDINE	[M-H]-	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00004702460	CCMSLIB00004702460	0.92	5	Avocadyne Acetate	[M-H]-	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009992342	CCMSLIB00009992342	0.92	4	Suspect related to Spectral Match to Decylbenzenesulfonic acid from NIST14 (predicted molecular formula: unknown) with delta m/z 28.04 (putative explanation: Gln->Arg substitution; atomic difference: 1C,4H,2N,-1O)	[M-H]-	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00004704176	CCMSLIB00004704176	0.91	4	2,4-dihydroxyheptadec-16-ynyl acetate	[M-H]-	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00004692755	CCMSLIB00004692755	0.87	4	[(4E)-7-acetyloxy-6-hydroxy-2-methyl-10-oxo-2,3,6,7,8,9-hexahydrooxecin-3-yl] (E)-but-2-enoate	[M-H]-	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00004702459	CCMSLIB00004702459	0.85	5	Avocadyne Acetate	[M-H]-	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00004692754	CCMSLIB00004692754	0.84	4	[(4E)-7-acetyloxy-6-hydroxy-2-methyl-10-oxo-2,3,6,7,8,9-hexahydrooxecin-3-yl] (E)-but-2-enoate	[M-H]-	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00004694137	CCMSLIB00004694137	0.8	4	HYDROQUINIDINE	[M-H]-	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00004694558	CCMSLIB00004694558	0.72	4	hydroquinidine	[M-H]-	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00004704175	CCMSLIB00004704175	0.72	4	2,4-dihydroxyheptadec-16-ynyl acetate	[M-H]-	1

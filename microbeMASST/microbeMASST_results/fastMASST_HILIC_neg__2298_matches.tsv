@@ -1,0 +1,16 @@
+USI	Cosine	Matching Peaks	Status
+mzspec:MSV000087885:PooledSample_exo_neg_II_MSMS:scan:1150	0.84	5	NoID
+mzspec:MSV000084314:MSV000083835:scan:564	0.83	4	NoID
+mzspec:MSV000083835:48:scan:777	0.81	4	NoID
+mzspec:MSV000084314:MSV000087885:scan:1448	0.8	4	NoID
+mzspec:MSV000084314:MSV000081464:scan:2448	0.79	4	NoID
+mzspec:MSV000082619:GIMap_P3_Aq-Org_Mixed_E9:scan:269	0.79	4	NoID
+mzspec:MSV000087646:JA_Feb152021_RMmetabolomics_ddMS2IE0neg_LC_POOL_VaginalFluid:scan:3693	0.78	4	NoID
+mzspec:MSV000084314:MSV000087646:scan:15951	0.77	4	NoID
+mzspec:MSV000085555:DOM-20200509_neg_1:scan:290	0.76	4	NoID
+mzspec:MSV000081464:O_1x_PD_media_fungal:scan:749	0.76	4	NoID
+mzspec:MSV000087646:JA_Feb152021_RMmetabolomics_ddMS2IE1neg_LC_POOL_PlasmaSRM1950:scan:3667	0.75	4	NoID
+mzspec:MSV000081464:J_Corn_Leaves_Plant_2_2_Y_D12:scan:793	0.74	4	NoID
+mzspec:MSV000082619:GIMap_P2_Pulled_Sample_QC_180301154121:scan:210	0.72	4	NoID
+mzspec:MSV000082619:GIMap_P3_Aq-Org_Mixed_F1:scan:211	0.72	4	NoID
+mzspec:MSV000087646:JA_Feb152021_RMmetabolomics_ddMS2IE2neg_LC_POOL_VaginalFluid:scan:3456	0.72	4	NoID

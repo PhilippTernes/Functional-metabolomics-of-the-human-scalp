@@ -1,0 +1,4 @@
+file_usi	Delta Mass	USI	Charge	Cosine	Matching Peaks	Dataset	Status	Filepath	Filename	MassIVE	Taxaname_file	Taxaname_alternative	Taxa_NCBI	Taxa_Assigment	ReDU_Availability	Blank	QC
+mzspec:MSV000089522:087_1-26_01_6011	-0.01	mzspec:MSV000089522:087_1-26_01_6011:scan:1357	1	0.73	4	MSV000089522	NoID	MSV000089522/ccms_peak/087_1-26_01_6011.mzML	MSV000089522/087_1-26_01_6011.mzML	MSV000089522	Bacteria	Bacteria	2	manual	Yes	No	No
+mzspec:MSV000089522:155-2_1-88_01_6140	0.02	mzspec:MSV000089522:155-2_1-88_01_6140:scan:2499	1	0.72	4	MSV000089522	NoID	MSV000089522/ccms_peak/155-2_1-88_01_6140.mzML	MSV000089522/155-2_1-88_01_6140.mzML	MSV000089522	Bacillus subtilis		1423	automatic	Yes	No	No
+mzspec:MSV000089522:130-2_1-63_01_6111	-0.01	mzspec:MSV000089522:130-2_1-63_01_6111:scan:2515	1	0.72	4	MSV000089522	NoID	MSV000089522/ccms_peak/130-2_1-63_01_6111.mzML	MSV000089522/130-2_1-63_01_6111.mzML	MSV000089522	Streptomyces fradiae		1906	automatic	Yes	No	No

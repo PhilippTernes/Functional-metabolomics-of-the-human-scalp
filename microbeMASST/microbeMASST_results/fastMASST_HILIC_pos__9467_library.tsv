@@ -1,0 +1,18 @@
+USI	GNPSLibraryAccession	Cosine	Matching Peaks	CompoundName	Adduct	Charge
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009937137	CCMSLIB00009937137	0.95	4	Suspect related to 3.alpha.,4.beta.,3.alpha.-Galactotetraose (predicted molecular formula: C18H32O16) with delta m/z -162.052 (putative explanation: Glucuronidation (reverse)|Hexose (reverse); atomic difference: -6C,-10H,-5O|-6C,-10H,-5O)	[M+Na]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009993452	CCMSLIB00009993452	0.94	4	Suspect related to Spectral Match to Glycan 3.alpha.,4.beta.,3.alpha.-Galactotetraose from NIST14 (predicted molecular formula: C18H32O16) with delta m/z -162.052 (putative explanation: Glucuronidation (reverse)|Hexose (reverse); atomic difference: -6C,-10H,-5O|-6C,-10H,-5O)	[M+Na]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00004706095	CCMSLIB00004706095	0.94	4	Melezitose	[M+Na]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00000072209	CCMSLIB00000072209	0.93	4	Polysaccharide Hexose x3	M+Na	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009989005	CCMSLIB00009989005	0.93	4	Suspect related to Spectral Match to 3.alpha.-Galactobiose from NIST14 (predicted molecular formula: unknown) with delta m/z 162.053 (putative explanation: Glucuronidation|Hexose; atomic difference: 6C,10H,5O|6C,10H,5O)	[M+Na]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00005464598	CCMSLIB00005464598	0.91	4	RAFFINOSE	M+Na	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009973518	CCMSLIB00009973518	0.91	4	Suspect related to NCGC00384564-01_C22H30O14_3-O-[(2E)-3-(4-Hydroxy-3-methoxyphenyl)-2-propenoyl]-beta-D-fructofuranosyl alpha-D-glucopyranoside (predicted molecular formula: C18H32O16) with delta m/z -14.007 (putative explanation: unspecified; atomic difference: unspecified)	[M+Na]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009981576	CCMSLIB00009981576	0.91	4	Suspect related to STACHYOSE (predicted molecular formula: C18H32O16) with delta m/z -162.052 (putative explanation: Glucuronidation (reverse)|Hexose (reverse); atomic difference: -6C,-10H,-5O|-6C,-10H,-5O)	[M+Na]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003139602	CCMSLIB00003139602	0.9	4	Spectral Match to 1-Kestose from NIST14	M+Na	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009981605	CCMSLIB00009981605	0.9	4	Suspect related to SUCROSE (predicted molecular formula: C18H32O16) with delta m/z 162.053 (putative explanation: Glucuronidation|Hexose; atomic difference: 6C,10H,5O|6C,10H,5O)	[M+Na]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00004691207	CCMSLIB00004691207	0.89	4	maltotriose	[M+Na]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00004691206	CCMSLIB00004691206	0.88	4	maltotriose	[M+Na]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003138053	CCMSLIB00003138053	0.88	4	Spectral Match to Glycan 3'-Galactosyllactose from NIST14	M+Na	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00004706096	CCMSLIB00004706096	0.87	4	Melezitose	[M+Na]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003135214	CCMSLIB00003135214	0.84	4	Spectral Match to 1-Kestose from NIST14	M+Na	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00010000492	CCMSLIB00010000492	0.83	4	Suspect related to Stachyose (predicted molecular formula: C18H32O16) with delta m/z -162.052 (putative explanation: Glucuronidation (reverse)|Hexose (reverse); atomic difference: -6C,-10H,-5O|-6C,-10H,-5O)	[M+Na]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009937448	CCMSLIB00009937448	0.75	4	Suspect related to 4,5-Dicaffeoylquinic acid (predicted molecular formula: C18H32O16) with delta m/z -11.964 (putative explanation: unspecified; atomic difference: unspecified)	[M+Na]+	1

@@ -1,0 +1,2 @@
+file_usi	Delta Mass	USI	Charge	Cosine	Matching Peaks	Dataset	Status	Filepath	Filename	MassIVE	Taxaname_file	Taxaname_alternative	Taxa_NCBI	Taxa_Assigment	ReDU_Availability	Blank	QC
+mzspec:MSV000085043:L_2020-02-20_Seg1	-0.0	mzspec:MSV000085043:L_2020-02-20_Seg1:scan:3035	1	0.7	6	MSV000085043	NoID	MSV000085043/ccms_peak/L_2020-02-20_Seg1.mzML	MSV000085043/L_2020-02-20_Seg1.mzML	MSV000085043	Eurotium pseudoglaucum	Aspergillus pseudoglaucus	1405805	automatic	No	No	No

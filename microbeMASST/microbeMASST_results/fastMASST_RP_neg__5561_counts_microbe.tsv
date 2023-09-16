@@ -1,0 +1,3 @@
+file_usi	Delta Mass	USI	Charge	Cosine	Matching Peaks	Dataset	Status	Filepath	Filename	MassIVE	Taxaname_file	Taxaname_alternative	Taxa_NCBI	Taxa_Assigment	ReDU_Availability	Blank	QC
+mzspec:MSV000085071:P2_G11_BG11_01_53286	-0.0	mzspec:MSV000085071:P2_G11_BG11_01_53286:scan:972	1	0.81	5	MSV000085071	NoID	MSV000085071/peak/Mushrooms_NEG_P2_mzXML/P2_G11_BG11_01_53286.mzXML	MSV000085071/P2_G11_BG11_01_53286.mzXML	MSV000085071	Ramaria flavobrunnescens var. aromatica		112420	automatic	Yes	No	No
+mzspec:MSV000084884:w100_MBn	-0.01	mzspec:MSV000084884:w100_MBn:scan:3050	1	0.75	5	MSV000084884	NoID	MSV000084884/updates/2020-02-03_jamirimoghaddam_67410a78/raw/w100_MBn.mzML	MSV000084884/w100_MBn.mzML	MSV000084884	Bacteria		2	automatic	No	No	No

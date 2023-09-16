@@ -1,0 +1,20 @@
+USI	GNPSLibraryAccession	Cosine	Matching Peaks	CompoundName	Adduct	Charge
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00004719822	CCMSLIB00004719822	0.99	4	Adenosine	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00005730843	CCMSLIB00005730843	0.99	5	Massbank:EQ330404 Adenosine|(2R,3R,4S,5R)-2-(6-aminopurin-9-yl)-5-(hydroxymethyl)oxolane-3,4-diol	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003135844	CCMSLIB00003135844	0.98	5	Spectral Match to Adenosine from NIST14	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006119703	CCMSLIB00006119703	0.98	4	Adenosine - 40.0 eV	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009993662	CCMSLIB00009993662	0.97	4	Suspect related to Spectral Match to Guanosine from NIST14 (predicted molecular formula: unknown) with delta m/z -15.995 (putative explanation: Ser->Ala substitution|Tyr->Phe substitution|reduction; atomic difference: -1O|-1O|-1O)	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00010000454	CCMSLIB00010000454	0.97	4	Suspect related to Spectral Match to trans-Zeatin from NIST14 (predicted molecular formula: C9H17NO8) with delta m/z 47.985 (putative explanation: cysteine oxidation to cysteic acid; atomic difference: 3O)	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006119722	CCMSLIB00006119722	0.97	4	Adenosine - 40.0 eV	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006119719	CCMSLIB00006119719	0.97	4	Adenosine - 40.0 eV	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006119724	CCMSLIB00006119724	0.97	4	Adenosine - 40.0 eV	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00010103133	CCMSLIB00010103133	0.96	4	adenosine CollisionEnergy:102040	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00010126748	CCMSLIB00010126748	0.96	4	adenosine CollisionEnergy:102040	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006119728	CCMSLIB00006119728	0.96	4	Adenosine - 40.0 eV	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006683541	CCMSLIB00006683541	0.95	4	ADENOSINE	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006579374	CCMSLIB00006579374	0.94	4	(2R,3R,4S,5R)-2-(6-amino-9H-purin-9-yl)-5-(hydroxymethyl)tetrahydrofuran-3,4-diol	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006579358	CCMSLIB00006579358	0.94	4	(2R,3R,4S,5R)-2-(6-amino-9H-purin-9-yl)-5-(hydroxymethyl)tetrahydrofuran-3,4-diol	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00005738652	CCMSLIB00005738652	0.94	4	Massbank:RP010902 Adenosine|(2R,3R,4S,5R)-2-(6-aminopurin-9-yl)-5-(hydroxymethyl)oxolane-3,4-diol	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006684861	CCMSLIB00006684861	0.92	4	ADENOSINE	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006682890	CCMSLIB00006682890	0.92	4	ADENOSINE	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00005738851	CCMSLIB00005738851	0.88	4	Massbank:RP010903 Adenosine|(2R,3R,4S,5R)-2-(6-aminopurin-9-yl)-5-(hydroxymethyl)oxolane-3,4-diol	M+H	1

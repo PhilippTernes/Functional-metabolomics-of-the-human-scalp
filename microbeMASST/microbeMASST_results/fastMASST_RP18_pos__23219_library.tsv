@@ -1,0 +1,16 @@
+USI	GNPSLibraryAccession	Cosine	Matching Peaks	CompoundName	Adduct	Charge
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003138038	CCMSLIB00003138038	0.94	4	Spectral Match to L-Tryptophan from NIST14	M+H-NH3	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003140092	CCMSLIB00003140092	0.93	4	Spectral Match to Abrine from NIST14	M+H-CH3NH2	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003135119	CCMSLIB00003135119	0.92	4	Spectral Match to L-Tryptophan from NIST14	M+H-NH3	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003137596	CCMSLIB00003137596	0.92	4	Spectral Match to Abrine from NIST14	M+H-CH3NH2	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003135970	CCMSLIB00003135970	0.87	4	Spectral Match to L-Tryptophan from NIST14	M+H-NH3	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003138550	CCMSLIB00003138550	0.87	4	Spectral Match to L-Tryptophan from NIST14	M+H-NH3	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003138019	CCMSLIB00003138019	0.86	4	Spectral Match to L-Tryptophan from NIST14	M+H-NH3	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003140231	CCMSLIB00003140231	0.85	4	Spectral Match to Abrine from NIST14	M+H-CH3NH2	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009994544	CCMSLIB00009994544	0.8	4	Suspect related to Spectral Match to L-Tryptophan from NIST14 (predicted molecular formula: C6H13N5S) with delta m/z -17.009 (putative explanation: unspecified; atomic difference: unspecified)	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003135616	CCMSLIB00003135616	0.79	4	Spectral Match to Abrine from NIST14	M+H-CH3NH2	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003137570	CCMSLIB00003137570	0.77	4	Spectral Match to L-Tryptophan from NIST14	M+H-NH3	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003135815	CCMSLIB00003135815	0.76	4	Spectral Match to Abrine from NIST14	M+H-CH3NH2	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003138331	CCMSLIB00003138331	0.76	4	Spectral Match to Abrine from NIST14	M+H-CH3NH2	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003138881	CCMSLIB00003138881	0.74	4	Spectral Match to Abrine from NIST14	M+H-CH3NH2	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00010001417	CCMSLIB00010001417	0.73	4	Suspect related to TRYPTOPHAN (predicted molecular formula: C8H13NO2S) with delta m/z -17.026 (putative explanation: Isopeptide bond formation with loss of ammonia|Loss of ammonia|Pyro-glu from Q; atomic difference: -3H,-1N|-3H,-1N|-3H,-1N)	[M+H]+	1

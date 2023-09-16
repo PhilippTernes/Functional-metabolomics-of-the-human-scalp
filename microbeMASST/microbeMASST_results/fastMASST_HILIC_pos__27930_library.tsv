@@ -1,0 +1,4 @@
+USI	GNPSLibraryAccession	Cosine	Matching Peaks	CompoundName	Adduct	Charge
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00005719966	CCMSLIB00005719966	0.95	6	D-Mannitol	[M+NH4]	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009945401	CCMSLIB00009945401	0.94	6	Suspect related to D-Sorbitol (predicted molecular formula: C6H14O6) with delta m/z 35.037 (putative explanation: unspecified; atomic difference: unspecified)	[M-H2O+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009952326	CCMSLIB00009952326	0.94	6	Suspect related to Maltitol (predicted molecular formula: C6H14O6) with delta m/z -145.027 (putative explanation: unspecified; atomic difference: unspecified)	[M+H]+	1

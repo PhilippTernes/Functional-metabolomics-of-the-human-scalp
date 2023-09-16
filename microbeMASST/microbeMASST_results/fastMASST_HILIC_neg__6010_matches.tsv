@@ -1,0 +1,13 @@
+USI	Cosine	Matching Peaks	Status
+mzspec:MSV000087646:JA_Feb152021_RMmetabolomics_ddMS2IE0neg_LC_POOL_VaginalFluid:scan:1911	0.85	5	NoID
+mzspec:MSV000087646:JA_Feb152021_RMmetabolomics_ddMS2IE1neg_LC_POOL_PlasmaSRM1950:scan:1943	0.83	4	NoID
+mzspec:MSV000081464:J_Fungal_filtrate_24h_170814171922:scan:242	0.82	6	NoID
+mzspec:MSV000084314:MSV000087646:scan:25354	0.81	4	NoID
+mzspec:MSV000087646:JA_Feb152021_RMmetabolomics_ddMS2IE2neg_LC_POOL_VaginalFluid:scan:1967	0.79	4	NoID
+mzspec:MSV000087646:JA_Feb152021_RMmetabolomics_ddMS2IE2neg_LC_POOL_VeganStoolWet:scan:1695	0.78	4	NoID
+mzspec:MSV000087646:JA_Feb152021_RMmetabolomics_ddMS2IE1neg_LC_POOL_VeganStoolWet:scan:1722	0.78	4	NoID
+mzspec:MSV000087646:JA_Feb152021_RMmetabolomics_ddMS2IE2neg_LC_POOL_OmnivoreStoolWet:scan:1679	0.76	4	NoID
+mzspec:MSV000085119:P2_D2_GD2_01_54259:scan:635	0.75	4	NoID
+mzspec:MSV000084314:MSV000085119:scan:11935	0.74	4	NoID
+mzspec:MSV000081464:O_1x_PD_media_fungal:scan:309	0.71	6	NoID
+mzspec:MSV000081464:PD_Media_Fungal:scan:308	0.7	6	NoID

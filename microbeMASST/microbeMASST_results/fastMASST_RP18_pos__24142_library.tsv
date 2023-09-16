@@ -1,0 +1,4 @@
+USI	GNPSLibraryAccession	Cosine	Matching Peaks	CompoundName	Adduct	Charge
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009982194	CCMSLIB00009982194	0.84	4	Suspect related to Sodium_Laureth_Sulfate (predicted molecular formula: C18H38O6S) with delta m/z 28.031 (putative explanation: Acetaldehyde +28|Ala->Val substitution|Cys->Met substitution|Ethylation|di-Methylation; atomic difference: 2C,4H|2C,4H|2C,4H|2C,4H|2C,4H)	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009982195	CCMSLIB00009982195	0.82	4	Suspect related to Sodium_Laureth_Sulfate (predicted molecular formula: C18H40NO5S) with delta m/z 28.055 (putative explanation: unspecified; atomic difference: unspecified)	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00000478609	CCMSLIB00000478609	0.77	4	Likely similar to laureth sulfate A +28 Da compared sodium laureth sulfate	M+H	1

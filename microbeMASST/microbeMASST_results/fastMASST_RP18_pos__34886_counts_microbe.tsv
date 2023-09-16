@@ -1,0 +1,2 @@
+file_usi	Delta Mass	USI	Charge	Cosine	Matching Peaks	Dataset	Status	Filepath	Filename	MassIVE	Taxaname_file	Taxaname_alternative	Taxa_NCBI	Taxa_Assigment	ReDU_Availability	Blank	QC
+mzspec:MSV000090011:Yeast_rpMSn_pos_1_IDX	-0.0	mzspec:MSV000090011:Yeast_rpMSn_pos_1_IDX:scan:3514	1	0.99	4	MSV000090011	NoID	MSV000090011/peak/lipids_MSn_IDX_23_RP_MZML/Yeast_rpMSn_pos_1_IDX.mzML	MSV000090011/Yeast_rpMSn_pos_1_IDX.mzML	MSV000090011	Komagataella phaffii		460519	automatic	No	No	No

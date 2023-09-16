@@ -1,0 +1,3 @@
+USI	GNPSLibraryAccession	Cosine	Matching Peaks	CompoundName	Adduct	Charge
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009965851	CCMSLIB00009965851	0.92	7	Suspect related to N,N'-Diacetylchitobiose (predicted molecular formula: C11H21NO8) with delta m/z -129.044 (putative explanation: Nmethylmaleimidehydrolysis (reverse)|Photo-induced Proline adduct (reverse)|monoglutamyl (reverse)|nan (reverse); atomic difference: -5C,-7H,-1N,-3O|-5C,-7H,-1N,-3O|-5C,-7H,-1N,-3O|-5C,-7H,-1N,-3O)	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009966202	CCMSLIB00009966202	0.92	7	Suspect related to N-Acetyl-D-glucosamine (predicted molecular formula: C11H21NO8) with delta m/z 74.035 (putative explanation: unspecified|unspecified; atomic difference: 1C,4H,3N,1O|3C,6H,2O)	[M+H]+	1

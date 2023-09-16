@@ -1,0 +1,2 @@
+file_usi	Delta Mass	USI	Charge	Cosine	Matching Peaks	Dataset	Status	Filepath	Filename	MassIVE	Taxaname_file	Taxaname_alternative	Taxa_NCBI	Taxa_Assigment	ReDU_Availability	Blank	QC
+mzspec:MSV000085071:P1_F6_GF6_01_52900	0.02	mzspec:MSV000085071:P1_F6_GF6_01_52900:scan:186	1	0.75	4	MSV000085071	NoID	MSV000085071/peak/Mushrooms_POS_P1_mzXML/P1_F6_GF6_01_52900.mzXML	MSV000085071/P1_F6_GF6_01_52900.mzXML	MSV000085071	Cortinarius cacaocolor		560629	automatic	Yes	No	No

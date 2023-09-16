@@ -1,0 +1,7 @@
+USI	GNPSLibraryAccession	Cosine	Matching Peaks	CompoundName	Adduct	Charge
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003136514	CCMSLIB00003136514	0.73	5	Spectral Match to Ile-Pro-Ile from NIST14	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003136121	CCMSLIB00003136121	0.73	5	Spectral Match to Ile-Pro-Ile from NIST14	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003139915	CCMSLIB00003139915	0.72	5	Spectral Match to Ile-Pro-Ile from NIST14	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003134738	CCMSLIB00003134738	0.72	5	Spectral Match to Ile-Pro-Ile from NIST14	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003136674	CCMSLIB00003136674	0.71	5	Spectral Match to Ile-Pro-Ile from NIST14	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009994917	CCMSLIB00009994917	0.71	5	Suspect related to Spectral Match to Leu-Pro from NIST14 (predicted molecular formula: C17H31N3O4) with delta m/z 113.085 (putative explanation: Acetyldeoxyhypusine|Serine; atomic difference: 6C,11H,1N,1O|6C,11H,1N,1O)	[M+H]+	1

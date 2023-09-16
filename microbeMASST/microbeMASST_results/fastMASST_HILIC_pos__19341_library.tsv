@@ -1,0 +1,4 @@
+USI	GNPSLibraryAccession	Cosine	Matching Peaks	CompoundName	Adduct	Charge
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009966183	CCMSLIB00009966183	1.0	8	Suspect related to N-Acetyl-D-galactosamine (predicted molecular formula: C11H21NO9) with delta m/z 90.031 (putative explanation: unspecified; atomic difference: unspecified)	[M-2H2O+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009966208	CCMSLIB00009966208	0.99	7	Suspect related to N-Acetyl-D-glucosamine (predicted molecular formula: C11H21NO9) with delta m/z 90.031 (putative explanation: unspecified; atomic difference: unspecified)	[M-2H2O+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009966178	CCMSLIB00009966178	0.87	6	Suspect related to N-Acetyl-.beta.-D-mannosamine (predicted molecular formula: C11H21NO9) with delta m/z 90.031 (putative explanation: unspecified; atomic difference: unspecified)	[M-2H2O+H]+	1

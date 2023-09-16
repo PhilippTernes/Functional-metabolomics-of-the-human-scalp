@@ -1,0 +1,14 @@
+USI	GNPSLibraryAccession	Cosine	Matching Peaks	CompoundName	Adduct	Charge
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00000425117	CCMSLIB00000425117	1.0	6	HMDB:HMDB02040-1963 4-Methoxycinnamic acid	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00000222823	CCMSLIB00000222823	1.0	6	Massbank:PR040235 4-Methoxycinnamic acid|3-(4-methoxyphenyl)prop-2-enoic acid	[M+H]	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00000222815	CCMSLIB00000222815	0.94	5	Massbank:PR040224 2-Methoxycinnamic acid|(E)-3-(2-methoxyphenyl)prop-2-enoic acid	[M+H]	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00000222825	CCMSLIB00000222825	0.91	5	Massbank:PR040237 4-Methoxycinnamic acid|3-(4-methoxyphenyl)prop-2-enoic acid	[M+H]	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00000841605	CCMSLIB00000841605	0.88	5	MassbankEU:SM821404 4-Methoxycinnamic acid|(E)-3-(4-methoxyphenyl)prop-2-enoic acid	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00000579922	CCMSLIB00000579922	0.88	5	4-Methoxycinnamic acid	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00000222813	CCMSLIB00000222813	0.85	5	Massbank:PR040222 2-Methoxycinnamic acid|(E)-3-(2-methoxyphenyl)prop-2-enoic acid	[M+H]	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00000222820	CCMSLIB00000222820	0.83	4	Massbank:PR040230 3-Methoxycinnamic acid|trans-3-Methoxycinnamic acid|(E)-3-(3-methoxyphenyl)prop-2-enoic acid	[M+H]	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00010121628	CCMSLIB00010121628	0.82	4	4-Methoxycinnamic acid CollisionEnergy:205060	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00000426652	CCMSLIB00000426652	0.79	5	HMDB:HMDB02040-1964 4-Methoxycinnamic acid	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00000222822	CCMSLIB00000222822	0.78	4	Massbank:PR040232 3-Methoxycinnamic acid|trans-3-Methoxycinnamic acid|(E)-3-(3-methoxyphenyl)prop-2-enoic acid	[M+H]	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003139183	CCMSLIB00003139183	0.78	4	Spectral Match to 2-Propenoic acid, 3-(4-methoxyphenyl)- from NIST14	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00010110288	CCMSLIB00010110288	0.72	4	4-Methoxycinnamic acid CollisionEnergy:102040	M+H	1

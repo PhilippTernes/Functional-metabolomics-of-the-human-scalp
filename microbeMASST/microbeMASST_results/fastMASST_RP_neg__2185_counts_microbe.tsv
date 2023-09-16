@@ -1,0 +1,2 @@
+file_usi	Delta Mass	USI	Charge	Cosine	Matching Peaks	Dataset	Status	Filepath	Filename	MassIVE	Taxaname_file	Taxaname_alternative	Taxa_NCBI	Taxa_Assigment	ReDU_Availability	Blank	QC
+mzspec:MSV000085071:P1_F1_GF1_01_53154	0.04	mzspec:MSV000085071:P1_F1_GF1_01_53154:scan:1798	1	0.75	8	MSV000085071	NoID	MSV000085071/peak/Mushrooms_NEG_P1_mzXML/P1_F1_GF1_01_53154.mzXML	MSV000085071/P1_F1_GF1_01_53154.mzXML	MSV000085071	Cortinarius anomalovelatus		1469658	automatic	Yes	No	No

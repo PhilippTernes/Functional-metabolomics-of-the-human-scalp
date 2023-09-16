@@ -1,0 +1,3 @@
+USI	GNPSLibraryAccession	Cosine	Matching Peaks	CompoundName	Adduct	Charge
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009945973	CCMSLIB00009945973	0.97	5	Suspect related to Di(2-ethylhexyl)phthalate (DEHP) (predicted molecular formula: C19H41N3O6) with delta m/z 17.027 (putative explanation: replacement of proton with ammonium ion; atomic difference: 3H,1N)	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009990935	CCMSLIB00009990935	0.95	5	Suspect related to Spectral Match to Bis(2-ethylhexyl) phthalate from NIST14 (predicted molecular formula: C24H41NO4) with delta m/z 17.027 (putative explanation: replacement of proton with ammonium ion; atomic difference: 3H,1N)	[M+H]+	1

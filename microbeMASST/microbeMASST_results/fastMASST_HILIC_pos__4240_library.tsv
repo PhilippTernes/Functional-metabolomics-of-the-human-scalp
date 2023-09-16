@@ -1,0 +1,24 @@
+USI	GNPSLibraryAccession	Cosine	Matching Peaks	CompoundName	Adduct	Charge
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00005720332	CCMSLIB00005720332	0.98	5	5'-METHYLTHIOADENOSINE	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00010108313	CCMSLIB00010108313	0.98	4	Methylthioadenosine CollisionEnergy:102040	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009941327	CCMSLIB00009941327	0.98	5	Suspect related to ADENOSINE (predicted molecular formula: C8H15N3O9) with delta m/z 29.983 (putative explanation: unspecified; atomic difference: unspecified)	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009963186	CCMSLIB00009963186	0.98	5	Suspect related to Massbank:RP031202 2`-O-Methyladenosine|(2R,3R,4R,5R)-5-(6-aminopurin-9-yl)-2-(hydroxymethyl)-4-methoxyoxolan-3-ol (predicted molecular formula: C8H15N3O9) with delta m/z 15.976 (putative explanation: Ser->Cys substitution|thiocarboxylic acid|sodium to potassium adduct|lithium to sodium adduct; atomic difference: -1O,1S|-1O,1S|none_adduct|none_adduct)	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00010119651	CCMSLIB00010119651	0.97	4	Methylthioadenosine CollisionEnergy:205060	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00010108090	CCMSLIB00010108090	0.97	4	MeSAdo CollisionEnergy:102040	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003135392	CCMSLIB00003135392	0.96	4	Spectral Match to Adenosine, 5'-S-methyl-5'-thio- from NIST14	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00010126598	CCMSLIB00010126598	0.96	4	Methylthioadenosine CollisionEnergy:102040	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00010119425	CCMSLIB00010119425	0.96	4	MeSAdo CollisionEnergy:205060	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00010102983	CCMSLIB00010102983	0.96	4	Methylthioadenosine CollisionEnergy:102040	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009974536	CCMSLIB00009974536	0.96	5	Suspect related to NCGC00385000-01_C15H18O8_beta-D-Glucopyranose, 1-O-[(2E)-3-(2-hydroxyphenyl)-1-oxo-2-propen-1-yl]- (predicted molecular formula: C11H17N5O4S) with delta m/z -11.004 (putative explanation: unspecified; atomic difference: unspecified)	[M-H2O+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00005464312	CCMSLIB00005464312	0.96	4	METHYLTHIOADENOSINE	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009945507	CCMSLIB00009945507	0.96	5	Suspect related to DEOXYADENOSINE (predicted molecular formula: C11H17N5O4S) with delta m/z 45.985 (putative explanation: Beta-methylthiolation|Gly->Cys substitution; atomic difference: 1C,2H,1S|1C,2H,1S)	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00000577895	CCMSLIB00000577895	0.96	4	5'-METHYLTHIOADENOSINE	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009941328	CCMSLIB00009941328	0.96	4	Suspect related to ADENOSINE (predicted molecular formula: C11H15N5O3S) with delta m/z 29.996 (putative explanation: Thr->Met substitution|unspecified; atomic difference: 1C,2H,-1O,1S|1N,1O)	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009953972	CCMSLIB00009953972	0.95	4	Suspect related to Massbank:EQ330404 Adenosine|(2R,3R,4S,5R)-2-(6-aminopurin-9-yl)-5-(hydroxymethyl)oxolane-3,4-diol (predicted molecular formula: C11H15N5O3S) with delta m/z 29.996 (putative explanation: Thr->Met substitution|unspecified; atomic difference: 1C,2H,-1O,1S|1N,1O)	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009962297	CCMSLIB00009962297	0.94	4	Suspect related to Massbank:RP010902 Adenosine|(2R,3R,4S,5R)-2-(6-aminopurin-9-yl)-5-(hydroxymethyl)oxolane-3,4-diol (predicted molecular formula: C11H15N5O3S) with delta m/z 29.996 (putative explanation: Thr->Met substitution|unspecified; atomic difference: 1C,2H,-1O,1S|1N,1O)	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009941544	CCMSLIB00009941544	0.94	4	Suspect related to Adenosine 5_-monophosphate (predicted molecular formula: C11H15N5O3S) with delta m/z -49.982 (putative explanation: unspecified; atomic difference: unspecified)	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00005883734	CCMSLIB00005883734	0.94	4	METHYLTHIOADENOSINE - 60.0 eV	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00005746499	CCMSLIB00005746499	0.94	4	Massbank:PR310810 Adenosine + C2H5S	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00005883735	CCMSLIB00005883735	0.93	4	METHYLTHIOADENOSINE - 70.0 eV	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00000426074	CCMSLIB00000426074	0.92	4	HMDB:HMDB01173-1450 5'-Methylthioadenosine	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006684689	CCMSLIB00006684689	0.92	4	5'-METHYLTHIOADENOSINE	M+H	1

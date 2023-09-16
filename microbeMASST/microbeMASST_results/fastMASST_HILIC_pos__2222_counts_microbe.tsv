@@ -1,0 +1,2 @@
+file_usi	Delta Mass	USI	Charge	Cosine	Matching Peaks	Dataset	Status	Filepath	Filename	MassIVE	Taxaname_file	Taxaname_alternative	Taxa_NCBI	Taxa_Assigment	ReDU_Availability	Blank	QC
+mzspec:MSV000086312:Frass_13GA_LCMSMS	-0.0	mzspec:MSV000086312:Frass_13GA_LCMSMS:scan:2129	1	0.71	4	MSV000086312	NoID	MSV000086312/ccms_peak/Frass_LCMSMS/Untargeted_Runs/Frass_13GA_LCMSMS.mzML	MSV000086312/Frass_13GA_LCMSMS.mzML	MSV000086312	Odontotaenius disjunctus		295546	automatic	No	No	No

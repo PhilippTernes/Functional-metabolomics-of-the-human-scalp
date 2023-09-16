@@ -1,0 +1,3 @@
+USI	GNPSLibraryAccession	Cosine	Matching Peaks	CompoundName	Adduct	Charge
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009998292	CCMSLIB00009998292	0.97	5	Suspect related to Spectral Match to PyroGlu-Phe from NIST14 (predicted molecular formula: C10H16N2O4) with delta m/z -48.0 (putative explanation: Phe->Val substitution; atomic difference: -4C)	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003139626	CCMSLIB00003139626	0.89	5	Spectral Match to PyroGlu-Val from NIST14	M+H	1

@@ -1,0 +1,2 @@
+file_usi	Delta Mass	USI	Charge	Cosine	Matching Peaks	Dataset	Status	Filepath	Filename	MassIVE	Taxaname_file	Taxaname_alternative	Taxa_NCBI	Taxa_Assigment	ReDU_Availability	Blank	QC
+mzspec:MSV000085071:P1_G3_GG3_01_53169	0.02	mzspec:MSV000085071:P1_G3_GG3_01_53169:scan:1356	1	0.71	4	MSV000085071	NoID	MSV000085071/peak/Mushrooms_NEG_P1_mzXML/P1_G3_GG3_01_53169.mzXML	MSV000085071/P1_G3_GG3_01_53169.mzXML	MSV000085071	Aureoboletus mirabilis		1661726	automatic	Yes	No	No

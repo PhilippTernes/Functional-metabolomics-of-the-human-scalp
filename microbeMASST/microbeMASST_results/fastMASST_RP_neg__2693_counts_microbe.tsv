@@ -1,0 +1,3 @@
+file_usi	Delta Mass	USI	Charge	Cosine	Matching Peaks	Dataset	Status	Filepath	Filename	MassIVE	Taxaname_file	Taxaname_alternative	Taxa_NCBI	Taxa_Assigment	ReDU_Availability	Blank	QC
+mzspec:MSV000085071:P3_A9_BA9_01_52806	-0.01	mzspec:MSV000085071:P3_A9_BA9_01_52806:scan:1188	1	0.85	4	MSV000085071	NoID	MSV000085071/peak/Mushrooms_NEG_P3_mzXML/P3_A9_BA9_01_52806.mzXML	MSV000085071/P3_A9_BA9_01_52806.mzXML	MSV000085071	Cantharellus cascadensis		168159	automatic	Yes	No	No
+mzspec:MSV000085071:P1_H11_GH11_01_53190	-0.01	mzspec:MSV000085071:P1_H11_GH11_01_53190:scan:1175	1	0.76	4	MSV000085071	NoID	MSV000085071/peak/Mushrooms_NEG_P1_mzXML/P1_H11_GH11_01_53190.mzXML	MSV000085071/P1_H11_GH11_01_53190.mzXML	MSV000085071	Chalciporus piperatus		145387	automatic	Yes	No	No

@@ -1,0 +1,11 @@
+USI	GNPSLibraryAccession	Cosine	Matching Peaks	CompoundName	Adduct	Charge
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003137398	CCMSLIB00003137398	0.9	6	Spectral Match to His-Pro from NIST14	M+H-H2O	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009949426	CCMSLIB00009949426	0.9	6	Suspect related to His-Ile (predicted molecular formula: unknown) with delta m/z -16.031 (putative explanation: Leu/Ile->Pro substitution; atomic difference: -1C,-4H)	[M-H2O+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003138069	CCMSLIB00003138069	0.89	6	Spectral Match to His-Pro from NIST14	M+H-H2O	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003140218	CCMSLIB00003140218	0.88	6	Spectral Match to His-Pro from NIST14	M+H-H2O	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003134833	CCMSLIB00003134833	0.88	6	Spectral Match to His-Pro from NIST14	M+H-H2O	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003136527	CCMSLIB00003136527	0.86	5	Spectral Match to His-Pro from NIST14	M+H-H2O	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009948266	CCMSLIB00009948266	0.86	5	Suspect related to Glu-His (predicted molecular formula: C11H14N4O2) with delta m/z -50.003 (putative explanation: nan (reverse)|nan (reverse); atomic difference: -2H,-3O|-3C,-1N)	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009949431	CCMSLIB00009949431	0.86	5	Suspect related to His-Phe (predicted molecular formula: unknown) with delta m/z -50.015 (putative explanation: Phe->Pro substitution; atomic difference: -4C,-2H)	[M-H2O+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009993901	CCMSLIB00009993901	0.86	5	Suspect related to Spectral Match to His-Ile from NIST14 (predicted molecular formula: unknown) with delta m/z -16.031 (putative explanation: Leu/Ile->Pro substitution; atomic difference: -1C,-4H)	[M-H2O+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003139663	CCMSLIB00003139663	0.76	4	Spectral Match to His-Pro from NIST14	M+H-H2O	1

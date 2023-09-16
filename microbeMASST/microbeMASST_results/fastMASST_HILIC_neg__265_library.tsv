@@ -1,0 +1,19 @@
+USI	GNPSLibraryAccession	Cosine	Matching Peaks	CompoundName	Adduct	Charge
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006679719	CCMSLIB00006679719	0.98	5	TYROSINE	M-H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00010001420	CCMSLIB00010001420	0.97	5	Suspect related to TRYPTOPHAN (predicted molecular formula: C9H11NO3) with delta m/z -23.015 (putative explanation: His->Asn substitution|Trp->Tyr substitution; atomic difference: -2C,-1H,-1N,1O|-2C,-1H,-1N,1O)	[M-H]-	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009950324	CCMSLIB00009950324	0.97	5	Suspect related to L-TRYPTOPHAN (predicted molecular formula: C9H11NO3) with delta m/z -23.015 (putative explanation: His->Asn substitution|Trp->Tyr substitution; atomic difference: -2C,-1H,-1N,1O|-2C,-1H,-1N,1O)	[M-H]-	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006112566	CCMSLIB00006112566	0.97	5	L-(-)-Tyrosine - 40.0 eV	M-H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006112568	CCMSLIB00006112568	0.97	5	L-(-)-Tyrosine - 40.0 eV	M-H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006112569	CCMSLIB00006112569	0.97	5	L-(-)-Tyrosine - 40.0 eV	M-H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00010126261	CCMSLIB00010126261	0.96	5	L-tyrosine CollisionEnergy:102040	M-H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00010102646	CCMSLIB00010102646	0.96	5	L-tyrosine CollisionEnergy:102040	M-H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00000578142	CCMSLIB00000578142	0.96	5	L-TYROSINE	M-H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009994577	CCMSLIB00009994577	0.96	5	Suspect related to Spectral Match to L-Tryptophan from NIST14 (predicted molecular formula: C9H11NO3) with delta m/z -23.015 (putative explanation: His->Asn substitution|Trp->Tyr substitution; atomic difference: -2C,-1H,-1N,1O|-2C,-1H,-1N,1O)	[M-H]-	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006112570	CCMSLIB00006112570	0.96	5	L-(-)-Tyrosine - 40.0 eV	M-H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009950345	CCMSLIB00009950345	0.96	5	Suspect related to L-Tryptophan (predicted molecular formula: C9H11NO3) with delta m/z -23.015 (putative explanation: His->Asn substitution|Trp->Tyr substitution; atomic difference: -2C,-1H,-1N,1O|-2C,-1H,-1N,1O)	[M-H]-	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006112567	CCMSLIB00006112567	0.96	5	L-(-)-Tyrosine - 40.0 eV	M-H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006112571	CCMSLIB00006112571	0.95	5	L-(-)-Tyrosine - 30.0 eV	M-H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006112572	CCMSLIB00006112572	0.94	5	L-(-)-Tyrosine - 30.0 eV	M-H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006112574	CCMSLIB00006112574	0.93	5	L-(-)-Tyrosine - 30.0 eV	M-H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006112573	CCMSLIB00006112573	0.93	5	L-(-)-Tyrosine - 30.0 eV	M-H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006683595	CCMSLIB00006683595	0.84	4	TYROSINE	M-H	1

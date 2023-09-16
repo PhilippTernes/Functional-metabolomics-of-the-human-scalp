@@ -1,0 +1,3 @@
+USI	GNPSLibraryAccession	Cosine	Matching Peaks	CompoundName	Adduct	Charge
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009996091	CCMSLIB00009996091	0.7	8	Suspect related to Spectral Match to Monopalmitolein (9c) from NIST14 (predicted molecular formula: C20H38O3) with delta m/z -1.98 (putative explanation: Thr->Val substitution; atomic difference: 1C,2H,-1O)	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00010000074	CCMSLIB00010000074	0.7	8	Suspect related to Spectral Match to cis-7-Hexadecenoic acid methyl ester from NIST14 (predicted molecular formula: C20H38O3) with delta m/z 58.042 (putative explanation: unspecified|PPG repeat unit|Reduced acrolein addition +58; atomic difference: 1C,4H,3N|3C,6H,1O|3C,6H,1O)	[M+H]+	1

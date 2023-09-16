@@ -1,0 +1,4 @@
+USI	GNPSLibraryAccession	Cosine	Matching Peaks	CompoundName	Adduct	Charge
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00005774283	CCMSLIB00005774283	0.89	4	Massbank:AU239460 Canrenone|(9S,14S)-10,13-dimethylspiro[2,8,9,11,12,14,15,16-octahydro-1H-cyclopenta[a]phenanthrene-17,5`-oxolane]-2`,3-dione	M-H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009990769	CCMSLIB00009990769	0.74	4	Suspect related to Spectral Match to Benzenesulfonic acid, 4-undecyl- from NIST14 (predicted molecular formula: unknown) with delta m/z 28.04 (putative explanation: Gln->Arg substitution; atomic difference: 1C,4H,2N,-1O)	[M-H]-	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00004700117	CCMSLIB00004700117	0.7	4	[5-acetyloxy-3-(hydroxymethyl)-2-oxo-6-propan-2-ylcyclohex-3-en-1-yl] 3-methylpentanoate	[M-H]-	1

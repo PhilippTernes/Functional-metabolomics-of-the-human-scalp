@@ -1,0 +1,4 @@
+USI	GNPSLibraryAccession	Cosine	Matching Peaks	CompoundName	Adduct	Charge
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003136188	CCMSLIB00003136188	0.94	4	Spectral Match to N-Oleoyl-4-sphingenine from NIST14	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009943953	CCMSLIB00009943953	0.87	4	Suspect related to Ceramide (18:1/16:0) (predicted molecular formula: C36H69NO3) with delta m/z 26.016 (putative explanation: Acetaldehyde +26|Ala->Pro substitution|unspecified; atomic difference: 2C,2H|2C,2H|2C,2H)	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009943952	CCMSLIB00009943952	0.87	4	Suspect related to Ceramide (18:1/16:0) (predicted molecular formula: C29H67N6O4) with delta m/z 26.003 (putative explanation: unspecified|His->Tyr substitution; atomic difference: 1C,1N|3C,2H,-2N,1O)	[M+H]+	1

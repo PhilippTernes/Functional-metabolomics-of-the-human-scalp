@@ -1,0 +1,4 @@
+USI	GNPSLibraryAccession	Cosine	Matching Peaks	CompoundName	Adduct	Charge
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009966899	CCMSLIB00009966899	0.84	4	Suspect related to N-[1,3-dihydroxyoctadec-4-en-2-yl]tetracos-15-enamide (predicted molecular formula: C32H65NO4) with delta m/z -120.13 (putative explanation: unspecified; atomic difference: unspecified)	[M-H2O+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009966077	CCMSLIB00009966077	0.76	4	Suspect related to N-(Eicosanoyl)sphingosine (predicted molecular formula: C32H63NO3) with delta m/z -84.094 (putative explanation: unspecified; atomic difference: unspecified)	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009965941	CCMSLIB00009965941	0.72	4	Suspect related to N-(1,3-dihydroxyoctadec-4-en-2-yl)tetradecanamide (predicted molecular formula: C32H65NO4) with delta m/z 18.01 (putative explanation: Proline oxidation to 5-hydroxy-2-aminovaleric acid|water; atomic difference: 2H,1O|2H,1O)	[M-H2O+H]+	1

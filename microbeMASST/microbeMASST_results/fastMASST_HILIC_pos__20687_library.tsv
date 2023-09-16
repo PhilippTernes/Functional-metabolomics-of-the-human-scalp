@@ -1,0 +1,4 @@
+USI	GNPSLibraryAccession	Cosine	Matching Peaks	CompoundName	Adduct	Charge
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009963016	CCMSLIB00009963016	0.91	4	Suspect related to Massbank:RP029902 N-Oleoyl-Phenylalanine|N-oleoyl phenylalanine|(2S)-2-[[(Z)-octadec-9-enoyl]amino]-3-phenylpropanoic acid (predicted molecular formula: C14H33N9O3) with delta m/z -54.047 (putative explanation: nan (reverse); atomic difference: -4C,-6H)	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009972067	CCMSLIB00009972067	0.91	4	Suspect related to NCGC00380823-01!2-(14-methylpentadecanoylamino)-3-phenylpropanoic acid (predicted molecular formula: C14H33N9O3) with delta m/z -28.031 (putative explanation: Desethylation, didemethylation, dealkylation|Met->Cys substitution|Val->Ala substitution; atomic difference: -2C,-4H|-2C,-4H|-2C,-4H)	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00010010717	CCMSLIB00010010717	0.87	4	Phe-C14:0	M+H	1

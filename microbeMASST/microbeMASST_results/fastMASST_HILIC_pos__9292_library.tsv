@@ -1,0 +1,4 @@
+USI	GNPSLibraryAccession	Cosine	Matching Peaks	CompoundName	Adduct	Charge
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009993875	CCMSLIB00009993875	0.96	4	Suspect related to Spectral Match to His Trp from METLIN (predicted molecular formula: C15H18N4O3) with delta m/z -39.012 (putative explanation: Trp->Phe substitution; atomic difference: -2C,-1H,-1N)	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009997715	CCMSLIB00009997715	0.96	4	Suspect related to Spectral Match to Phe-Phe from NIST14 (predicted molecular formula: unknown) with delta m/z -10.009 (putative explanation: Phe->His substitution; atomic difference: -3C,-2H,2N)	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009993892	CCMSLIB00009993892	0.95	4	Suspect related to Spectral Match to His-Ile from NIST14 (predicted molecular formula: C15H18N4O3) with delta m/z 33.985 (putative explanation: Leu/Ile->Phe substitution; atomic difference: 3C,-2H)	[M+H]+	1

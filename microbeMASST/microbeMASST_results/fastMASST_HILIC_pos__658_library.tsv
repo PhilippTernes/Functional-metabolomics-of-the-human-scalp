@@ -1,0 +1,4 @@
+USI	GNPSLibraryAccession	Cosine	Matching Peaks	CompoundName	Adduct	Charge
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00000221813	CCMSLIB00000221813	1.0	4	Massbank:PB000468 Glutamine|2,5-diamino-5-oxopentanoic acid	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003134968	CCMSLIB00003134968	0.93	4	Spectral Match to L-Glutamine from NIST14	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003137575	CCMSLIB00003137575	0.92	4	Spectral Match to L-Glutamine from NIST14	M+H	1

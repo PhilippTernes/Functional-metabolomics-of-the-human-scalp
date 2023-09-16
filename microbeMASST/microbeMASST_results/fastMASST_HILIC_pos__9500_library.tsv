@@ -1,0 +1,10 @@
+USI	GNPSLibraryAccession	Cosine	Matching Peaks	CompoundName	Adduct	Charge
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00005467721	CCMSLIB00005467721	0.97	4	Stachyose	M+Na	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00010103021	CCMSLIB00010103021	0.9	4	Stachyose CollisionEnergy:102040	M+Na	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00010126636	CCMSLIB00010126636	0.9	4	Stachyose CollisionEnergy:102040	M+Na	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00005464605	CCMSLIB00005464605	0.86	4	STACHYOSE	M+Na	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009952515	CCMSLIB00009952515	0.84	4	Suspect related to Maltotriose (predicted molecular formula: C24H42O21) with delta m/z 162.053 (putative explanation: Glucuronidation|Hexose; atomic difference: 6C,10H,5O|6C,10H,5O)	[M+Na]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009980029	CCMSLIB00009980029	0.81	4	Suspect related to Polysaccharide Hexose x5 (predicted molecular formula: C42H30N6O3) with delta m/z -162.052 (putative explanation: Glucuronidation (reverse)|Hexose (reverse); atomic difference: -6C,-10H,-5O|-6C,-10H,-5O)	[M+Na]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009980945	CCMSLIB00009980945	0.81	4	Suspect related to RAFFINOSE (predicted molecular formula: C31H38O16) with delta m/z 162.053 (putative explanation: Glucuronidation|Hexose; atomic difference: 6C,10H,5O|6C,10H,5O)	[M+Na]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003138778	CCMSLIB00003138778	0.78	4	Spectral Match to Stachyose from NIST14	M+Na	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003135708	CCMSLIB00003135708	0.74	4	Spectral Match to Glycan 3.alpha.,4.beta.,3.alpha.-Galactotetraose from NIST14	M+Na	1

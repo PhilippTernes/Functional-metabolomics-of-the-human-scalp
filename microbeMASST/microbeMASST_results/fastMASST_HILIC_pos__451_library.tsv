@@ -1,0 +1,4 @@
+USI	GNPSLibraryAccession	Cosine	Matching Peaks	CompoundName	Adduct	Charge
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003139655	CCMSLIB00003139655	0.88	7	Spectral Match to Phytosphingosine from NIST14	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009979684	CCMSLIB00009979684	0.85	6	Suspect related to Phytosphingosine (predicted molecular formula: C21H39N2O) with delta m/z 18.01 (putative explanation: Proline oxidation to 5-hydroxy-2-aminovaleric acid|water; atomic difference: 2H,1O|2H,1O)	[M-H2O+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003134993	CCMSLIB00003134993	0.85	6	Spectral Match to Phytosphingosine from NIST14	M+H	1

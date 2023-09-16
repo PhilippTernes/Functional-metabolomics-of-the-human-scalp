@@ -1,0 +1,15 @@
+USI	GNPSLibraryAccession	Cosine	Matching Peaks	CompoundName	Adduct	Charge
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006121208	CCMSLIB00006121208	0.98	5	2'-Deoxyadenosine - 40.0 eV	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006121212	CCMSLIB00006121212	0.98	5	2'-Deoxyadenosine - 40.0 eV	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006121216	CCMSLIB00006121216	0.98	5	2'-Deoxyadenosine - 40.0 eV	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006121206	CCMSLIB00006121206	0.97	4	2'-Deoxyadenosine - 40.0 eV	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009993666	CCMSLIB00009993666	0.97	4	Suspect related to Spectral Match to Guanosine, 2'-deoxy- from NIST14 (predicted molecular formula: unknown) with delta m/z -15.995 (putative explanation: Ser->Ala substitution|Tyr->Phe substitution|reduction; atomic difference: -1O|-1O|-1O)	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00004719801	CCMSLIB00004719801	0.97	5	2'-deoxyadenosine	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006681298	CCMSLIB00006681298	0.97	4	5'-DEOXYADENOSINE	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009963183	CCMSLIB00009963183	0.96	4	Suspect related to Massbank:RP031202 2`-O-Methyladenosine|(2R,3R,4R,5R)-5-(6-aminopurin-9-yl)-2-(hydroxymethyl)-4-methoxyoxolan-3-ol (predicted molecular formula: C8H17N3O4S) with delta m/z -30.01 (putative explanation: Decarboxylation|Demethoxylation|Proline oxidation to pyrrolidinone|Ser->Gly substitution|Thr->Ala substitution; atomic difference: -1C,-2H,-1O|-1C,-2H,-1O|-1C,-2H,-1O|-1C,-2H,-1O|-1C,-2H,-1O)	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006121210	CCMSLIB00006121210	0.96	4	2'-Deoxyadenosine - 40.0 eV	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00010124739	CCMSLIB00010124739	0.96	4	2'-deoxyadenosine CollisionEnergy:205060	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00010124740	CCMSLIB00010124740	0.96	4	2'-deoxyadenosine CollisionEnergy:205060	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006121214	CCMSLIB00006121214	0.95	4	2'-Deoxyadenosine - 40.0 eV	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00005884560	CCMSLIB00005884560	0.94	4	2'-DEOXYADENOSINE - 50.0 eV	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00004691398	CCMSLIB00004691398	0.84	4	2'-deoxyadenosine	[M+H]+	1

@@ -1,0 +1,5 @@
+file_usi	Delta Mass	USI	Charge	Cosine	Matching Peaks	Dataset	Status	Filepath	Filename	MassIVE	Taxaname_file	Taxaname_alternative	Taxa_NCBI	Taxa_Assigment	ReDU_Availability	Blank	QC
+mzspec:MSV000083835:7 SJ on SA meth-neg	-0.0	mzspec:MSV000083835:7 SJ on SA meth-neg:scan:424	1	0.72	5	MSV000083835	NoID	MSV000083835/updates/2019-05-21_lfnothias_ad043d61/peak/Methanol/SJ/7 SJ on SA meth-neg.mzXML	MSV000083835/7 SJ on SA meth-neg.mzXML	MSV000083835	Streptomyces		1883	automatic	No	No	No
+mzspec:MSV000083835:7	-0.0	mzspec:MSV000083835:7:scan:424	1	0.72	5	MSV000083835	NoID	MSV000083835/ccms_peak/MeOH_Neg_RAW/7.mzML	MSV000083835/7.mzML	MSV000083835	Streptomyces		1883	automatic	No	No	No
+mzspec:MSV000087629:7+SJ+on+SA+meth-neg	-0.0	mzspec:MSV000087629:7+SJ+on+SA+meth-neg:scan:424	1	0.72	5	MSV000087629	NoID	MSV000087629/ccms_peak/7+SJ+on+SA+meth-neg.mzML	MSV000087629/7+SJ+on+SA+meth-neg.mzML	MSV000087629	Streptomyces jumonjinensis		1945	automatic	No	No	No
+mzspec:MSV000084884:w20_15366n	-0.0	mzspec:MSV000084884:w20_15366n:scan:678	1	0.71	6	MSV000084884	NoID	MSV000084884/ccms_peak/w20_15366n.mzML	MSV000084884/w20_15366n.mzML	MSV000084884	Bacteria		2	automatic	No	No	No

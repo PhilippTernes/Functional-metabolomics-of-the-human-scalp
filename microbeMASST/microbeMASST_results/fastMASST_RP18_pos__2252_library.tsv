@@ -1,0 +1,8 @@
+USI	GNPSLibraryAccession	Cosine	Matching Peaks	CompoundName	Adduct	Charge
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009996965	CCMSLIB00009996965	0.81	6	Suspect related to Spectral Match to Nonaethylene glycol from NIST14 (predicted molecular formula: unknown) with delta m/z 61.053 (putative explanation: unspecified|unspecified; atomic difference: 2C,7H,1N,1O|5H,4N)	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00005489649	CCMSLIB00005489649	0.78	5	Spectral Match to Decaethylene glycol from NIST14 [IIN-based on: CCMSLIB00003135910]	[M+NH4]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009992275	CCMSLIB00009992275	0.77	6	Suspect related to Spectral Match to Decaethylene glycol from NIST14 (predicted molecular formula: unknown) with delta m/z 17.027 (putative explanation: replacement of proton with ammonium ion; atomic difference: 3H,1N)	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00005489422	CCMSLIB00005489422	0.75	4	Spectral Match to Decaethylene glycol from NIST14 [IIN-based on: CCMSLIB00003135910]	[M+NH4]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00005489502	CCMSLIB00005489502	0.75	4	Spectral Match to Decaethylene glycol from NIST14 [IIN-based on: CCMSLIB00003135910]	[M+NH4]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00005489699	CCMSLIB00005489699	0.71	4	Spectral Match to Decaethylene glycol from NIST14 [IIN-based on: CCMSLIB00003135910]	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009993788	CCMSLIB00009993788	0.7	4	Suspect related to Spectral Match to Hexaethylene glycol from NIST14 (predicted molecular formula: C21H41N5O7) with delta m/z 193.132 (putative explanation: unspecified; atomic difference: unspecified)	[M+H]+	1

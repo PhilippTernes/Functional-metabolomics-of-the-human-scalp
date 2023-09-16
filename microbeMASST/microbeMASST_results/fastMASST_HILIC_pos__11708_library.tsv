@@ -1,0 +1,28 @@
+USI	GNPSLibraryAccession	Cosine	Matching Peaks	CompoundName	Adduct	Charge
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003138860	CCMSLIB00003138860	0.85	4	Spectral Match to Abrine from NIST14	M+H-CH3NH2	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003140227	CCMSLIB00003140227	0.83	5	Spectral Match to 3-Indoleacrylic acid from NIST14	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003135135	CCMSLIB00003135135	0.83	5	Spectral Match to DL-Indole-3-lactic acid from NIST14	M+H-H2O	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003134840	CCMSLIB00003134840	0.81	5	Spectral Match to L-Tryptophan from NIST14	M+H-NH3	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003136168	CCMSLIB00003136168	0.8	4	Spectral Match to 3-Indoleacrylic acid from NIST14	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003138382	CCMSLIB00003138382	0.8	5	Spectral Match to L-Tryptophan from NIST14	M+H-NH3	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003139639	CCMSLIB00003139639	0.8	5	Spectral Match to DL-Indole-3-lactic acid from NIST14	M+H-H2O	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006681159	CCMSLIB00006681159	0.78	4	INDOLEACRYLIC ACID	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003137380	CCMSLIB00003137380	0.78	5	Spectral Match to DL-Indole-3-lactic acid from NIST14	M+H-H2O	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003138367	CCMSLIB00003138367	0.78	4	Spectral Match to 3-Indoleacrylic acid from NIST14	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003139753	CCMSLIB00003139753	0.76	5	Spectral Match to L-Tryptophan from NIST14	M+H-NH3	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006114712	CCMSLIB00006114712	0.76	4	NL3680000 - 40.0 eV	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006114713	CCMSLIB00006114713	0.76	4	NL3680000 - 40.0 eV	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006114702	CCMSLIB00006114702	0.76	4	NL3680000 - 40.0 eV	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003135102	CCMSLIB00003135102	0.75	5	Spectral Match to L-Tryptophan from NIST14	M+H-NH3	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006114711	CCMSLIB00006114711	0.75	4	NL3680000 - 40.0 eV	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006682311	CCMSLIB00006682311	0.75	4	INDOLEACRYLIC ACID	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006684093	CCMSLIB00006684093	0.74	4	INDOLEACRYLIC ACID	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009932980	CCMSLIB00009932980	0.74	5	Suspect related to 1H-Indole-3-carboxylic acid (predicted molecular formula: C11H9NO2) with delta m/z 26.016 (putative explanation: Acetaldehyde +26|Ala->Pro substitution|unspecified; atomic difference: 2C,2H|2C,2H|2C,2H)	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003138019	CCMSLIB00003138019	0.74	5	Spectral Match to L-Tryptophan from NIST14	M+H-NH3	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009934649	CCMSLIB00009934649	0.73	5	Suspect related to 2-Heptyl-4-hydroxyquinoline N-oxide (predicted molecular formula: unknown) with delta m/z 26.016 (putative explanation: Acetaldehyde +26|Ala->Pro substitution|unspecified; atomic difference: 2C,2H|2C,2H|2C,2H)	[M-C7H14+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009994543	CCMSLIB00009994543	0.73	5	Suspect related to Spectral Match to L-Tryptophan from NIST14 (predicted molecular formula: C6H10N3O2P) with delta m/z -17.038 (putative explanation: deuterated methyl ester (reverse); atomic difference: -1C,1H,-3H[2])	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009950332	CCMSLIB00009950332	0.73	5	Suspect related to L-Tryptophan (predicted molecular formula: C6H10N3O2P) with delta m/z -17.038 (putative explanation: deuterated methyl ester (reverse); atomic difference: -1C,1H,-3H[2])	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00010006378	CCMSLIB00010006378	0.73	5	Suspect related to rac-.alpha.-Methylkynurenine (predicted molecular formula: C11H11NO3) with delta m/z -17.026 (putative explanation: Isopeptide bond formation with loss of ammonia|Loss of ammonia|Pyro-glu from Q; atomic difference: -3H,-1N|-3H,-1N|-3H,-1N)	[M-H2O+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009954701	CCMSLIB00009954701	0.72	5	Suspect related to Massbank:FIO00632 Tryptophan (predicted molecular formula: C11H9NO2) with delta m/z -17.026 (putative explanation: Isopeptide bond formation with loss of ammonia|Loss of ammonia|Pyro-glu from Q; atomic difference: -3H,-1N|-3H,-1N|-3H,-1N)	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009959922	CCMSLIB00009959922	0.71	5	Suspect related to Massbank:PB000418 Tryptophan|2-amino-3-(1H-indol-3-yl)propanoic acid (predicted molecular formula: C6H10N3O2P) with delta m/z -17.038 (putative explanation: deuterated methyl ester (reverse); atomic difference: -1C,1H,-3H[2])	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009954685	CCMSLIB00009954685	0.71	5	Suspect related to Massbank:FIO00630 Tryptophan (predicted molecular formula: C11H9NO2) with delta m/z -17.026 (putative explanation: Isopeptide bond formation with loss of ammonia|Loss of ammonia|Pyro-glu from Q; atomic difference: -3H,-1N|-3H,-1N|-3H,-1N)	[M+H]+	1

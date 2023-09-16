@@ -1,0 +1,5 @@
+USI	GNPSLibraryAccession	Cosine	Matching Peaks	CompoundName	Adduct	Charge
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009979905	CCMSLIB00009979905	1.0	8	Suspect related to Pinolenic acid methyl ester (predicted molecular formula: C13H22O3) with delta m/z -66.084 (putative explanation: unspecified; atomic difference: unspecified)	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009964883	CCMSLIB00009964883	0.98	8	Suspect related to Methyl jasmonate (predicted molecular formula: C13H22O3) with delta m/z 2.016 (putative explanation: Pro->Val substitution|reduction; atomic difference: 2H|2H)	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009995545	CCMSLIB00009995545	0.9	6	Suspect related to Spectral Match to Methyl jasmonate from NIST14 (predicted molecular formula: C13H22O3) with delta m/z 2.016 (putative explanation: Pro->Val substitution|reduction; atomic difference: 2H|2H)	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00010102397	CCMSLIB00010102397	0.72	6	methyl 2-(3-oxo-2-pentylcyclopentyl)acetate CollisionEnergy:205060	M+H	1

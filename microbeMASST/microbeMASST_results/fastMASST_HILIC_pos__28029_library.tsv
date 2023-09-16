@@ -1,0 +1,4 @@
+USI	GNPSLibraryAccession	Cosine	Matching Peaks	CompoundName	Adduct	Charge
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00010006503	CCMSLIB00010006503	0.98	8	Suspect related to sucrose (predicted molecular formula: C11H22N4O7) with delta m/z -19.969 (putative explanation: unspecified; atomic difference: unspecified)	[M+Na]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00000426880	CCMSLIB00000426880	0.9	8	HMDB:HMDB02928-2171 Maltitol	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00000426463	CCMSLIB00000426463	0.75	5	HMDB:HMDB02928-2170 Maltitol	M+H	1

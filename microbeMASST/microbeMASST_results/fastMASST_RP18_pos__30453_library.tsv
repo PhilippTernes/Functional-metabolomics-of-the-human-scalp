@@ -1,0 +1,94 @@
+USI	GNPSLibraryAccession	Cosine	Matching Peaks	CompoundName	Adduct	Charge
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009950354	CCMSLIB00009950354	1.0	7	Suspect related to L-Tryptophan (predicted molecular formula: unknown) with delta m/z 17.027 (putative explanation: replacement of proton with ammonium ion; atomic difference: 3H,1N)	[M-NH3+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006581653	CCMSLIB00006581653	1.0	7	L-tryptophan	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006112834	CCMSLIB00006112834	1.0	7	D-(+)-tryptophan - 40.0 eV	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006113707	CCMSLIB00006113707	1.0	7	L-Tryptophan - 40.0 eV	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003140220	CCMSLIB00003140220	1.0	7	Spectral Match to L-Tryptophan from NIST14	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003139326	CCMSLIB00003139326	0.98	6	Spectral Match to L-Tryptophan from NIST14	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003137887	CCMSLIB00003137887	0.98	6	Spectral Match to L-Tryptophan from NIST14	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003139632	CCMSLIB00003139632	0.98	6	Spectral Match to L-Tryptophan from NIST14	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00000205169	CCMSLIB00000205169	0.97	6	Massbank:BML01191 L-Tryptophan	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00005741570	CCMSLIB00005741570	0.96	6	Massbank:PR310884 Tryptophan	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006112838	CCMSLIB00006112838	0.96	6	D-(+)-tryptophan - 40.0 eV	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006113702	CCMSLIB00006113702	0.96	6	L-Tryptophan - 40.0 eV	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006113700	CCMSLIB00006113700	0.96	6	L-Tryptophan - 40.0 eV	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006112832	CCMSLIB00006112832	0.96	6	D-(+)-tryptophan - 40.0 eV	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006112860	CCMSLIB00006112860	0.96	6	D-(+)-tryptophan - 40.0 eV	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006112853	CCMSLIB00006112853	0.95	6	D-(+)-tryptophan - 40.0 eV	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006112829	CCMSLIB00006112829	0.95	6	D-(+)-tryptophan - 40.0 eV	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006112858	CCMSLIB00006112858	0.95	6	D-(+)-tryptophan - 40.0 eV	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006112850	CCMSLIB00006112850	0.95	6	D-(+)-tryptophan - 40.0 eV	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006112855	CCMSLIB00006112855	0.95	6	D-(+)-tryptophan - 40.0 eV	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009950353	CCMSLIB00009950353	0.94	6	Suspect related to L-Tryptophan (predicted molecular formula: unknown) with delta m/z 17.017 (putative explanation: unspecified; atomic difference: unspecified)	[M-NH3+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006112836	CCMSLIB00006112836	0.93	6	D-(+)-tryptophan - 40.0 eV	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006113705	CCMSLIB00006113705	0.93	6	L-Tryptophan - 40.0 eV	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003136916	CCMSLIB00003136916	0.92	6	Spectral Match to L-Tryptophan from NIST14	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003135901	CCMSLIB00003135901	0.92	5	Spectral Match to L-Tryptophan from NIST14	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00000211965	CCMSLIB00000211965	0.92	6	ReSpect:PM018191 Tryptophan	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00005778066	CCMSLIB00005778066	0.92	5	Massbank:FIO00630 Tryptophan	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006113703	CCMSLIB00006113703	0.92	6	L-Tryptophan - 40.0 eV	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00005883950	CCMSLIB00005883950	0.91	6	D-TRYPTOPHAN - 70.0 eV	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00005726868	CCMSLIB00005726868	0.91	5	Massbank:UA005701 L-Tryptophan|(2S)-2-Azaniumyl-3-(1H-indol-3-yl)propanoate	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00000222464	CCMSLIB00000222464	0.91	5	Massbank:PB006084 Tryptophan|(2S)-2-amino-3-(1H-indol-3-yl)propanoic acid	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006684051	CCMSLIB00006684051	0.91	5	TRYPTOPHAN	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00010121887	CCMSLIB00010121887	0.91	5	D-Tryptophan CollisionEnergy:205060	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00010002303	CCMSLIB00010002303	0.9	5	Suspect related to Tryptophan methyl ester (predicted molecular formula: C11H12N2O2) with delta m/z -14.016 (putative explanation: Ala->Gly substitution|Gln->Asn substitution|Glu->Asp substitution|Leu/Ile->Val substitution|Thr->Ser substitution; atomic difference: -1C,-2H|-1C,-2H|-1C,-2H|-1C,-2H|-1C,-2H)	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00000222462	CCMSLIB00000222462	0.9	5	Massbank:PB006083 Tryptophan|(2S)-2-amino-3-(1H-indol-3-yl)propanoic acid	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003137628	CCMSLIB00003137628	0.9	5	Spectral Match to L-Tryptophan from NIST14	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00004694540	CCMSLIB00004694540	0.9	5	TRYPTOPHAN	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00005883949	CCMSLIB00005883949	0.9	5	D-TRYPTOPHAN - 60.0 eV	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00010121888	CCMSLIB00010121888	0.9	5	D-Tryptophan CollisionEnergy:205060	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003134811	CCMSLIB00003134811	0.89	5	Spectral Match to L-Tryptophan from NIST14	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003136269	CCMSLIB00003136269	0.89	5	Spectral Match to L-Tryptophan from NIST14	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00010102042	CCMSLIB00010102042	0.89	5	tryptophan CollisionEnergy:205060	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00000221707	CCMSLIB00000221707	0.89	5	Massbank:PB000416 Tryptophan|2-amino-3-(1H-indol-3-yl)propanoic acid	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009953677	CCMSLIB00009953677	0.89	5	Suspect related to Massbank:BML01545 6-Fluoro-DL-tryptophan (predicted molecular formula: C11H12N2O2) with delta m/z -17.997 (putative explanation: unspecified; atomic difference: unspecified)	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00005883948	CCMSLIB00005883948	0.89	5	D-TRYPTOPHAN - 50.0 eV	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00005716772	CCMSLIB00005716772	0.88	5	L-Tryptophan	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003134676	CCMSLIB00003134676	0.87	6	Spectral Match to L-Tryptophan from NIST14	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00005883947	CCMSLIB00005883947	0.85	5	D-TRYPTOPHAN - 40.0 eV	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00005489725	CCMSLIB00005489725	0.85	4	Spectral Match to L-Tryptophan from NIST14 [IIN-based: Match]	[M+NH4]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009992198	CCMSLIB00009992198	0.85	6	Suspect related to Spectral Match to DL-Indole-3-lactic acid from NIST14 (predicted molecular formula: C9H21N2O4) with delta m/z 17.062 (putative explanation: unspecified; atomic difference: unspecified)	[M-H2O+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009994601	CCMSLIB00009994601	0.85	6	Suspect related to Spectral Match to L-Tryptophan from NIST14 (predicted molecular formula: unknown) with delta m/z 17.062 (putative explanation: unspecified; atomic difference: unspecified)	[M-NH3+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00000222459	CCMSLIB00000222459	0.84	5	Massbank:PB006082 Tryptophan|(2S)-2-amino-3-(1H-indol-3-yl)propanoic acid	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00005777971	CCMSLIB00005777971	0.83	5	Massbank:FIO00629 Tryptophan	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00005738362	CCMSLIB00005738362	0.83	5	Massbank:RP000502 L-Tryptophan|(2S)-2-amino-3-(1H-indol-3-yl)propanoic acid	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003137142	CCMSLIB00003137142	0.83	5	Spectral Match to L-Tryptophan from NIST14	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00005464368	CCMSLIB00005464368	0.82	5	TRYPTOPHAN	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006683066	CCMSLIB00006683066	0.81	4	TRYPTOPHAN	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003138734	CCMSLIB00003138734	0.81	5	Spectral Match to L-Tryptophan from NIST14	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003138295	CCMSLIB00003138295	0.8	4	Spectral Match to L-Tryptophan from NIST14	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00000221709	CCMSLIB00000221709	0.8	5	Massbank:PB000417 Tryptophan|2-amino-3-(1H-indol-3-yl)propanoic acid	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00010110547	CCMSLIB00010110547	0.79	5	D-Tryptophan CollisionEnergy:102040	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009966299	CCMSLIB00009966299	0.79	4	Suspect related to N-Acetylserotonin (predicted molecular formula: C11H12N2O2) with delta m/z -14.016 (putative explanation: Ala->Gly substitution|Gln->Asn substitution|Glu->Asp substitution|Leu/Ile->Val substitution|Thr->Ser substitution; atomic difference: -1C,-2H|-1C,-2H|-1C,-2H|-1C,-2H|-1C,-2H)	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006679518	CCMSLIB00006679518	0.79	4	TRYPTOPHAN	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006683685	CCMSLIB00006683685	0.79	4	TRYPTOPHAN	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009936837	CCMSLIB00009936837	0.79	6	Suspect related to 3-Indoleacrylic acid (predicted molecular formula: C6H12N4O4) with delta m/z 17.027 (putative explanation: replacement of proton with ammonium ion; atomic difference: 3H,1N)	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006678666	CCMSLIB00006678666	0.79	4	TRYPTOPHAN	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003137755	CCMSLIB00003137755	0.78	5	Spectral Match to L-Tryptophan from NIST14	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00004694539	CCMSLIB00004694539	0.78	4	TRYPTOPHAN	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00000205165	CCMSLIB00000205165	0.78	4	Massbank:BML01185 L-Tryptophan	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003136696	CCMSLIB00003136696	0.77	4	Spectral Match to L-Tryptophan from NIST14	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00005883945	CCMSLIB00005883945	0.77	4	D-TRYPTOPHAN - 20.0 eV	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00005883946	CCMSLIB00005883946	0.77	4	D-TRYPTOPHAN - 30.0 eV	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00010102041	CCMSLIB00010102041	0.76	4	tryptophan CollisionEnergy:102040	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006682486	CCMSLIB00006682486	0.76	4	TRYPTOPHAN	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003139023	CCMSLIB00003139023	0.76	4	Spectral Match to L-Tryptophan from NIST14	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003137754	CCMSLIB00003137754	0.76	5	Spectral Match to L-Tryptophan from NIST14	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006679300	CCMSLIB00006679300	0.75	4	TRYPTOPHAN	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00005464407	CCMSLIB00005464407	0.75	4	TRYPTOPHAN	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006683405	CCMSLIB00006683405	0.74	5	TRYPTOPHAN	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009966428	CCMSLIB00009966428	0.74	5	Suspect related to N-Methyltryptophan (predicted molecular formula: unknown) with delta m/z 17.027 (putative explanation: replacement of proton with ammonium ion; atomic difference: 3H,1N)	[M-CH3NH2+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00005777712	CCMSLIB00005777712	0.74	4	Massbank:FIO00631 Tryptophan	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006683013	CCMSLIB00006683013	0.74	4	TRYPTOPHAN	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00005463716	CCMSLIB00005463716	0.73	4	Tryptophane-emf	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009945604	CCMSLIB00009945604	0.72	5	Suspect related to DL-Indole-3-lactic acid (predicted molecular formula: C11H14N2O3) with delta m/z 17.027 (putative explanation: replacement of proton with ammonium ion; atomic difference: 3H,1N)	[M-H2O+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00000577929	CCMSLIB00000577929	0.72	4	D-TRYPTOPHAN	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00005720376	CCMSLIB00005720376	0.72	5	TRYPTOPHAN	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00003139037	CCMSLIB00003139037	0.72	5	Spectral Match to L-Tryptophan from NIST14	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006112841	CCMSLIB00006112841	0.71	5	D-(+)-tryptophan - 30.0 eV	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00000479746	CCMSLIB00000479746	0.71	4	Tryptophan	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00010002299	CCMSLIB00010002299	0.71	4	Suspect related to Tryptophan ethyl ester (predicted molecular formula: C6H14N5OS) with delta m/z -28.031 (putative explanation: Desethylation, didemethylation, dealkylation|Met->Cys substitution|Val->Ala substitution; atomic difference: -2C,-4H|-2C,-4H|-2C,-4H)	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00000577897	CCMSLIB00000577897	0.7	4	L-TRYPTOPHAN	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00006682378	CCMSLIB00006682378	0.7	4	TRYPTOPHAN	M+H	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009992450	CCMSLIB00009992450	0.7	5	Suspect related to Spectral Match to Dexpanthenol from NIST14 (predicted molecular formula: C6H12N4O4) with delta m/z -1.053 (putative explanation: unspecified; atomic difference: unspecified)	[M+H]+	1

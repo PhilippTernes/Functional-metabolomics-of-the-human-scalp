@@ -1,0 +1,4 @@
+USI	GNPSLibraryAccession	Cosine	Matching Peaks	CompoundName	Adduct	Charge
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009931816	CCMSLIB00009931816	0.8	8	Suspect related to 13S-Hydroxy-9Z,11E,15Z-octadecatrienoic acid (predicted molecular formula: C19H34O3) with delta m/z 16.031 (putative explanation: Pro->Leu/Ile substitution|unspecified; atomic difference: 1C,4H|1C,4H)	[M-H2O+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009978829	CCMSLIB00009978829	0.8	7	Suspect related to Palmitoleic acid ethyl ester (predicted molecular formula: C19H32O2) with delta m/z 9.984 (putative explanation: unspecified; atomic difference: unspecified)	[M+H]+	1
+mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00009951143	CCMSLIB00009951143	0.74	6	Suspect related to Linoleic acid methyl ester (predicted molecular formula: C12H28N4O4) with delta m/z -2.032 (putative explanation: unspecified; atomic difference: unspecified)	[M+H]+	1
