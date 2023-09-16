@@ -1,0 +1,1042 @@
+---
+title: "Microbiome Analysis using Phyloseq"
+output:
+  html_document:
+    df_print: paged
+---
+
+[Phyloseq R package](https://joey711.github.io/phyloseq/index.html)
+
+[Phyloseq tutorial](https://vaulot.github.io/tutorials/Phyloseq_tutorial.html)
+
+# Dataset
+
+```{r}
+rm(list=ls(all=TRUE))
+library(tidyverse)
+library(microbiome)
+library(ggh4x)
+```
+
+Read relative abundance dataset:
+```{r}
+physeq <- read_rds("Data/phyloseq.rds")
+
+physeq
+```
+
+Extract taxon table:
+```{r}
+tax_table <- physeq %>% tax_table() %>% as.data.frame() %>% rownames_to_column("OTU") %>% as_tibble()
+
+tax_table
+```
+
+Sample attributes:
+```{r}
+sample_attributes <- physeq %>% sample_data() %>% data.frame() %>% rownames_to_column("Sample") %>% colnames()
+
+sample_attributes
+```
+
+Experimental groups:
+```{r}
+physeq %>% sample_data() %>% as_tibble() %>% count(ATTRIBUTE_Study_Group)
+```
+
+# Relative family abundances
+
+Convert Phyloseq object to long format:
+```{r}
+data_long <- physeq %>% 
+  psmelt() %>% as_tibble()
+
+data_long
+```
+
+What are the most abundant families across all samples?
+```{r}
+family_abundance <- data_long %>% 
+  group_by(Family) %>% 
+  summarize(Abundance = sum(Abundance)/n_distinct(Sample)) %>% 
+  arrange(-Abundance)
+
+family_abundance
+```
+
+* The most abundant families are by far Propionibacteriaceae and Staphylococcaceae
+
+Select the largest families for downstream analysis:
+```{r}
+major_families <- family_abundance$Family[1:6]
+
+major_families
+```
+
+## Family level
+
+Add additional column Major_Families to the long dataset as well as to the Phyloseq object:
+```{r}
+data_long <- data_long %>% 
+  mutate(
+    Major_Families = if_else(
+      Family %in% major_families,
+      Family, "Other families"
+    ),
+    Major_Families = factor(Major_Families, levels = c(major_families, "Other families"))
+  )
+
+tax_table(physeq) <- tax_table(physeq) %>% 
+  as.data.frame() %>% 
+  mutate(
+    Major_Families = if_else(
+      Family %in% major_families,
+      Family, "Other families"
+    )
+  ) %>% 
+  as.matrix()
+```
+
+Plot relative abundance of the major families:
+```{r}
+data_long %>%
+  inner_join(
+    data_long %>% 
+      group_by(ATTRIBUTE_Study_Group, Sample) %>% 
+      summarize(
+        Propionibacteriaceae = sum(Abundance[Family == "Propionibacteriaceae"]),
+        .groups = "drop_last"
+        ) %>% 
+      arrange(-Propionibacteriaceae) %>% 
+      mutate(
+        Sample_No = row_number()
+      ) %>% 
+      select(ATTRIBUTE_Study_Group, Sample, Sample_No),
+    by = c("ATTRIBUTE_Study_Group", "Sample")
+  ) %>% 
+  mutate(`Relative abundance` = Abundance) %>% 
+  ggplot() +
+  geom_col(
+    aes(interaction(Sample_No, ATTRIBUTE_Study_Group), `Relative abundance`, fill = Major_Families)
+    ) +
+  scale_x_discrete(guide = guide_axis_nested(n.dodge = 0, title = "Study group")) +
+  theme(
+    axis.ticks.x = element_blank(),
+    strip.text.x = element_text(angle = 90, vjust = 0.5, hjust=0),
+    legend.position = "bottom",
+    legend.title = element_blank()
+    ) +
+  scale_fill_brewer(palette = "Set1")
+```
+
+* Most volunteers from both study groups are dominated by either Propionibacteriaceae or Staphylococcaceae. Three volunteers have a major proportion of Polyomaviridae, a few more have a minor proportion.
+* Although the range of relative proportions of Propionibacteriaceae and Staphylococcaceae is similar in both study groups, there are more volunteers with a high proportion of Propionibacteriaceae in the Oily Scalp group.
+
+Label samples with more than 50% Propionibacteriaceae in the Phyloseq object:
+```{r}
+sample_data(physeq) <- sample_data(physeq) %>% 
+  data.frame() %>% 
+  rownames_to_column("Sample") %>% 
+  inner_join(
+    data_long %>% 
+      group_by(Sample) %>% 
+      summarize(
+        Propionibacteriaceae = sum(Abundance[Family == "Propionibacteriaceae"]),
+        Polyomaviridae       = sum(Abundance[Family == "Polyomaviridae"])
+        ) %>% 
+      mutate(
+        Propionibacteriaceae = Propionibacteriaceae > 0.5,
+        Polyomaviridae       = Polyomaviridae > 0.1
+      ),
+    by = "Sample"
+  ) %>% 
+  column_to_rownames("Sample")
+```
+
+Look at Propionibacteriaceae:
+```{r}
+data_long <- data_long %>% 
+  mutate(
+    Propionibacteria = if_else(
+      Family == "Propionibacteriaceae" & is.na(Species), 
+      Genus, Species
+    )
+  )
+
+Propionibacteria <- data_long %>% 
+  filter(Family == "Propionibacteriaceae") %>% 
+  group_by(Propionibacteria) %>% 
+  summarize(Abundance = sum(Abundance)/n_distinct(Sample)) %>% 
+  arrange(-Abundance) %>% 
+  pull(Propionibacteria)
+
+data_long %>%
+  inner_join(
+    data_long %>% 
+      group_by(ATTRIBUTE_Study_Group, Sample) %>% 
+      summarize(
+        Propionibacteriaceae = sum(Abundance[Family == "Propionibacteriaceae"]),
+        .groups = "drop_last"
+        ) %>% 
+      arrange(-Propionibacteriaceae) %>% 
+      mutate(
+        Sample_No = row_number()
+      ) %>% 
+      select(ATTRIBUTE_Study_Group, Sample, Sample_No),
+    by = c("ATTRIBUTE_Study_Group", "Sample")
+  ) %>% 
+  filter(Family == "Propionibacteriaceae") %>% 
+  mutate(
+    `Relative abundance` = Abundance
+    ) %>% 
+  ggplot() +
+  geom_col(
+    aes(interaction(Sample_No, ATTRIBUTE_Study_Group), `Relative abundance`, fill = Propionibacteria)
+    ) +
+  scale_x_discrete(guide = guide_axis_nested(n.dodge = 0, title = "Study group")) +
+  theme(
+    axis.ticks.x = element_blank(),
+    strip.text.x = element_text(angle = 90, vjust = 0.5, hjust=0),
+    legend.position = "bottom",
+    legend.title = element_blank()
+    ) +
+  scale_fill_brewer(palette = "Set1", limits = Propionibacteria)
+```
+
+## Propionibacteriaceae
+
+Look at strains of Propionibacteriaceae:
+```{r}
+data_long <- data_long %>% 
+ mutate(
+   Propionibacterium_varieties = if_else(
+     Family == "Propionibacteriaceae" & is.na(Variety), 
+     Propionibacteria, Variety
+   )
+ )
+
+Propionibacterium_varieties <- data_long %>% 
+  filter(Family == "Propionibacteriaceae") %>% 
+  group_by(Propionibacterium_varieties) %>% 
+  summarize(Abundance = sum(Abundance)/n_distinct(Sample)) %>% 
+  arrange(-Abundance) %>% 
+  pull(Propionibacterium_varieties)
+
+data_long %>%
+  inner_join(
+    data_long %>% 
+      group_by(ATTRIBUTE_Study_Group, Sample) %>% 
+      summarize(
+        Propionibacteriaceae = sum(Abundance[Family == "Propionibacteriaceae"]),
+        .groups = "drop_last"
+        ) %>% 
+      arrange(-Propionibacteriaceae) %>% 
+      mutate(
+        Sample_No = row_number()
+      ) %>% 
+      select(ATTRIBUTE_Study_Group, Sample, Sample_No),
+    by = c("ATTRIBUTE_Study_Group", "Sample")
+  ) %>% 
+  filter(Family == "Propionibacteriaceae") %>% 
+  mutate(
+    `Relative abundance` = Abundance
+    ) %>% 
+  ggplot() +
+  geom_col(
+    aes(interaction(Sample_No, ATTRIBUTE_Study_Group), `Relative abundance`, fill = Propionibacterium_varieties)
+    ) +
+  scale_x_discrete(guide = guide_axis_nested(n.dodge = 0, title = "Study group")) +
+  theme(
+    axis.ticks.x = element_blank(),
+    strip.text.x = element_text(angle = 90, vjust = 0.5, hjust=0),
+    legend.position = "right",
+    legend.title = element_blank()
+    ) +
+  scale_fill_brewer(palette = "Set1", limits = Propionibacterium_varieties)
+```
+
+* The null hypothesis cannot be rejected that Propionibacterium_acnes_unclassified, Propionibacteriaceae_unclassified, and GCF_000221145 are in fact the same strain.
+
+* All taxa from this family should be summarized as Propionibacteriaceae, with almost all reads being Propionibacterium_acnes
+
+## Staphylococcaceae
+
+Look at Staphylococcaceae:
+```{r}
+Staphylococci <- data_long %>% 
+  filter(Family == "Staphylococcaceae") %>% 
+  group_by(Species) %>% 
+  summarize(Abundance = sum(Abundance)/n_distinct(Sample)) %>% 
+  arrange(-Abundance) %>% 
+  pull(Species) %>% 
+  .[1:3]
+
+data_long %>%
+  inner_join(
+    data_long %>% 
+      group_by(ATTRIBUTE_Study_Group, Sample) %>% 
+      summarize(
+        Staphylococcaceae = sum(Abundance[Family == "Staphylococcaceae"]),
+        .groups = "drop_last"
+        ) %>% 
+      arrange(-Staphylococcaceae) %>% 
+      mutate(
+        Sample_No = row_number()
+      ) %>% 
+      select(ATTRIBUTE_Study_Group, Sample, Sample_No),
+    by = c("ATTRIBUTE_Study_Group", "Sample")
+  ) %>% 
+  filter(Family == "Staphylococcaceae") %>% 
+  mutate(
+    `Relative abundance` = Abundance,
+    Staphylococci = if_else(Species %in% Staphylococci, Species, "Other Staphylococci")
+    ) %>% 
+  ggplot() +
+  geom_col(
+    aes(interaction(Sample_No, ATTRIBUTE_Study_Group), `Relative abundance`, fill = Staphylococci)
+    ) +
+  scale_x_discrete(guide = guide_axis_nested(n.dodge = 0, title = "Study group")) +
+  theme(
+    axis.ticks.x = element_blank(),
+    strip.text.x = element_text(angle = 90, vjust = 0.5, hjust=0),
+    legend.position = "right",
+    legend.title = element_blank()
+    ) +
+  scale_fill_brewer(
+    palette = "Set1",
+    limits = Staphylococci %>% c("Other Staphylococci")
+    )
+```
+
+Which taxa should be summarized into Staphylococcus_caprae_capitis?
+```{r}
+taxa_staph_caprae_capitis <- tax_table %>% 
+  filter(Species == "Staphylococcus_caprae_capitis") %>% 
+  pull(OTU)
+
+tax_table %>% 
+  filter(OTU %in% taxa_staph_caprae_capitis)
+```
+
+Which taxa should be summarized into Staphylococcus_epidermidis?
+```{r}
+taxa_staph_epidermidis <- tax_table %>% 
+  filter(Species == "Staphylococcus_epidermidis") %>% 
+  pull(OTU)
+
+tax_table %>% 
+  filter(OTU %in% taxa_staph_epidermidis)
+```
+
+Which taxa should be summarized into Staphylococcus_hominis?
+```{r}
+taxa_staph_hominis <- tax_table %>% 
+  filter(Species == "Staphylococcus_hominis") %>% 
+  pull(OTU)
+
+tax_table %>% 
+  filter(OTU %in% taxa_staph_hominis)
+```
+
+Which taxa should be summarized as other Staphylococci?
+```{r}
+taxa_staph_other <- tax_table %>% 
+  filter(
+    Family == "Staphylococcaceae" & 
+      !OTU %in% c(taxa_staph_caprae_capitis, taxa_staph_epidermidis, taxa_staph_hominis)
+    ) %>% 
+  pull(OTU)
+
+tax_table %>% 
+  filter(OTU %in% taxa_staph_other)
+```
+
+## Polyomaviridae
+
+Look at Polyomaviridae:
+```{r}
+Polyomaviri <- data_long %>% 
+  filter(Family == "Polyomaviridae") %>% 
+  group_by(Species) %>% 
+  summarize(Abundance = sum(Abundance)/n_distinct(Sample)) %>% 
+  arrange(-Abundance) %>% 
+  pull(Species)
+
+data_long %>%
+  inner_join(
+    data_long %>% 
+      group_by(ATTRIBUTE_Study_Group, Sample) %>% 
+      summarize(
+        Polyomaviridae = sum(Abundance[Family == "Polyomaviridae"]),
+        .groups = "drop_last"
+        ) %>% 
+      arrange(-Polyomaviridae) %>% 
+      mutate(
+        Sample_No = row_number()
+      ) %>% 
+      select(ATTRIBUTE_Study_Group, Sample, Sample_No),
+    by = c("ATTRIBUTE_Study_Group", "Sample")
+  ) %>% 
+  filter(Family == "Polyomaviridae") %>% 
+  mutate(`Relative abundance` = Abundance) %>% 
+  ggplot() +
+  geom_col(
+    aes(interaction(Sample_No, ATTRIBUTE_Study_Group), `Relative abundance`, fill = Species)
+    ) +
+  scale_x_discrete(guide = guide_axis_nested(n.dodge = 0, title = "Study group")) +
+  theme(
+    axis.ticks.x = element_blank(),
+    strip.text.x = element_text(angle = 90, vjust = 0.5, hjust=0),
+    legend.position = "right",
+    legend.title = element_blank()
+    ) +
+  scale_fill_brewer(palette = "Set1", limits = Polyomaviri)
+```
+
+Which taxa should be summarized into Polyomavirus_HPyV6?
+```{r}
+taxa_poly_hpyv6 <- tax_table %>% 
+  filter(Species == "Polyomavirus_HPyV6") %>% 
+  pull(OTU)
+
+tax_table %>% 
+  filter(OTU %in% taxa_poly_hpyv6)
+```
+
+Which taxa should be summarized into Polyomavirus_HPyV7
+```{r}
+taxa_poly_hpyv7 <- tax_table %>% 
+  filter(Species == "Polyomavirus_HPyV7") %>% 
+  pull(OTU)
+
+tax_table %>% 
+  filter(OTU %in% taxa_poly_hpyv7)
+```
+
+Which taxa should be summarized into Merkel_cell_polyomavirus?
+```{r}
+taxa_poly_merkel <- tax_table %>% 
+  filter(Species == "Merkel_cell_polyomavirus") %>% 
+  pull(OTU)
+
+tax_table %>% 
+  filter(OTU %in% taxa_poly_merkel)
+```
+
+## Skin paramters
+
+Plot relative abundance of the major families, sorted by sebumeter score:
+```{r}
+data_long %>%
+  inner_join(
+    data_long %>% 
+      group_by(ATTRIBUTE_Study_Group, Sample) %>% 
+      summarize(
+        Sebumeter_Score = Sebumeter_Score[1],
+        .groups = "drop_last"
+        ) %>% 
+      arrange(Sebumeter_Score) %>% 
+      mutate(
+        Sample_No = row_number()
+      ) %>% 
+      select(ATTRIBUTE_Study_Group, Sample, Sample_No),
+    by = c("ATTRIBUTE_Study_Group", "Sample")
+  ) %>% 
+  mutate(`Relative abundance` = Abundance) %>% 
+  ggplot() +
+  geom_col(
+    aes(interaction(Sample_No, ATTRIBUTE_Study_Group), `Relative abundance`, fill = Major_Families)
+    ) +
+  scale_x_discrete(guide = guide_axis_nested(n.dodge = 0, title = "Study group")) +
+  theme(
+    axis.ticks.x = element_blank(),
+    strip.text.x = element_text(angle = 90, vjust = 0.5, hjust=0),
+    legend.position = "bottom",
+    legend.title = element_blank()
+    ) +
+  scale_fill_brewer(palette = "Set1")
+
+data_long %>% 
+  group_by(ATTRIBUTE_Study_Group, Sample) %>% 
+  summarize(
+    Sebumeter_Score = Sebumeter_Score[1],
+    .groups = "drop_last"
+    ) %>% 
+  arrange(Sebumeter_Score) %>% 
+  mutate(
+    Sample_No = row_number(),
+    `Sebumeter score` = Sebumeter_Score
+  ) %>% 
+  ggplot() +
+  geom_col(
+    aes(interaction(Sample_No, ATTRIBUTE_Study_Group), `Sebumeter score`, fill = "")
+    ) +
+  scale_x_discrete(guide = guide_axis_nested(n.dodge = 0, title = "Study group")) +
+  theme(
+    axis.ticks.x = element_blank(),
+    strip.text.x = element_text(angle = 90, vjust = 0.5, hjust=0),
+    legend.position = "none",
+    legend.title = element_blank()
+    ) +
+  scale_fill_brewer(palette = "Set1")
+```
+
+Plot relative abundance of the major families, sorted by Skicon score:
+```{r}
+data_long %>%
+  inner_join(
+    data_long %>% 
+      group_by(Sample) %>% 
+      summarize(
+        Skicon_Score = Skicon_Score[1],
+        .groups = "drop_last"
+        ) %>% 
+      arrange(Skicon_Score) %>% 
+      mutate(
+        Sample_No = row_number()
+      ) %>% 
+      select(Sample, Sample_No),
+    by = "Sample"
+  ) %>% 
+  mutate(`Relative abundance` = Abundance) %>% 
+  ggplot() +
+  geom_col(
+    aes(Sample_No, `Relative abundance`, fill = Major_Families)
+    ) +
+  theme(
+    axis.ticks.x = element_blank(),
+    axis.text.x = element_blank(),
+    axis.title.x = element_blank(),
+    legend.position = "bottom",
+    legend.title = element_blank()
+    ) +
+  scale_fill_brewer(palette = "Set1")
+
+data_long %>% 
+  group_by(Sample) %>% 
+  summarize(
+    Skicon_Score = Skicon_Score[1],
+    .groups = "drop_last"
+    ) %>% 
+  arrange(Skicon_Score) %>% 
+  mutate(
+    Sample_No = row_number(),
+    `Skicon score` = Skicon_Score
+  ) %>% 
+  ggplot() +
+  geom_col(
+    aes(Sample_No, `Skicon score`, fill = "")
+    ) +
+  theme(
+    axis.ticks.x = element_blank(),
+    axis.text.x = element_blank(),
+    axis.title.x = element_blank(),
+    legend.position = "none",
+    legend.title = element_blank()
+    ) +
+  scale_fill_brewer(palette = "Set1")
+```
+
+# Ordination analysis
+
+Define function for axis labels:
+```{r}
+get_axis_labels <- function(x) str_c(
+  "PC",
+  1:length(x$values$Relative_eig),
+  " [",
+  (100 * x$values$Relative_eig) %>% round(1),
+  "%]"
+  )
+```
+
+## Bray-Curtis distance
+
+Calculate ordination:
+```{r}
+ordination <- physeq %>% 
+  ordinate("PCoA", "bray")
+```
+
+Plot samples:
+```{r}
+axis_labels <- get_axis_labels(ordination)
+
+plot_ordination(
+  physeq,
+  ordination,
+  type = "samples",
+  color = "Dominat_Propioni"
+  ) +
+  scale_color_brewer(palette = "Set1", limits = c(T, F)) +
+  labs(
+    title = "PCoA, Bray-Curtis dissimilarity",
+    x = axis_labels[1], y = axis_labels[2]
+    )
+
+plot_ordination(
+  physeq,
+  ordination,
+  type = "samples",
+  color = "ATTRIBUTE_Study_Group"
+  ) +
+  scale_color_brewer(palette = "Set1") +
+  labs(
+    title = "PCoA, Bray-Curtis dissimilarity",
+    x = axis_labels[1], y = axis_labels[2]
+    )
+
+plot_ordination(
+  physeq,
+  ordination,
+  type = "samples",
+  color = "ATTRIBUTE_Ethnic_Group"
+  ) +
+  scale_color_brewer(palette = "Set1") +
+  labs(
+    title = "PCoA, Bray-Curtis dissimilarity",
+    x = axis_labels[1], y = axis_labels[2]
+    )
+
+plot_ordination(
+  physeq,
+  ordination,
+  type = "samples",
+  color = "ATTRIBUTE_BiologicalSex"
+  ) +
+  scale_color_brewer(palette = "Set1") +
+  labs(
+    title = "PCoA, Bray-Curtis dissimilarity",
+    x = axis_labels[1], y = axis_labels[2]
+    )
+
+plot_ordination(
+  physeq,
+  ordination,
+  type = "samples",
+  color = "Sebumeter_Score"
+  ) +
+  scale_color_viridis_c() +
+  labs(
+    title = "PCoA, Bray-Curtis dissimilarity",
+    x = axis_labels[1], y = axis_labels[2]
+    )
+
+plot_ordination(
+  physeq,
+  ordination,
+  type = "samples",
+  color = "Skicon_Score"
+  ) +
+  scale_color_viridis_c() +
+  labs(
+    title = "PCoA, Bray-Curtis dissimilarity",
+    x = axis_labels[1], y = axis_labels[2]
+    )
+
+plot_ordination(
+  physeq,
+  ordination,
+  type = "samples",
+  color = "AgeInYears"
+  ) +
+  scale_color_viridis_c() +
+  labs(
+    title = "PCoA, Bray-Curtis dissimilarity",
+    x = axis_labels[1], y = axis_labels[2]
+    )
+
+plot_ordination(
+  physeq,
+  ordination,
+  type = "samples",
+  color = "Propionibacteriaceae"
+  ) +
+  scale_color_brewer(palette = "Set1", limits = c(T, F)) +
+  labs(
+    title = "PCoA, Bray-Curtis dissimilarity",
+    x = axis_labels[1], y = axis_labels[2]
+    )
+
+plot_ordination(
+  physeq,
+  ordination,
+  type = "samples",
+  color = "Polyomaviridae"
+  ) +
+  scale_color_brewer(palette = "Set1", limits = c(T, F)) +
+  labs(
+    title = "PCoA, Bray-Curtis dissimilarity",
+    x = axis_labels[1], y = axis_labels[2]
+    )
+```
+
+* There is no real separation into groups with oily or normal scalp.
+* Samples with high sebumeter or skicon score are in the upper half of the plot, but samples with low sebumeter or skicon score are all around.
+
+Plot families:
+```{r}
+plot_ordination(
+  physeq,
+  ordination,
+  type = "taxa",
+  color = "Major_Families"
+  ) +
+  scale_color_brewer(palette = "Set1", limits = c(major_families, "Other families"), name = NULL) +
+  labs(
+    title = "PCoA, Bray-Curtis dissimilarity",
+    x = axis_labels[1], y = axis_labels[2],
+    )
+```
+
+# Datasets for MMVec
+## Reasonable taxon resolution
+
+Aggregate dataset by major taxa. Check whether the sum of the abundances within each sample is 1 and whether no taxa were lost:
+```{r}
+data_major_taxa_long <- data_long %>% 
+  mutate(
+    Major_Taxa = case_when(
+      OTU %in% taxa_poly_hpyv6  ~ "Polyomavirus HPyV6",
+      OTU %in% taxa_poly_hpyv7  ~ "Polyomavirus HPyV7",
+      OTU %in% taxa_poly_merkel ~ "Merkel Cell Polyomavirus",
+      OTU %in% taxa_staph_caprae_capitis  ~ "Staphylococcus caprae or capitis",
+      OTU %in% taxa_staph_epidermidis     ~ "Staphylococcus epidermidis",
+      OTU %in% taxa_staph_hominis         ~ "Staphylococcus hominis",
+      OTU %in% taxa_staph_other           ~ "Other Staphylococci",
+      T ~ Major_Families
+    ),
+    Major_Taxa = Major_Taxa %>% factor(levels = c("Propionibacteriaceae", "Staphylococcus caprae or capitis", "Staphylococcus epidermidis", "Staphylococcus hominis", "Other Staphylococci", "Polyomavirus HPyV6", "Polyomavirus HPyV7", "Merkel Cell Polyomavirus", "Malasseziaceae", "Corynebacteriaceae", "Micrococcaceae", "Other families"))
+  ) %>% 
+  group_by(across(c(sample_attributes, Major_Families, Major_Taxa))) %>% 
+  summarize(
+    N_Taxa = n(),
+    Abundance = sum(Abundance), 
+    .groups = "drop"
+    )
+
+data_major_taxa_long %>% 
+  group_by(Sample) %>% 
+  summarize(Abundance = sum(Abundance), .groups = "drop")
+
+data_major_taxa_long %>% 
+  group_by(Major_Taxa) %>% 
+  summarize(N_Taxa = N_Taxa[1]) %>% 
+  summarize(N_Taxa = sum(N_Taxa))
+```
+
+Transform to wide format and save to file:
+```{r}
+data_major_taxa_wide <- data_major_taxa_long %>% 
+  pivot_wider(id_cols = Major_Taxa, names_from = Sample, values_from = Abundance)
+
+data_major_taxa_wide %>% write_tsv("Data/data_major_taxa_wide.tsv")
+
+data_major_taxa_wide
+```
+
+Plot relative abundances:
+```{r}
+data_major_taxa_long %>%
+  inner_join(
+    data_major_taxa_long %>% 
+      filter(Major_Taxa == "Propionibacteriaceae") %>% 
+      arrange(-Abundance) %>% 
+      group_by(ATTRIBUTE_Study_Group) %>% 
+      mutate(
+        Sample_No = row_number()
+      ) %>% 
+      select(ATTRIBUTE_Study_Group, Sample, Sample_No),
+    by = c("ATTRIBUTE_Study_Group", "Sample")
+  ) %>% 
+  mutate(`Relative abundance` = Abundance) %>% 
+  ggplot() +
+  geom_col(
+    aes(interaction(Sample_No, ATTRIBUTE_Study_Group), `Relative abundance`, fill = Major_Taxa)
+    ) +
+  scale_x_discrete(guide = guide_axis_nested(n.dodge = 0, title = "Study group")) +
+  theme(
+    axis.ticks.x = element_blank(),
+    strip.text.x = element_text(angle = 90, vjust = 0.5, hjust=0),
+    legend.position = "right",
+    legend.title = element_blank()
+    ) +
+  scale_fill_brewer(palette = "Set3")
+```
+
+Plot relative abundances, sorted by sebumeter score:
+```{r}
+data_major_taxa_long %>%
+  inner_join(
+    data_major_taxa_long %>% 
+      filter(Major_Taxa == "Propionibacteriaceae") %>% 
+      arrange(Sebumeter_Score) %>% 
+      group_by(ATTRIBUTE_Study_Group) %>% 
+      mutate(
+        Sample_No = row_number()
+      ) %>% 
+      select(ATTRIBUTE_Study_Group, Sample, Sample_No),
+    by = c("ATTRIBUTE_Study_Group", "Sample")
+  ) %>% 
+  mutate(`Relative abundance` = Abundance) %>% 
+  ggplot() +
+  geom_col(
+    aes(interaction(Sample_No, ATTRIBUTE_Study_Group), `Relative abundance`, fill = Major_Taxa)
+    ) +
+  scale_x_discrete(guide = guide_axis_nested(n.dodge = 0, title = "Study group")) +
+  theme(
+    axis.ticks.x = element_blank(),
+    strip.text.x = element_text(angle = 90, vjust = 0.5, hjust=0),
+    legend.position = "right",
+    legend.title = element_blank()
+    ) +
+  scale_fill_brewer(palette = "Set3")
+
+data_major_taxa_long %>% 
+  group_by(ATTRIBUTE_Study_Group, Sample) %>% 
+  summarize(
+    Sebumeter_Score = Sebumeter_Score[1],
+    .groups = "drop_last"
+    ) %>% 
+  arrange(Sebumeter_Score) %>% 
+  mutate(
+    Sample_No = row_number(),
+    `Sebumeter score` = Sebumeter_Score
+  ) %>% 
+  ggplot() +
+  geom_col(
+    aes(interaction(Sample_No, ATTRIBUTE_Study_Group), `Sebumeter score`, fill = "")
+    ) +
+  scale_x_discrete(guide = guide_axis_nested(n.dodge = 0, title = "Study group")) +
+  theme(
+    axis.ticks.x = element_blank(),
+    strip.text.x = element_text(angle = 90, vjust = 0.5, hjust=0),
+    legend.position = "none",
+    legend.title = element_blank()
+    ) +
+  scale_fill_brewer(palette = "Set1")
+```
+
+Plot relative abundances, sorted by sebumeter score:
+```{r}
+data_major_taxa_long %>%
+  inner_join(
+    data_major_taxa_long %>% 
+      filter(Major_Taxa == "Propionibacteriaceae") %>% 
+      arrange(Skicon_Score) %>% 
+      mutate(
+        Sample_No = row_number()
+      ) %>% 
+      select(ATTRIBUTE_Study_Group, Sample, Sample_No),
+    by = c("ATTRIBUTE_Study_Group", "Sample")
+  ) %>% 
+  mutate(`Relative abundance` = Abundance) %>% 
+  ggplot() +
+  geom_col(
+    aes(Sample_No, `Relative abundance`, fill = Major_Taxa)
+    ) +
+  theme(
+    axis.ticks.x = element_blank(),
+    axis.text.x = element_blank(),
+    axis.title.x = element_blank(),
+    legend.position = "right",
+    legend.title = element_blank()
+    ) +
+  scale_fill_brewer(palette = "Set3")
+
+data_major_taxa_long %>% 
+  group_by(Sample) %>% 
+  summarize(
+    Skicon_Score = Skicon_Score[1],
+    .groups = "drop_last"
+    ) %>% 
+  arrange(Skicon_Score) %>% 
+  mutate(
+    Sample_No = row_number(),
+    `Skicon score` = Skicon_Score
+  ) %>% 
+  ggplot() +
+  geom_col(
+    aes(Sample_No, `Skicon score`, fill = "")
+    ) +
+  theme(
+    axis.ticks.x = element_blank(),
+    axis.text.x = element_blank(),
+    axis.title.x = element_blank(),
+    legend.position = "none",
+    legend.title = element_blank()
+    ) +
+  scale_fill_brewer(palette = "Set1")
+```
+
+## Propionibacteriaceae and Staphylococcaceae,
+
+Filter dataset for Propionibacteriaceae and Staphylococcaceae and re-scale the abundances within each sample to 1:
+```{r}
+data_propi_staph_long <- data_major_taxa_long %>% 
+  filter(Major_Families %in% c("Propionibacteriaceae", "Staphylococcaceae")) %>% 
+  group_by(Sample) %>% 
+  mutate(Abundance = Abundance / sum(Abundance)) %>% 
+  ungroup()
+
+data_propi_staph_long %>% 
+  group_by(Sample) %>% 
+  summarize(Abundance = sum(Abundance), .groups = "drop")
+
+data_propi_staph_long %>% 
+  group_by(Major_Taxa) %>% 
+  summarize(N_Taxa = N_Taxa[1]) %>% 
+  summarize(N_Taxa = sum(N_Taxa))
+```
+
+Transform to wide format and save to file:
+```{r}
+data_propi_staph_wide <- data_propi_staph_long %>% 
+  pivot_wider(id_cols = Major_Taxa, names_from = Sample, values_from = Abundance)
+
+data_propi_staph_wide %>% write_tsv("Data/data_propi_staph_wide.tsv")
+
+data_propi_staph_wide
+```
+
+Plot relative abundances:
+```{r}
+data_propi_staph_long %>%
+  inner_join(
+    data_propi_staph_long %>% 
+      filter(Major_Taxa == "Propionibacteriaceae") %>% 
+      arrange(-Abundance) %>% 
+      group_by(ATTRIBUTE_Study_Group) %>% 
+      mutate(
+        Sample_No = row_number()
+      ) %>% 
+      select(ATTRIBUTE_Study_Group, Sample, Sample_No),
+    by = c("ATTRIBUTE_Study_Group", "Sample")
+  ) %>% 
+  mutate(`Relative abundance` = Abundance) %>% 
+  ggplot() +
+  geom_col(
+    aes(interaction(Sample_No, ATTRIBUTE_Study_Group), `Relative abundance`, fill = Major_Taxa)
+    ) +
+  scale_x_discrete(guide = guide_axis_nested(n.dodge = 0, title = "Study group")) +
+  theme(
+    axis.ticks.x = element_blank(),
+    strip.text.x = element_text(angle = 90, vjust = 0.5, hjust=0),
+    legend.position = "right",
+    legend.title = element_blank()
+    ) +
+  scale_fill_brewer(palette = "Set3")
+```
+
+Plot relative abundances, sorted by sebumeter score:
+```{r}
+data_propi_staph_long %>%
+  inner_join(
+    data_propi_staph_long %>% 
+      filter(Major_Taxa == "Propionibacteriaceae") %>% 
+      arrange(Sebumeter_Score) %>% 
+      group_by(ATTRIBUTE_Study_Group) %>% 
+      mutate(
+        Sample_No = row_number()
+      ) %>% 
+      select(ATTRIBUTE_Study_Group, Sample, Sample_No),
+    by = c("ATTRIBUTE_Study_Group", "Sample")
+  ) %>% 
+  mutate(`Relative abundance` = Abundance) %>% 
+  ggplot() +
+  geom_col(
+    aes(interaction(Sample_No, ATTRIBUTE_Study_Group), `Relative abundance`, fill = Major_Taxa)
+    ) +
+  scale_x_discrete(guide = guide_axis_nested(n.dodge = 0, title = "Study group")) +
+  theme(
+    axis.ticks.x = element_blank(),
+    strip.text.x = element_text(angle = 90, vjust = 0.5, hjust=0),
+    legend.position = "right",
+    legend.title = element_blank()
+    ) +
+  scale_fill_brewer(palette = "Set3")
+
+data_propi_staph_long %>% 
+  group_by(ATTRIBUTE_Study_Group, Sample) %>% 
+  summarize(
+    Sebumeter_Score = Sebumeter_Score[1],
+    .groups = "drop_last"
+    ) %>% 
+  arrange(Sebumeter_Score) %>% 
+  mutate(
+    Sample_No = row_number(),
+    `Sebumeter score` = Sebumeter_Score
+  ) %>% 
+  ggplot() +
+  geom_col(
+    aes(interaction(Sample_No, ATTRIBUTE_Study_Group), `Sebumeter score`, fill = "")
+    ) +
+  scale_x_discrete(guide = guide_axis_nested(n.dodge = 0, title = "Study group")) +
+  theme(
+    axis.ticks.x = element_blank(),
+    strip.text.x = element_text(angle = 90, vjust = 0.5, hjust=0),
+    legend.position = "none",
+    legend.title = element_blank()
+    ) +
+  scale_fill_brewer(palette = "Set1")
+```
+
+Plot relative abundances, sorted by sebumeter score:
+```{r}
+data_propi_staph_long %>%
+  inner_join(
+    data_propi_staph_long %>% 
+      filter(Major_Taxa == "Propionibacteriaceae") %>% 
+      arrange(Skicon_Score) %>% 
+      mutate(
+        Sample_No = row_number()
+      ) %>% 
+      select(ATTRIBUTE_Study_Group, Sample, Sample_No),
+    by = c("ATTRIBUTE_Study_Group", "Sample")
+  ) %>% 
+  mutate(`Relative abundance` = Abundance) %>% 
+  ggplot() +
+  geom_col(
+    aes(Sample_No, `Relative abundance`, fill = Major_Taxa)
+    ) +
+  theme(
+    axis.ticks.x = element_blank(),
+    axis.text.x = element_blank(),
+    axis.title.x = element_blank(),
+    legend.position = "right",
+    legend.title = element_blank()
+    ) +
+  scale_fill_brewer(palette = "Set3")
+
+data_propi_staph_long %>% 
+  group_by(Sample) %>% 
+  summarize(
+    Skicon_Score = Skicon_Score[1],
+    .groups = "drop_last"
+    ) %>% 
+  arrange(Skicon_Score) %>% 
+  mutate(
+    Sample_No = row_number(),
+    `Skicon score` = Skicon_Score
+  ) %>% 
+  ggplot() +
+  geom_col(
+    aes(Sample_No, `Skicon score`, fill = "")
+    ) +
+  theme(
+    axis.ticks.x = element_blank(),
+    axis.text.x = element_blank(),
+    axis.title.x = element_blank(),
+    legend.position = "none",
+    legend.title = element_blank()
+    ) +
+  scale_fill_brewer(palette = "Set1")
+```
+
+# Session Info
+
+```{r}
+timestamp()
+sessionInfo()
+```
+

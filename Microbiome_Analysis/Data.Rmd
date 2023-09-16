@@ -1,0 +1,135 @@
+---
+title: "Microbiome Dataset"
+output:
+  html_document:
+    df_print: paged
+---
+
+```{r}
+rm(list=ls(all=TRUE))
+library(tidyverse)
+library(phyloseq)
+```
+
+# Relative abundances
+## Data input
+
+Read relative abunce table (from Hunter):
+```{r}
+data_readcount <- read_tsv("Data/data_rel_abundance_baseline.tsv")
+```
+
+## OTU table
+
+Assemble otu table. We do not need column TAXON_DESCRIPTION:
+```{r}
+otu_table <- data_readcount %>% 
+  select(-TAXON_DESCRIPTION) %>% 
+  column_to_rownames("TAXON_ID") %>% 
+  phyloseq::otu_table(taxa_are_rows = T)
+
+otu_table[1:6, 1:6]
+```
+
+Check if the sum of all taxa is 1, as expected for a relative abundance table:
+```{r}
+otu_table %>% 
+  apply(2, sum)
+```
+
+# Sample metadata
+## Data input
+
+Read sample metadata:
+```{r}
+sample_metadata <- read_tsv("Data/sample_metadata_baseline.tsv", na = "#N/A")
+```
+
+## Sample table
+
+Generate sample table:
+```{r}
+sample_table <- sample_metadata %>%
+  column_to_rownames("External_Reference") %>% 
+  phyloseq::sample_data()
+
+sample_table %>% data.frame()
+```
+
+# Taxonomy
+## Data input
+
+The first two columns from the input data should be sufficient as taxonomy table:
+```{r}
+taxonomy <- data_readcount %>% 
+  select(TAXON_ID, TAXON_DESCRIPTION)
+
+taxonomy
+```
+
+## Taxonomy table
+
+Generatare taxonomy table:
+```{r}
+tax_table <- taxonomy %>% 
+  separate(
+    TAXON_DESCRIPTION, sep = "; ", 
+    into = c("Kingdom", "Phylum", "Class", "Order", "Family", "Genus", "Species", "Variety"),
+    extra = "drop", fill = "right"
+    ) %>% 
+  column_to_rownames("TAXON_ID") %>% 
+  as.matrix() %>% 
+  apply(c(1, 2), str_remove, "^[a-z]__") %>% 
+  phyloseq::tax_table()
+
+tax_table[1:6, ]
+```
+
+Check for missing taxon assignments:
+```{r}
+tax_table %>% apply(2, function(x) sum(is.na(x)))
+```
+
+Which taxon has missing phylum assignment?
+```{r}
+tax_table[tax_table[, "Phylum"] %>% is.na(), ]
+```
+
+Downstream analysis (relative abundance bar plots) suggests that this taxon is from one sample only, and that this sample comprises only this taxon:
+```{r}
+otu_table["f8c13bb601e2113b166ef926763585b4", ]
+otu_table[, "EMR_04_N-22_RD"]
+```
+
+* This is correct. Taxon f8c13bb601e2113b166ef926763585b4 and sample EMR_04_N-22_RD need to be removed from the dataset. Will do this on the phyloseq object.
+
+# Phyloseq dataset
+## Phyloseq object
+
+Generate Phyloseq object:
+```{r}
+physeq <- phyloseq::phyloseq(
+  otu_table,
+  tax_table,
+  sample_table
+)
+
+physeq
+```
+
+* The phyloseq object has 56 samples, same as the relative abundance table
+* The sample metadata is for 74 samples
+* This is Ok. All samples in the sample metadata have metabolite data, but some are missing microbiome data.
+
+Subset Phyloseq object to remove taxon f8c13bb601e2113b166ef926763585b4 and sample EMR_04_N-22_RD (see above):
+```{r}
+physeq <- physeq %>% 
+  subset_samples(sample_names(physeq) != "EMR_04_N-22_RD") %>% 
+  subset_taxa(taxa_names(physeq) != "f8c13bb601e2113b166ef926763585b4")
+physeq
+```
+
+Write Phyloseq objects to file:
+```{r}
+physeq %>% write_rds("Data/phyloseq.rds")
+```
