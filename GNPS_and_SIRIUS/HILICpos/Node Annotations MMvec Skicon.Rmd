@@ -1,0 +1,171 @@
+---
+title: "GNPS Node Annotations"
+output: html_notebook
+---
+
+```{r}
+library(tidyverse)
+library(wordcloud)
+
+rm(list=ls(all=TRUE))
+masses <- c(C = 12, H = 1.007825, N = 14.00307400443, O = 15.99491461957, P = 30.973761998, S = 31.9720711744)
+```
+
+# Data input
+
+Read node annotations from file:
+```{r}
+node_annotations <- read_delim("mmvec skicon.csv")
+```
+
+Molecular networks:
+```{r}
+node_annotations$componentindex %>% sort() %>% unique()
+```
+
+Column names:
+```{r}
+node_annotations %>% colnames() %>% sort()
+```
+
+# Canopus
+
+Canopus annotations:
+```{r}
+node_annotations %>% 
+  select(starts_with("CAN_")) %>% 
+  lapply(sort) %>% lapply(unique)
+```
+
+```{r}
+word_freq <- tibble(
+  Words = node_annotations$CAN_subclass
+) %>% 
+  filter(!is.na(Words)) %>% 
+  mutate(Words = Words %>% str_remove_all("\"")) %>% 
+  group_by(Words) %>% 
+  summarize(Freq = n()) %>% 
+  arrange(-Freq)
+
+word_freq
+```
+
+```{r}
+wordcloud(word_freq$Words, word_freq$Freq, min.freq = 1)
+```
+
+# Molecular formulas
+
+SIRIUS/Zodiac annotations:
+```{r}
+node_annotations %>% 
+  select(starts_with("CAN")) %>% 
+  lapply(sort) %>% lapply(unique)
+```
+
+Molecular formula distribution
+```{r}
+parse_formula <- function(x) {
+  if (is.na(x)) tibble() else {
+    elements <- x %>% str_remove_all("[0-9]") %>% str_split("") %>% unlist()
+    numbers  <- x %>% str_split("[A-Z]") %>% unlist %>% 
+      .[2:length(.)] %>% if_else(. == "", "1", .) %>% as.integer()
+    tibble(Elements = elements, Numbers = numbers)
+  }
+}
+
+formula_distribution <- node_annotations %>% 
+  mutate(
+    Parsed_Formula = CAN_molecularFormula %>% map(parse_formula)
+  ) %>% 
+  select(Shared_Name = `shared name`, CAN_molecularFormula, Parsed_Formula) %>% 
+  unnest(Parsed_Formula) %>% 
+  pivot_wider(names_from = Elements, values_from = Numbers, values_fill = 0)
+
+formula_distribution
+```
+
+Plot molecular formula distribution:
+```{r}
+formula_distribution %>% 
+  pivot_longer(all_of(c("C", "H", "N", "O")), names_to = "Elements", values_to = "Numbers") %>% 
+  ggplot() +
+  geom_bar(aes(Numbers)) +
+  facet_wrap("Elements", scales = "free")
+```
+
+Plot molecular formula distribution (C > 15):
+```{r}
+formula_distribution %>% 
+  filter(C > 15) %>% 
+  pivot_longer(all_of(c("C", "H", "N", "O")), names_to = "Elements", values_to = "Numbers") %>% 
+  ggplot() +
+  geom_bar(aes(Numbers)) +
+  facet_wrap("Elements", scales = "free")
+```
+
+Plot molecular formula distribution (C > 15 & N == 2):
+```{r}
+formula_distribution %>% 
+  filter(C > 15 & N == 2) %>% 
+  pivot_longer(all_of(c("C", "H", "N", "O")), names_to = "Elements", values_to = "Numbers") %>% 
+  ggplot() +
+  geom_bar(aes(Numbers)) +
+  facet_wrap("Elements", scales = "free")
+```
+
+Consensus formula (C > 15):
+```{r}
+consensus_formula <- formula_distribution %>% 
+  filter(C > 15 & N == 2) %>% 
+  pivot_longer(all_of(c("C", "H", "N", "O")), names_to = "Elements", values_to = "Numbers") %>% 
+  group_by(Elements, Numbers) %>% 
+  summarise(N = n(), .groups = "drop_last") %>% 
+  arrange(-N) %>% 
+  summarise(Numbers = Numbers[1])
+
+consensus_formula
+```
+
+Print consonsus formula:
+```{r}
+consensus_formula %>% 
+  mutate(Element_Number = str_c(Elements, Numbers)) %>% 
+  pull(Element_Number) %>% 
+  str_c(collapse = "")
+```
+
+Exact mass from consensus formula:
+```{r}
+consensus_formula %>% 
+  mutate(Masses = masses[Elements] * Numbers) %>% 
+  .$Masses %>% sum()
+```
+
+# Masses
+
+Adducts:
+```{r}
+node_annotations %>% 
+  ggplot() +
+  geom_bar(aes(CAN_adduct))
+```
+
+Distribution of parent m/z:
+```{r}
+node_annotations %>% 
+  ggplot() +
+  geom_histogram(aes(`precursor mass`), bins = 50)
+```
+
+Distribution of CANOPUS masses:
+```{r}
+formula_distribution %>% 
+  filter(C > 15 & N == 2) %>% 
+  pivot_longer(all_of(c("C", "H", "N", "O")), names_to = "Elements", values_to = "Numbers") %>% 
+  mutate(Masses = masses[Elements] * Numbers) %>% 
+  group_by(Shared_Name) %>% 
+  summarise(Masses = sum(Masses)) %>% 
+  ggplot() +
+  geom_histogram(aes(Masses), bins = 50)
+```

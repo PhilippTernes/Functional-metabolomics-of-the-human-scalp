@@ -1,0 +1,124 @@
+shared name	MASST_PHYLA
+147	Arthropoda, Basidiomycota
+164	Actinobacteria, Ascomycota, Bacteroidetes, Chordata, Cyanobacteria, Firmicutes, Proteobacteria, Verrucomicrobia
+172	Ascomycota, Bacteroidetes, Basidiomycota, Cyanobacteria, Firmicutes, Proteobacteria, Verrucomicrobia
+310	Ascomycota, Chordata, Cyanobacteria, Firmicutes, Proteobacteria, Spirochaetes
+372	Ascomycota, Bacteroidetes, Chordata, Cyanobacteria, Firmicutes, Proteobacteria, Spirochaetes
+390	Ascomycota, Cyanobacteria, Firmicutes, Proteobacteria, Spirochaetes
+451	Arthropoda, Ascomycota, Basidiomycota
+501	Actinobacteria, Ascomycota, Bacteroidetes, Chordata, Cyanobacteria, Firmicutes, Fusobacteria, Proteobacteria, Verrucomicrobia
+512	Actinobacteria, Ascomycota, Bacteroidetes, Firmicutes
+538	Actinobacteria, Ascomycota, Bacteroidetes, Chordata, Cyanobacteria, Firmicutes, Fusobacteria, Proteobacteria, Verrucomicrobia
+543	Ascomycota, Bacteroidetes, Basidiomycota, Cyanobacteria, Firmicutes, Mucoromycota, Spirochaetes
+580	Bacteroidetes, Basidiomycota
+612	Ascomycota, Proteobacteria, Spirochaetes
+800	Ascomycota, Chordata, Cyanobacteria, Firmicutes, Proteobacteria, Spirochaetes
+804	Ascomycota, Bacillariophyta, Bacteroidetes, Chordata, Firmicutes, Spirochaetes
+937	Actinobacteria
+982	Ascomycota, Bacteroidetes, Chordata, Cyanobacteria, Firmicutes, Proteobacteria, Spirochaetes
+1002	Bacillariophyta, Chordata
+1190	Arthropoda, Ascomycota, Chordata, Cyanobacteria, Firmicutes, Proteobacteria, Spirochaetes
+1201	Ascomycota, Proteobacteria
+1203	Actinobacteria
+1206	Actinobacteria, Arthropoda, Ascomycota, Bacteroidetes, Proteobacteria
+1235	Actinobacteria, Ascomycota, Proteobacteria
+1249	Actinobacteria, Ascomycota, Bacteroidetes, Basidiomycota, Cyanobacteria, Firmicutes, Proteobacteria, Verrucomicrobia
+1265	Proteobacteria
+1271	Actinobacteria
+1279	Actinobacteria, Ascomycota, Bacteroidetes, Cyanobacteria, Mucoromycota, Proteobacteria, Verrucomicrobia
+1360	Actinobacteria
+1412	Chordata
+1418	Chordata
+1484	Chordata, Firmicutes, Proteobacteria
+1587	Actinobacteria, Ascomycota, Bacteroidetes, Chordata, Cyanobacteria, Firmicutes, Fusobacteria, Proteobacteria, Verrucomicrobia
+1660	Chordata
+1818	Ascomycota, Bacteroidetes, Firmicutes
+1859	Ascomycota, Bacteroidetes, Basidiomycota, Cyanobacteria, Firmicutes, Proteobacteria, Verrucomicrobia
+1870	Actinobacteria, Ascomycota
+1882	Actinobacteria, Ascomycota, Bacteroidetes, Firmicutes, Proteobacteria, Verrucomicrobia
+1889	Basidiomycota
+2107	Bacteroidetes, Verrucomicrobia
+2163	Ascomycota, Bacteroidetes, Basidiomycota, Cyanobacteria, Firmicutes, Proteobacteria, Verrucomicrobia
+2222	Arthropoda
+2446	Basidiomycota
+2692	Chordata
+2867	Proteobacteria
+2997	Basidiomycota, Chordata, Cyanobacteria, Proteobacteria
+3020	Ascomycota, Bacteroidetes, Cyanobacteria, Firmicutes, Proteobacteria, Verrucomicrobia
+3131	Ascomycota, Bacteroidetes, Basidiomycota, Cyanobacteria, Firmicutes, Proteobacteria, Verrucomicrobia
+3394	Actinobacteria, Bacteroidetes, Chordata, Cyanobacteria, Firmicutes, Fusobacteria, Proteobacteria, Spirochaetes, Verrucomicrobia
+3506	Actinobacteria, Ascomycota, Bacteroidetes, Basidiomycota, Cyanobacteria, Firmicutes, Proteobacteria, Verrucomicrobia
+3512	Bacteroidetes
+4240	Ascomycota, Chordata, Cyanobacteria
+4246	Actinobacteria, Ascomycota, Bacteroidetes, Basidiomycota, Cyanobacteria, Fusobacteria, Proteobacteria, Verrucomicrobia
+4289	Actinobacteria, Bacteroidetes, Cyanobacteria, Firmicutes
+4293	Actinobacteria
+4387	Actinobacteria
+4393	Bacteroidetes, Firmicutes, Proteobacteria
+4410	Actinobacteria, Ascomycota, Bacteroidetes, Chordata, Cyanobacteria, Proteobacteria, Verrucomicrobia
+4454	Actinobacteria, Ascomycota, Bacteroidetes, Basidiomycota, Cyanobacteria, Fusobacteria, Proteobacteria, Verrucomicrobia
+4511	Proteobacteria
+4528	Chordata
+4543	Ascomycota, Bacteroidetes, Firmicutes, Proteobacteria, Verrucomicrobia
+4549	Bacteroidetes
+4551	Bacteroidetes, Firmicutes, Verrucomicrobia
+4587	Ascomycota, Firmicutes
+4618	Bacteroidetes
+4636	Actinobacteria, Bacteroidetes, Firmicutes, Proteobacteria
+4646	Ascomycota
+4659	Actinobacteria, Ascomycota
+4718	Actinobacteria, Ascomycota, Proteobacteria
+4757	Ascomycota, Proteobacteria
+4775	Proteobacteria
+4776	Actinobacteria, Ascomycota, Bacteroidetes, Basidiomycota, Chordata, Cyanobacteria, Firmicutes, Fusobacteria, Proteobacteria, Verrucomicrobia
+4796	Ascomycota, Proteobacteria
+4821	Proteobacteria
+4828	Proteobacteria
+4831	Ascomycota, Bacteroidetes, Firmicutes, Proteobacteria, Verrucomicrobia
+4945	Actinobacteria, Ascomycota, Bacteroidetes, Chordata, Cyanobacteria, Firmicutes, Fusobacteria, Proteobacteria, Verrucomicrobia
+5014	Proteobacteria
+5124	Firmicutes, Proteobacteria
+5242	Basidiomycota
+5978	Proteobacteria
+6821	Basidiomycota
+6945	Firmicutes
+6947	Actinobacteria, Firmicutes, Proteobacteria
+6953	Actinobacteria, Firmicutes, Proteobacteria
+7286	Ascomycota, Chordata, Cyanobacteria, Firmicutes, Spirochaetes
+7696	Proteobacteria, Spirochaetes
+7714	Proteobacteria, Spirochaetes
+7921	Ascomycota, Chordata, Cyanobacteria, Firmicutes, Proteobacteria, Spirochaetes
+8230	Firmicutes, Proteobacteria
+8286	Actinobacteria, Ascomycota, Bacteroidetes, Cyanobacteria, Mucoromycota, Proteobacteria, Verrucomicrobia
+8817	Actinobacteria, Ascomycota, Bacteroidetes, Cyanobacteria, Proteobacteria, Verrucomicrobia
+8942	Chordata
+8947	Actinobacteria, Arthropoda, Ascomycota, Proteobacteria
+8984	Basidiomycota
+9021	Bacteroidetes, Firmicutes, Fusobacteria, Proteobacteria
+9292	Actinobacteria
+9467	Actinobacteria, Zoopagomycota
+9469	Actinobacteria
+9500	Actinobacteria, Zoopagomycota
+9629	Ascomycota, Basidiomycota, Mucoromycota
+11485	Ascomycota, Bacteroidetes, Firmicutes, Proteobacteria, Verrucomicrobia
+11708	Actinobacteria, Ascomycota, Bacteroidetes, Basidiomycota, Chordata, Firmicutes, Proteobacteria
+11969	Actinobacteria, Ascomycota
+12541	Chordata
+12667	Actinobacteria, Ascomycota, Chordata, Firmicutes
+12956	Actinobacteria
+13172	Actinobacteria, Ascomycota, Proteobacteria
+15800	Ascomycota, Proteobacteria, Spirochaetes
+16519	Proteobacteria
+16849	Basidiomycota
+16899	Proteobacteria
+16977	Basidiomycota, Chordata
+17929	Arthropoda
+19341	Actinobacteria, Bacteroidetes, Cyanobacteria, Firmicutes, Proteobacteria
+20464	Actinobacteria, Chordata, Proteobacteria
+22699	Chordata
+23585	Basidiomycota
+27930	Basidiomycota
+28003	Ascomycota, Basidiomycota
+28057	Basidiomycota
+28262	Actinobacteria, Ascomycota, Bacteroidetes, Firmicutes, Verrucomicrobia
+28681	Basidiomycota
