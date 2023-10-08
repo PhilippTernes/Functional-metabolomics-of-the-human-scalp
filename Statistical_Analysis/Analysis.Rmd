@@ -1,0 +1,254 @@
+---
+title: "FBMN Statistical Analysis"
+output:
+  html_document:
+    df_print: paged
+---
+
+
+
+```{r}
+rm(list=ls(all=TRUE))
+library(tidyverse)
+library(broom)
+```
+
+# Metabolome dataset
+
+Read combined metabolomics dataset:
+```{r}
+data_wide <- read_csv("Data/data_final.csv")
+```
+
+Make separate table for feature metadata:
+```{r}
+feature_info <- data_wide %>% 
+  select("Feature_ID", "Dataset", "Row_ID", "Row_MZ", "Row_RT", "Correlation_Group_ID")
+
+feature_info
+```
+
+Transform into long format:
+```{r}
+data_long <- data_wide %>% 
+  select(Feature_ID, starts_with("EMR_04")) %>% 
+  pivot_longer(cols = c(starts_with("EMR_04")), names_to = "Sample_ID", values_to = "Log10_Ratio")
+
+rm(data_wide)
+
+data_long
+```
+
+# Sample metadata
+
+Read sample metadata:
+```{r}
+sample_info <- read_tsv("Data/sample_metadata.tsv")
+```
+
+Select and rename colums:
+```{r}
+sample_info <- sample_info %>% 
+  select(Sample_ID = Sample_Identifier, Study_Group = ATTRIBUTE_Study_Group, 
+    Age = AgeInYears, Sex = ATTRIBUTE_BiologicalSex, Ethnic_Group = ATTRIBUTE_Ethnic_Group,
+    Sebumeter_Score, Skicon_Score)
+
+sample_info
+```
+
+Sample numbers:
+```{r}
+sample_info %>% 
+  count(Study_Group)
+```
+
+Check distribution of numerical parameters:
+```{r}
+sample_info <- sample_info %>% 
+  mutate(
+    Log10_Sebumeter_Score = log10(Sebumeter_Score),
+    Log10_Skicon_Score    = log10(Skicon_Score)
+    )
+
+sample_info %>% 
+  pivot_longer(
+    cols = c(
+      Sebumeter_Score, Log10_Sebumeter_Score, 
+      Skicon_Score, Log10_Skicon_Score, 
+      Age
+     ),
+    names_to = "Parameter", values_to = "Value"
+  ) %>% 
+  filter(!is.na(Value)) %>% 
+  mutate(
+    Parameter = factor(
+      Parameter, 
+      levels = c(
+        "Sebumeter_Score", "Log10_Sebumeter_Score", 
+        "Skicon_Score", "Log10_Skicon_Score", 
+        "Age"
+        )
+      )
+    ) %>% 
+  ggplot() +
+  geom_histogram(aes(Value), bins = 10) +
+  facet_wrap("Parameter", ncol = 2, scales = "free")
+
+```
+
+* For Sebumeter and Age, we'll use the original values for downstream stats
+* For Skicon, we'll use the log10-transformed values
+
+
+# Statistical analysis
+
+Nested tibble:
+```{r}
+data_nested <- data_long %>% 
+  inner_join(
+    sample_info,
+    by = "Sample_ID"
+  ) %>% 
+  group_by(Feature_ID) %>% 
+  nest() %>% 
+  ungroup()
+
+data_nested$data[[1]]
+```
+
+## Contrast between oily and normal scalp
+
+Study_Group is the variable of interest, Age, Sex, Ethnic_Group, and Log10_Skicon_Score are confounding variables.
+
+Fit linear models:
+```{r}
+data_nested <- data_nested %>% 
+  mutate(
+    Models = data %>% map(
+      ~ lm(Log10_Ratio ~ Study_Group + Age + Sex + Ethnic_Group + Log10_Skicon_Score,
+           data = ., na.action = na.omit) %>% try()
+    ),
+    Classes = Models %>% map_chr(~ paste(class(.), collapse = " "))
+  )
+
+data_nested %>% count(Classes)
+```
+
+Extract model coefficients:
+```{r}
+stats_study_group <- data_nested %>% 
+  filter(Classes == "lm") %>% 
+  mutate(
+    Coefficients = Models %>% map(tidy)
+  ) %>% 
+  select(Feature_ID, Coefficients) %>% 
+  unnest(Coefficients) %>% 
+  filter(term == "Study_GroupOily Scalp")
+
+stats_study_group
+```
+
+## Correlation with Sebumeter score:
+
+Sebumeter_Score + Log10_Skicon_Score are the variables of interest, Age, Sex, and Ethnic_Group are confounding variables.
+
+Fit linear models:
+```{r}
+data_nested <- data_nested %>% 
+  mutate(
+    Models = data %>% map(
+      ~ lm(Log10_Ratio ~ Age + Sex + Ethnic_Group + Sebumeter_Score + Log10_Skicon_Score,
+           data = ., na.action = na.omit) %>% try()
+    ),
+    Classes = Models %>% map_chr(~ paste(class(.), collapse = " "))
+  )
+
+data_nested %>% count(Classes)
+```
+
+Extract model coefficients:
+```{r}
+stats_physical_skin_parameters <- data_nested %>% 
+  filter(Classes == "lm") %>% 
+  mutate(
+    Coefficients = Models %>% map(tidy)
+  ) %>% 
+  select(Feature_ID, Coefficients) %>% 
+  unnest(Coefficients) %>% 
+  filter(term == "Sebumeter_Score" | term == "Log10_Skicon_Score")
+
+stats_physical_skin_parameters
+```
+
+## Formatted stats results
+
+Combine stats results:
+```{r}
+feature_stats <- bind_rows(stats_study_group, stats_physical_skin_parameters)
+
+rm(data_nested, stats_study_group, stats_physical_skin_parameters)
+
+feature_stats
+```
+
+Add contrast labels and format stats results for Cytoscape:
+```{r}
+feature_stats <- feature_stats %>% 
+  mutate(
+    p.volcano  = -log10(p.value),
+    p.volc.dir = p.volcano * sign(statistic),
+    Contrast_Label = term %>% case_match(
+      "Study_GroupOily Scalp" ~ "groups|oily-norm",
+      "Sebumeter_Score" ~ "base|sebum",
+      "Log10_Skicon_Score" ~ "base|skicon"
+      ),
+    p_value    = p.value    %>% round(digits = 3) %>% as.character(),
+    p_volcano  = p.volcano  %>% round(digits = 3) %>% as.character(),
+    p_volc_dir = p.volc.dir %>% round(digits = 3) %>% as.character(),
+    p_cat      = case_when(
+      p.value < 0.001 ~ "< 0.001",
+      p.value <  0.01 ~ "< 0.01",
+      p.value <   0.1 ~ "< 0.1"
+    ),
+    p_cat_dir  = case_when(
+      is.na(p_cat)  ~ NA_character_,
+      statistic > 0 ~ paste0("Up, ", p_cat),
+      statistic < 0 ~ paste0("Dn, ", p_cat)
+    )
+  )
+
+feature_stats
+```
+
+# Output for Cytoscape
+
+Combine stats results with feature info and write to file:
+```{r}
+feature_stats_info <- feature_info %>% 
+  select(Feature_ID, Dataset, Row_ID) %>% 
+  inner_join(
+    feature_stats %>% select(Feature_ID, Contrast_Label, starts_with("p_")),
+    by = "Feature_ID"
+    )
+
+feature_stats_info %>% write_csv("Analysis/feature_stats.csv")
+
+feature_stats_info
+```
+
+Write results for to file for loading into Cytoscape (individual formats, individual datasets):
+```{r}
+feature_stats_info %>% 
+  pivot_longer(cols = starts_with("p_"), names_to = "Format", values_to = "Value", values_drop_na = T) %>% 
+  pivot_wider(names_from = Contrast_Label, values_from = Value) %>% 
+  select(Dataset, Format, Row_ID, contains("|")) %>% 
+  group_by(Dataset, Format) %>% 
+  nest() %>% 
+  mutate(
+    Filename = str_c(Dataset, Format, "tsv", sep = "."),
+    data     = map2(data, Format, \(data, Format) data %>% rename_with(\(x) str_c(Format, x, sep = "|"), contains("|"))),
+    data     = map2(data, Filename, \(data, Filename) data %>% write_tsv(str_c("Analysis/", Filename), na = ""))
+  )
+
+dir("Analysis")
+```

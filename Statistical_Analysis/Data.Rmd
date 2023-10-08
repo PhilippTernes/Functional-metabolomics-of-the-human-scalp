@@ -1,0 +1,332 @@
+---
+title: "FBMN Dataset"
+output:
+  html_document:
+    df_print: paged
+---
+
+```{r}
+rm(list=ls(all=TRUE))
+library(tidyverse)
+```
+
+# Sample info
+
+Read sample metadata (without pool and blank samples):
+```{r}
+sample_info <- read_tsv("Data/sample_metadata.tsv")
+```
+
+Read sequence and position:
+```{r}
+sample_info_seq_pos <- read_tsv("Data/sample_info_seq_pos.tsv")
+```
+
+# Metabolomics dataset
+
+Read metabolomics datasets:
+```{r}
+data_C18_neg <- read_csv("Data/Dataset_C18_neg.csv")
+data_C18_pos <- read_csv("Data/Dataset_C18_pos.csv")
+data_HILIC_neg <- read_csv("Data/Dataset_HILIC_neg.csv")
+data_HILIC_pos <- read_csv("Data/Dataset_HILIC_pos.csv")
+```
+
+Combine datasets:
+```{r}
+data_wide <- bind_rows(
+  data_C18_neg %>% 
+    mutate(Dataset = "C18_neg", Dataset_Prefix = "X95") %>% 
+    select(
+      Dataset, Dataset_Prefix,
+      Row_ID = `row ID`, Row_MZ = `row m/z`, Row_RT = `row retention time`,
+      Correlation_Group_ID = `correlation group ID`,
+      starts_with("EMR")
+    ),
+  data_C18_pos %>% 
+    mutate(Dataset = "C18_pos", Dataset_Prefix = "X94") %>% 
+    select(
+      Dataset, Dataset_Prefix,
+      Row_ID = `row ID`, Row_MZ = `row m/z`, Row_RT = `row retention time`,
+      Correlation_Group_ID = `correlation group ID`,
+      starts_with("EMR")
+    ),
+  data_HILIC_neg %>% 
+    mutate(Dataset = "HILIC_neg", Dataset_Prefix = "X97") %>% 
+    select(
+      Dataset, Dataset_Prefix,
+      Row_ID = `row ID`, Row_MZ = `row m/z`, Row_RT = `row retention time`,
+      Correlation_Group_ID = `correlation group ID`,
+      starts_with("EMR")
+    ),
+  data_HILIC_pos %>% 
+    mutate(Dataset = "HILIC_pos", Dataset_Prefix = "X96") %>% 
+    select(
+      Dataset, Dataset_Prefix,
+      Row_ID = `row ID`, Row_MZ = `row m/z`, Row_RT = `row retention time`,
+      Correlation_Group_ID = `correlation group ID`,
+      starts_with("EMR")
+    )
+) %>% 
+  mutate(
+    Feature_ID = str_c(Dataset_Prefix, Row_ID %>% formatC(width = 5, format = "d", flag = "0"))
+  ) %>% 
+  select(-Dataset_Prefix) %>% relocate(Feature_ID)
+
+data_wide
+```
+
+Transform into long format:
+```{r}
+data_long <- data_wide %>% 
+  select(Feature_ID, Dataset, starts_with("EMR_04")) %>% 
+  pivot_longer(cols = c(starts_with("EMR_04")), names_to = "Sample_ID", values_to = "Peak_Area")
+
+data_long
+```
+
+Add columns Sample_Type as well as Sequence and Position:
+```{r}
+data_long <- data_long %>% 
+  mutate(
+    Sample_Type = case_when(
+      Sample_ID %>% str_detect("Pool")  ~ "Pool",
+      Sample_ID %>% str_detect("Blank") ~ "Blank",
+      T ~ "Sample"
+    )
+  ) %>% 
+  inner_join(sample_info_seq_pos, by = "Sample_ID") %>% 
+  select(Feature_ID, Dataset, Sample_ID, Sample_Type, Sequence, Position, Peak_Area)
+
+  data_long
+```
+
+## Feature metadata
+
+Feature metadata:
+```{r}
+feature_info <- data_wide %>% 
+  select(Feature_ID, Dataset, Row_ID, Row_MZ, Row_RT, Correlation_Group_ID)
+
+feature_info
+```
+
+Remove objects not needed anymore:
+```{r}
+rm(data_wide, data_C18_neg, data_C18_pos, data_HILIC_neg, data_HILIC_pos, sample_info_seq_pos)
+```
+
+# Missing values
+
+How are missing values encoded?
+```{r}
+data_long %>% 
+  summarize(
+    N = n(), 
+    N_VALID   = sum(Peak_Area > 0), 
+    N_ZERO    = sum(Peak_Area == 0), 
+    N_MISSING = sum(is.na(Peak_Area)))
+```
+
+* Missing values are encoded as zero.
+
+Missing value map. The beginning of a new sequence is marked by a pool immediately followed by a blank. The standard order of samples in a sequence is: Pool - Blank - Samples - Pool - Samples - Pool - Samples - Pool - Samples - Pool
+```{r}
+data_long %>% 
+  filter(Peak_Area > 0) %>% 
+  mutate(Sequence_Position = interaction(Sequence, Position, lex.order = T)) %>% 
+  ggplot() +
+  geom_raster(aes(Sequence_Position, Feature_ID, fill = Sample_Type)) +
+  theme(axis.text = element_blank(), axis.ticks = element_blank()) +
+  scale_fill_brewer(palette = "Set1") +
+  facet_wrap("Dataset", scales = "free")
+```
+
+## Completeness of pool samples
+
+Calculate completeness of pool samples:
+```{r}
+completeness_pools <- data_long %>% 
+  filter(Sample_Type == "Pool") %>% 
+  group_by(Dataset, Feature_ID) %>% 
+  summarize(
+    N_Pools = n(),
+    N_Valid = sum(Peak_Area > 0),
+    Percent_Valid = 100 * N_Valid / N_Pools,
+    .groups = "drop"
+    )
+
+completeness_pools %>% 
+  ggplot() + geom_histogram(aes(Percent_Valid), bins = 25) +
+  facet_wrap("Dataset", scales = "free_y") +
+  scale_x_continuous(breaks = 20 * 0:5)
+```
+
+Filter dataset for features that are at least 80% complete across pool samples:
+```{r}
+data_long %>% nrow()
+
+data_long <- data_long %>% 
+  filter(
+    Feature_ID %in% (completeness_pools %>% filter(Percent_Valid >= 80) %>% pull(Feature_ID))
+    )
+
+data_long %>% nrow()
+```
+
+## Completeness of samples
+
+Calculate completeness of samples:
+```{r}
+completeness_samples <- data_long %>% 
+  filter(Sample_Type == "Sample") %>% 
+  group_by(Dataset, Feature_ID) %>% 
+  summarize(
+    N_Pools = n(),
+    N_Valid = sum(Peak_Area > 0),
+    Percent_Valid = 100 * N_Valid / N_Pools,
+    .groups = "drop"
+    )
+
+completeness_samples %>% 
+  ggplot() + geom_histogram(aes(Percent_Valid), bins = 50) +
+  facet_wrap("Dataset", scales = "free_y") +
+  scale_x_continuous(breaks = 20 * 0:5)
+```
+
+* Most features are >= 80% complete
+
+```{r}
+completeness_samples %>% 
+  arrange(-Percent_Valid) %>% 
+  inner_join(feature_info, by = c("Feature_ID", "Dataset")) %>% 
+  ggplot(aes(Row_RT, Row_MZ)) +
+  geom_point(aes(color = Percent_Valid)) +
+  scale_color_gradient(low = "red", high = "blue") +
+  facet_wrap("Dataset", scales = "free")
+```
+
+* Most features with a low proportion of valid features are in what probably is the most dense area of the plot
+
+# Pool-based normalization
+
+Every sample is normalized to the median of the pool samples in the same sequence as the samples. This is done by feature and on log scale:
+```{r}
+data_long %>% nrow()
+
+data_long <- data_long %>% 
+  filter(Peak_Area > 0) %>% 
+  group_by(Sequence, Feature_ID) %>% 
+  mutate(
+    Log10_Peak_Area = log10(Peak_Area),
+    Log10_Pool_Norm = Log10_Peak_Area - median(Log10_Peak_Area[Sample_Type == "Pool"])
+  ) %>% 
+  ungroup() %>% 
+  filter(!is.na(Log10_Pool_Norm))
+
+data_long %>% nrow()
+```
+
+Check whether pool-normalized values are normally distributed (on log scale):
+```{r}
+data_long %>% 
+  ggplot() + geom_histogram(aes(Log10_Pool_Norm, fill = Sample_Type), bins = 100) +
+  scale_fill_brewer(palette = "Set1") +
+  facet_wrap("Dataset", scales = "free_y")
+```
+
+# Pool variablitiy and blank level
+
+Calculate quartiles of pool-normalized values for each feature in pools, blanks, and samples. 50% corresponds to the median, 75% and 25% to the upper and lower edge of the box in a box plot, respectively:
+```{r}
+quartiles <- data_long %>% 
+  group_by(Dataset, Feature_ID, Sample_Type) %>% 
+  summarize(
+    quartiles = list(quantile(Log10_Pool_Norm) %>% t() %>% as_tibble()),
+    .groups = "drop"
+    ) %>% 
+  unnest(quartiles)
+
+quartiles
+```
+
+Features with higher 75% quartile (upper edge of the box) for the blanks than 25% quartile (lower edge of the box) for the pools, i.e. where the boxes for blanks and pools are overlapping in a boxplot or where the box for the blanks is higher than the box for the pools:
+```{r}
+features_high_blank <- quartiles %>% 
+  group_by(Dataset, Feature_ID) %>% 
+  summarize(
+    High_Blank = ifelse(
+      length(`75%`[Sample_Type == "Blank"]) == 0, 
+      FALSE, 
+      `25%`[Sample_Type == "Pool"] < `75%`[Sample_Type == "Blank"]
+      ),
+      .groups = "drop"
+  ) %>% 
+  filter(High_Blank) %>% pull(Feature_ID)
+
+features_high_blank %>% length()
+```
+
+Features with high pool variability:
+```{r}
+features_high_pool_variability <- quartiles %>% 
+  group_by(Dataset, Feature_ID) %>% 
+  mutate(IQR = `75%` - `25%`) %>% 
+  pivot_wider(id_cols = c(Dataset, Feature_ID), names_from = Sample_Type, values_from = IQR) %>% 
+  filter(Pool > 0.5) %>% 
+  pull(Feature_ID)
+
+features_high_pool_variability %>% length()
+```
+
+# Feature median normalization
+
+Normalize each sample by the median of all features from each dataset:
+```{r}
+data_long <- data_long %>% 
+  group_by(Dataset, Sample_ID) %>% 
+  mutate(
+    Log10_Feature_Median_Norm = Log10_Pool_Norm - median(Log10_Pool_Norm)
+    ) %>% 
+  ungroup()
+```
+
+Check whether feature median normalized values are normally distributed (on log scale):
+```{r}
+data_long %>% 
+  ggplot() + geom_histogram(aes(Log10_Feature_Median_Norm, fill = Sample_Type), bins = 100) +
+  scale_fill_brewer(palette = "Set1") +
+  facet_wrap("Dataset", scales = "free_y")
+```
+
+# Final dataset
+
+Filter dataset:
+```{r}
+data_long <- data_long %>% 
+  filter(
+    !Feature_ID %in% features_high_blank &
+      !Feature_ID %in% features_high_pool_variability
+  )
+
+data_long %>% 
+  summarize(
+    N_Rows = n(),
+    N_Features = n_distinct(Feature_ID),
+    N_Samples = n_distinct(Sample_ID)
+  )
+```
+
+Write final dataset to file in wide format, with feature median normalized values on log scale:
+```{r}
+data_final_wide <- data_long %>% 
+  filter(Sample_Type == "Sample") %>% 
+  select(Feature_ID, Sample_ID, Log10_Feature_Median_Norm) %>% 
+  inner_join(feature_info, by = "Feature_ID") %>% 
+  pivot_wider(names_from = Sample_ID, values_from = Log10_Feature_Median_Norm)
+
+data_final_wide %>% write_csv("Data/data_final.csv")
+
+data_final_wide
+```
+
